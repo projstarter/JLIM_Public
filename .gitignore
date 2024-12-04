@@ -1,0 +1,35 @@
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.swp
+*.bak
+*.old
+
+# System files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+desktop.ini     # Windows
+
+# Compiled object files and binaries
+*.class
+*.o
+*.so
+*.dll
+*.exe
+*.out
+*.pyc
+*.pyo
+*.pdb
+
+# Build directories
+build/
+dist/
+bin/
+obj/
+
+# Build directories
+build/
+dist/
+bin/
+obj/
