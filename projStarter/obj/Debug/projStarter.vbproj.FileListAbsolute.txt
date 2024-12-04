@@ -1,0 +1,352 @@
+E:\proj\desktop\projStarter\projStarter\bin\Debug\WSTP.exe.config
+E:\proj\desktop\projStarter\projStarter\bin\Debug\WSTP.exe.manifest
+E:\proj\desktop\projStarter\projStarter\bin\Debug\WSTP.application
+E:\proj\desktop\projStarter\projStarter\bin\Debug\WSTP.exe
+E:\proj\desktop\projStarter\projStarter\bin\Debug\WSTP.pdb
+E:\proj\desktop\projStarter\projStarter\bin\Debug\WSTP.xml
+E:\proj\desktop\projStarter\projStarter\obj\Debug\projStarter.vbproj.ResolveComReference.cache
+E:\proj\desktop\projStarter\projStarter\obj\Debug\WSTP.frmDeveloperTools.resources
+E:\proj\desktop\projStarter\projStarter\obj\Debug\WSTP.frmLicenseEntry.resources
+E:\proj\desktop\projStarter\projStarter\obj\Debug\WSTP.frmLogin.resources
+E:\proj\desktop\projStarter\projStarter\obj\Debug\WSTP.frmTransaction.resources
+E:\proj\desktop\projStarter\projStarter\obj\Debug\WSTP.frmSplashScreen.resources
+E:\proj\desktop\projStarter\projStarter\obj\Debug\WSTP.frmUserAccounts.resources
+E:\proj\desktop\projStarter\projStarter\obj\Debug\WSTP.frmUserRegistration.resources
+E:\proj\desktop\projStarter\projStarter\obj\Debug\WSTP.Form1.resources
+E:\proj\desktop\projStarter\projStarter\obj\Debug\WSTP.Form2.resources
+E:\proj\desktop\projStarter\projStarter\obj\Debug\WSTP.Form3.resources
+E:\proj\desktop\projStarter\projStarter\obj\Debug\WSTP.frmNFA.resources
+E:\proj\desktop\projStarter\projStarter\obj\Debug\WSTP.frmPortConfiguration.resources
+E:\proj\desktop\projStarter\projStarter\obj\Debug\WSTP.frmTransactionWindow.resources
+E:\proj\desktop\projStarter\projStarter\obj\Debug\WSTP.frmWeighingReading.resources
+E:\proj\desktop\projStarter\projStarter\obj\Debug\WSTP.Resources.resources
+E:\proj\desktop\projStarter\projStarter\obj\Debug\projStarter.vbproj.GenerateResource.Cache
+E:\proj\desktop\projStarter\projStarter\obj\Debug\WSTP.TrustInfo.xml
+E:\proj\desktop\projStarter\projStarter\obj\Debug\WSTP.exe.manifest
+E:\proj\desktop\projStarter\projStarter\obj\Debug\WSTP.application
+E:\proj\desktop\projStarter\projStarter\obj\Debug\WSTP.exe
+E:\proj\desktop\projStarter\projStarter\obj\Debug\WSTP.xml
+E:\proj\desktop\projStarter\projStarter\obj\Debug\WSTP.pdb
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\bin\Debug\WSTP.exe.config
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\bin\Debug\WSTP.exe.manifest
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\bin\Debug\WSTP.application
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\bin\Debug\WSTP.exe
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\bin\Debug\WSTP.pdb
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\bin\Debug\WSTP.xml
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\projStarter.vbproj.ResolveComReference.cache
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\WSTP.frmDeveloperTools.resources
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\WSTP.frmLicenseEntry.resources
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\WSTP.frmLogin.resources
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\WSTP.frmTransaction.resources
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\WSTP.frmSplashScreen.resources
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\WSTP.frmUserAccounts.resources
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\WSTP.frmUserRegistration.resources
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\WSTP.Form1.resources
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\WSTP.Form2.resources
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\WSTP.Form3.resources
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\WSTP.frmNFA.resources
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\WSTP.frmPortConfiguration.resources
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\WSTP.frmTransactionWindow.resources
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\WSTP.frmWeighingReading.resources
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\WSTP.Resources.resources
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\projStarter.vbproj.GenerateResource.Cache
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\WSTP.TrustInfo.xml
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\WSTP.exe.manifest
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\WSTP.application
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\WSTP.exe
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\WSTP.xml
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\WSTP.pdb
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\projStarter.vbproj.CoreCompileInputs.cache
+E:\proj\desktop\vb.net\JADEVER\projStarter\projStarter\obj\Debug\projStarter.vbproj.AssemblyReference.cache
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\bin\Debug\WSTP.exe.config
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\bin\Debug\WSTP.exe.manifest
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\bin\Debug\WSTP.application
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\bin\Debug\WSTP.exe
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\bin\Debug\WSTP.pdb
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\bin\Debug\WSTP.xml
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\projStarter.vbproj.AssemblyReference.cache
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\projStarter.vbproj.ResolveComReference.cache
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\WSTP.frmDeveloperTools.resources
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\WSTP.frmLicenseEntry.resources
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\WSTP.frmLogin.resources
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\WSTP.frmTransaction.resources
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\WSTP.frmSplashScreen.resources
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\WSTP.frmUserAccounts.resources
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\WSTP.frmUserRegistration.resources
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\WSTP.Form1.resources
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\WSTP.Form2.resources
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\WSTP.Form3.resources
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\WSTP.frmNFA.resources
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\WSTP.frmPortConfiguration.resources
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\WSTP.frmTransactionWindow.resources
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\WSTP.frmWeighingReading.resources
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\WSTP.Resources.resources
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\projStarter.vbproj.GenerateResource.cache
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\projStarter.vbproj.CoreCompileInputs.cache
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\WSTP.TrustInfo.xml
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\WSTP.exe.manifest
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\WSTP.application
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\WSTP.exe
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\WSTP.xml
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\WSTP.pdb
+E:\proj\desktop\vb.net\JADEVER\NFA\projStarter\projStarter\obj\Debug\projStarter.vbproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\projStarter.vbproj.AssemblyReference.cache
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\projStarter.vbproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\projStarter.vbproj.ResolveComReference.cache
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\WSTP.frmDeveloperTools.resources
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\WSTP.frmLicenseEntry.resources
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\WSTP.frmLogin.resources
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\WSTP.frmTransaction.resources
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\WSTP.frmSplashScreen.resources
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\WSTP.frmUserAccounts.resources
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\WSTP.frmUserRegistration.resources
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\WSTP.Form1.resources
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\WSTP.Form2.resources
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\WSTP.Form3.resources
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\WSTP.frmNFA.resources
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\WSTP.frmPortConfiguration.resources
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\WSTP.frmTransactionWindow.resources
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\WSTP.frmWeighingReading.resources
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\WSTP.Resources.resources
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\projStarter.vbproj.GenerateResource.cache
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\projStarter.vbproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\WSTP.exe
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\WSTP.xml
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\WSTP.pdb
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\bin\Debug\WSTP.exe.config
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\bin\Debug\WSTP.exe.manifest
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\bin\Debug\WSTP.application
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\bin\Debug\WSTP.exe
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\bin\Debug\WSTP.pdb
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\bin\Debug\WSTP.xml
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\WSTP.TrustInfo.xml
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\WSTP.exe.manifest
+C:\Users\admin\Desktop\NFA\projStarter\projStarter\obj\Debug\WSTP.application
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.AssemblyReference.cache
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.ResolveComReference.cache
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\WSTP.frmDeveloperTools.resources
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\WSTP.frmLicenseEntry.resources
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\WSTP.frmLogin.resources
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\WSTP.frmTransaction.resources
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\WSTP.frmSplashScreen.resources
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\WSTP.frmUserAccounts.resources
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\WSTP.frmUserRegistration.resources
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\WSTP.Form1.resources
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\WSTP.Form2.resources
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\WSTP.Form3.resources
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\WSTP.frmNFA.resources
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\WSTP.frmPortConfiguration.resources
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\WSTP.frmTransactionWindow.resources
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\WSTP.frmWeighingReading.resources
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\WSTP.Resources.resources
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.GenerateResource.cache
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\WSTP.exe
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\WSTP.xml
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\WSTP.pdb
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\bin\Debug\WSTP.exe.config
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\bin\Debug\WSTP.exe.manifest
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\bin\Debug\WSTP.application
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\bin\Debug\WSTP.exe
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\bin\Debug\WSTP.pdb
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\bin\Debug\WSTP.xml
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\WSTP.TrustInfo.xml
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\WSTP.exe.manifest
+C:\Users\admin\Desktop\JLIM\projStarter\projStarter\obj\Debug\WSTP.application
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.AssemblyReference.cache
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.SuggestedBindingRedirects.cache
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.ResolveComReference.cache
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.GenerateResource.cache
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\bin\Debug\JLIM.exe.config
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\bin\Debug\JLIM.exe.manifest
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\bin\Debug\JLIM.application
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\bin\Debug\JLIM.exe
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\bin\Debug\JLIM.pdb
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\bin\Debug\JLIM.xml
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmDeveloperTools.resources
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmLicenseEntry.resources
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmLogin.resources
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmTransaction.resources
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmSplashScreen.resources
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmUserAccounts.resources
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmUserRegistration.resources
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\JLIM.Form1.resources
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\JLIM.Form2.resources
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmNFA.resources
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmPortConfiguration.resources
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmTransactionWindow.resources
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmWeighingReading.resources
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\JLIM.Resources.resources
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\JLIM.TrustInfo.xml
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\JLIM.exe.manifest
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\JLIM.application
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\JLIM.exe
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\JLIM.xml
+C:\Users\admin\OneDrive\Desktop\JLim\JLIM\projStarter\projStarter\obj\Debug\JLIM.pdb
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\bin\Debug\JLIM.exe.config
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\bin\Debug\JLIM.exe.manifest
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\bin\Debug\JLIM.application
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\bin\Debug\JLIM.exe
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\bin\Debug\JLIM.pdb
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\bin\Debug\JLIM.xml
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.AssemblyReference.cache
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.SuggestedBindingRedirects.cache
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.ResolveComReference.cache
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmDeveloperTools.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmLicenseEntry.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmLogin.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmTransaction.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmSplashScreen.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmUserAccounts.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmUserRegistration.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\JLIM.Form1.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\JLIM.Form2.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmNFA.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmPortConfiguration.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmTransactionWindow.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmWeighingReading.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\JLIM.Resources.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.GenerateResource.cache
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\JLIM.TrustInfo.xml
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\JLIM.exe.manifest
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\JLIM.application
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\JLIM.exe
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\JLIM.xml
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\JLIM.pdb
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmSystemReset.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmAccessLevelSettings.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\bin\Debug\JLIM.exe.config
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\bin\Debug\JLIM.exe.manifest
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\bin\Debug\JLIM.application
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\bin\Debug\JLIM.exe
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\bin\Debug\JLIM.pdb
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\bin\Debug\JLIM.xml
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.AssemblyReference.cache
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.SuggestedBindingRedirects.cache
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.ResolveComReference.cache
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmAccessLevelSettings.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmDeveloperTools.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmLicenseEntry.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmLogin.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmTransaction.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmSplashScreen.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmSystemReset.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmUserAccounts.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmUserRegistration.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.Form1.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.Form2.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmNFA.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmPortConfiguration.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmTransactionWindow.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmWeighingReading.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.Resources.resources
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.GenerateResource.cache
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.TrustInfo.xml
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.exe.manifest
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.application
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.exe
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.xml
+C:\Users\admin\OneDrive\Desktop\Freelance\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.pdb
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\bin\Debug\JLIM.exe.config
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\bin\Debug\JLIM.exe.manifest
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\bin\Debug\JLIM.application
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\bin\Debug\JLIM.exe
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\bin\Debug\JLIM.pdb
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\bin\Debug\JLIM.xml
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.AssemblyReference.cache
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.SuggestedBindingRedirects.cache
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.ResolveComReference.cache
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmAccessLevelSettings.resources
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmDeveloperTools.resources
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmLicenseEntry.resources
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmLogin.resources
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmTransaction.resources
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmSplashScreen.resources
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmSystemReset.resources
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmUserAccounts.resources
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmUserRegistration.resources
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.Form1.resources
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.Form2.resources
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmNFA.resources
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmPortConfiguration.resources
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmTransactionWindow.resources
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmWeighingReading.resources
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.Resources.resources
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.GenerateResource.cache
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.TrustInfo.xml
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.exe.manifest
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.application
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.exe
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.xml
+C:\Users\admin\OneDrive\Desktop\JLIM\JLIM\JLIM\projStarter\projStarter\obj\Debug\JLIM.pdb
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\bin\Debug\JLIM.exe.config
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\bin\Debug\JLIM.exe.manifest
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\bin\Debug\JLIM.application
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\bin\Debug\JLIM.exe
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\bin\Debug\JLIM.pdb
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\bin\Debug\JLIM.xml
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.AssemblyReference.cache
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.ResolveComReference.cache
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmAccessLevelSettings.resources
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmDeveloperTools.resources
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmLicenseEntry.resources
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmLogin.resources
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmTransaction.resources
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmSplashScreen.resources
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmSystemReset.resources
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmUserAccounts.resources
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmUserRegistration.resources
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\JLIM.Form1.resources
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\JLIM.Form2.resources
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmNFA.resources
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmPortConfiguration.resources
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmTransactionWindow.resources
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmWeighingReading.resources
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\JLIM.Resources.resources
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.GenerateResource.cache
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\JLIM.TrustInfo.xml
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\JLIM.exe.manifest
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\JLIM.application
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\JLIM.exe
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\JLIM.xml
+C:\Users\admin\Downloads\JLIM (1)\JLIM\projStarter\projStarter\obj\Debug\JLIM.pdb
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\bin\Debug\JLIM.exe.config
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\bin\Debug\JLIM.exe.manifest
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\bin\Debug\JLIM.application
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\bin\Debug\JLIM.exe
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\bin\Debug\JLIM.pdb
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\bin\Debug\JLIM.xml
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.AssemblyReference.cache
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.SuggestedBindingRedirects.cache
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.ResolveComReference.cache
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmAccessLevelSettings.resources
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmDeveloperTools.resources
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmLicenseEntry.resources
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmLogin.resources
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmTransaction.resources
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmSplashScreen.resources
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmSystemReset.resources
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmUserAccounts.resources
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmUserRegistration.resources
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.Form1.resources
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.Form2.resources
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmNFA.resources
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmPortConfiguration.resources
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmTransactionWindow.resources
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.frmWeighingReading.resources
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.Resources.resources
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.GenerateResource.cache
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\projStarter.vbproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.TrustInfo.xml
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.exe.manifest
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.application
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.exe
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.xml
+C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.pdb
