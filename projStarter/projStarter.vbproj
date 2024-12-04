@@ -319,7 +319,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include=".gitignore" />
     <Content Include="Itzikgur-My-Seven-Downloads-2.ico" />
   </ItemGroup>
   <ItemGroup>
