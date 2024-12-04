@@ -25,3 +25,6 @@ desktop.ini     # Windows
 # Build directories
 projstarter/bin/
 obj/
+obj/Debug
+.vs/
+filecontentindex/
