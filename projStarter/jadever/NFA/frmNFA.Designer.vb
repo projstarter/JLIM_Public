@@ -293,8 +293,9 @@ Partial Class frmNFA
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(900, 121)
+        Me.Panel1.Size = New System.Drawing.Size(1800, 233)
         Me.Panel1.TabIndex = 22
         '
         'Panel7
@@ -304,9 +305,10 @@ Partial Class frmNFA
         Me.Panel7.Controls.Add(Me.btnDelete)
         Me.Panel7.Controls.Add(Me.btnAddTransaction)
         Me.Panel7.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel7.Location = New System.Drawing.Point(473, 24)
+        Me.Panel7.Location = New System.Drawing.Point(946, 42)
+        Me.Panel7.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(427, 97)
+        Me.Panel7.Size = New System.Drawing.Size(854, 191)
         Me.Panel7.TabIndex = 22
         '
         'Label18
@@ -314,10 +316,10 @@ Partial Class frmNFA
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label18.Location = New System.Drawing.Point(16, 112)
-        Me.Label18.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label18.Location = New System.Drawing.Point(32, 215)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(12, 0, 12, 0)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(218, 21)
+        Me.Label18.Size = New System.Drawing.Size(444, 45)
         Me.Label18.TabIndex = 24
         Me.Label18.Text = "PASACAO, CAMARINES SUR"
         '
@@ -330,9 +332,10 @@ Partial Class frmNFA
         Me.btnEditTransaction.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnEditTransaction.Image = CType(resources.GetObject("btnEditTransaction.Image"), System.Drawing.Image)
         Me.btnEditTransaction.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.btnEditTransaction.Location = New System.Drawing.Point(145, 3)
+        Me.btnEditTransaction.Location = New System.Drawing.Point(290, 6)
+        Me.btnEditTransaction.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnEditTransaction.Name = "btnEditTransaction"
-        Me.btnEditTransaction.Size = New System.Drawing.Size(130, 91)
+        Me.btnEditTransaction.Size = New System.Drawing.Size(260, 175)
         Me.btnEditTransaction.TabIndex = 4
         Me.btnEditTransaction.Text = "&EDIT TRANSACTION" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(F2)"
         Me.btnEditTransaction.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -347,9 +350,10 @@ Partial Class frmNFA
         Me.btnDelete.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnDelete.Image = CType(resources.GetObject("btnDelete.Image"), System.Drawing.Image)
         Me.btnDelete.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.btnDelete.Location = New System.Drawing.Point(277, 3)
+        Me.btnDelete.Location = New System.Drawing.Point(554, 6)
+        Me.btnDelete.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(130, 91)
+        Me.btnDelete.Size = New System.Drawing.Size(260, 175)
         Me.btnDelete.TabIndex = 3
         Me.btnDelete.Text = "&DELETE TRANSACTION" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(DEL)"
         Me.btnDelete.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -364,9 +368,10 @@ Partial Class frmNFA
         Me.btnAddTransaction.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAddTransaction.Image = CType(resources.GetObject("btnAddTransaction.Image"), System.Drawing.Image)
         Me.btnAddTransaction.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.btnAddTransaction.Location = New System.Drawing.Point(13, 3)
+        Me.btnAddTransaction.Location = New System.Drawing.Point(26, 6)
+        Me.btnAddTransaction.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnAddTransaction.Name = "btnAddTransaction"
-        Me.btnAddTransaction.Size = New System.Drawing.Size(130, 91)
+        Me.btnAddTransaction.Size = New System.Drawing.Size(260, 175)
         Me.btnAddTransaction.TabIndex = 0
         Me.btnAddTransaction.Text = "&ADD TRANSACTION" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(F3)"
         Me.btnAddTransaction.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -374,12 +379,13 @@ Partial Class frmNFA
         '
         'MenuStrip1
         '
+        Me.MenuStrip1.GripMargin = New System.Windows.Forms.Padding(2, 2, 0, 2)
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1, Me.SettingsToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(3, 1, 0, 1)
-        Me.MenuStrip1.Size = New System.Drawing.Size(900, 24)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(6, 2, 0, 2)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1800, 42)
         Me.MenuStrip1.TabIndex = 21
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -387,7 +393,7 @@ Partial Class frmNFA
         '
         Me.ToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.menuitem_addtransaction, Me.menuitem_edittransaction, Me.menuitem_deletetransaction, Me.ToolStripSeparator11, Me.menuitem_refreshall, Me.ToolStripSeparator3, Me.menuitem_exit})
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(37, 22)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(71, 38)
         Me.ToolStripMenuItem1.Text = "File"
         '
         'menuitem_addtransaction
@@ -395,7 +401,7 @@ Partial Class frmNFA
         Me.menuitem_addtransaction.Image = CType(resources.GetObject("menuitem_addtransaction.Image"), System.Drawing.Image)
         Me.menuitem_addtransaction.Name = "menuitem_addtransaction"
         Me.menuitem_addtransaction.ShortcutKeys = System.Windows.Forms.Keys.F3
-        Me.menuitem_addtransaction.Size = New System.Drawing.Size(198, 26)
+        Me.menuitem_addtransaction.Size = New System.Drawing.Size(394, 44)
         Me.menuitem_addtransaction.Text = "&Add Transaction"
         '
         'menuitem_edittransaction
@@ -403,7 +409,7 @@ Partial Class frmNFA
         Me.menuitem_edittransaction.Image = CType(resources.GetObject("menuitem_edittransaction.Image"), System.Drawing.Image)
         Me.menuitem_edittransaction.Name = "menuitem_edittransaction"
         Me.menuitem_edittransaction.ShortcutKeys = System.Windows.Forms.Keys.F2
-        Me.menuitem_edittransaction.Size = New System.Drawing.Size(198, 26)
+        Me.menuitem_edittransaction.Size = New System.Drawing.Size(394, 44)
         Me.menuitem_edittransaction.Text = "&Edit Transaction"
         '
         'menuitem_deletetransaction
@@ -411,77 +417,77 @@ Partial Class frmNFA
         Me.menuitem_deletetransaction.Image = CType(resources.GetObject("menuitem_deletetransaction.Image"), System.Drawing.Image)
         Me.menuitem_deletetransaction.Name = "menuitem_deletetransaction"
         Me.menuitem_deletetransaction.ShortcutKeys = System.Windows.Forms.Keys.Delete
-        Me.menuitem_deletetransaction.Size = New System.Drawing.Size(198, 26)
+        Me.menuitem_deletetransaction.Size = New System.Drawing.Size(394, 44)
         Me.menuitem_deletetransaction.Text = "&Delete Transaction"
         '
         'ToolStripSeparator11
         '
         Me.ToolStripSeparator11.Name = "ToolStripSeparator11"
-        Me.ToolStripSeparator11.Size = New System.Drawing.Size(195, 6)
+        Me.ToolStripSeparator11.Size = New System.Drawing.Size(391, 6)
         '
         'menuitem_refreshall
         '
         Me.menuitem_refreshall.Image = CType(resources.GetObject("menuitem_refreshall.Image"), System.Drawing.Image)
         Me.menuitem_refreshall.Name = "menuitem_refreshall"
         Me.menuitem_refreshall.ShortcutKeys = System.Windows.Forms.Keys.F5
-        Me.menuitem_refreshall.Size = New System.Drawing.Size(198, 26)
+        Me.menuitem_refreshall.Size = New System.Drawing.Size(394, 44)
         Me.menuitem_refreshall.Text = "Refresh All"
         '
         'ToolStripSeparator3
         '
         Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
-        Me.ToolStripSeparator3.Size = New System.Drawing.Size(195, 6)
+        Me.ToolStripSeparator3.Size = New System.Drawing.Size(391, 6)
         '
         'menuitem_exit
         '
         Me.menuitem_exit.Image = CType(resources.GetObject("menuitem_exit.Image"), System.Drawing.Image)
         Me.menuitem_exit.Name = "menuitem_exit"
-        Me.menuitem_exit.Size = New System.Drawing.Size(198, 26)
+        Me.menuitem_exit.Size = New System.Drawing.Size(394, 44)
         Me.menuitem_exit.Text = "E&xit"
         '
         'SettingsToolStripMenuItem
         '
         Me.SettingsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.menuitem_portconfiguration, Me.ToolStripSeparator15, Me.menuitem_useraccounts, Me.PermissionLevelSetupToolStripMenuItem, Me.ToolStripSeparator12, Me.ChangeSystemResetPasswordToolStripMenuItem})
         Me.SettingsToolStripMenuItem.Name = "SettingsToolStripMenuItem"
-        Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(61, 22)
+        Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(120, 38)
         Me.SettingsToolStripMenuItem.Text = "Settings"
         '
         'menuitem_portconfiguration
         '
         Me.menuitem_portconfiguration.Image = CType(resources.GetObject("menuitem_portconfiguration.Image"), System.Drawing.Image)
         Me.menuitem_portconfiguration.Name = "menuitem_portconfiguration"
-        Me.menuitem_portconfiguration.Size = New System.Drawing.Size(244, 26)
+        Me.menuitem_portconfiguration.Size = New System.Drawing.Size(480, 44)
         Me.menuitem_portconfiguration.Text = "Port Configuration"
         '
         'ToolStripSeparator15
         '
         Me.ToolStripSeparator15.Name = "ToolStripSeparator15"
-        Me.ToolStripSeparator15.Size = New System.Drawing.Size(241, 6)
+        Me.ToolStripSeparator15.Size = New System.Drawing.Size(477, 6)
         '
         'menuitem_useraccounts
         '
         Me.menuitem_useraccounts.Image = CType(resources.GetObject("menuitem_useraccounts.Image"), System.Drawing.Image)
         Me.menuitem_useraccounts.Name = "menuitem_useraccounts"
-        Me.menuitem_useraccounts.Size = New System.Drawing.Size(244, 26)
+        Me.menuitem_useraccounts.Size = New System.Drawing.Size(480, 44)
         Me.menuitem_useraccounts.Text = "User Accounts"
         '
         'PermissionLevelSetupToolStripMenuItem
         '
         Me.PermissionLevelSetupToolStripMenuItem.Image = CType(resources.GetObject("PermissionLevelSetupToolStripMenuItem.Image"), System.Drawing.Image)
         Me.PermissionLevelSetupToolStripMenuItem.Name = "PermissionLevelSetupToolStripMenuItem"
-        Me.PermissionLevelSetupToolStripMenuItem.Size = New System.Drawing.Size(244, 26)
+        Me.PermissionLevelSetupToolStripMenuItem.Size = New System.Drawing.Size(480, 44)
         Me.PermissionLevelSetupToolStripMenuItem.Text = "Permission Level Setup"
         '
         'ToolStripSeparator12
         '
         Me.ToolStripSeparator12.Name = "ToolStripSeparator12"
-        Me.ToolStripSeparator12.Size = New System.Drawing.Size(241, 6)
+        Me.ToolStripSeparator12.Size = New System.Drawing.Size(477, 6)
         '
         'ChangeSystemResetPasswordToolStripMenuItem
         '
         Me.ChangeSystemResetPasswordToolStripMenuItem.Image = CType(resources.GetObject("ChangeSystemResetPasswordToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ChangeSystemResetPasswordToolStripMenuItem.Name = "ChangeSystemResetPasswordToolStripMenuItem"
-        Me.ChangeSystemResetPasswordToolStripMenuItem.Size = New System.Drawing.Size(244, 26)
+        Me.ChangeSystemResetPasswordToolStripMenuItem.Size = New System.Drawing.Size(480, 44)
         Me.ChangeSystemResetPasswordToolStripMenuItem.Text = "Change System Reset Password"
         '
         'lblbranchloc
@@ -489,9 +495,10 @@ Partial Class frmNFA
         Me.lblbranchloc.AutoSize = True
         Me.lblbranchloc.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblbranchloc.ForeColor = System.Drawing.Color.DarkBlue
-        Me.lblbranchloc.Location = New System.Drawing.Point(12, 77)
+        Me.lblbranchloc.Location = New System.Drawing.Point(24, 148)
+        Me.lblbranchloc.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lblbranchloc.Name = "lblbranchloc"
-        Me.lblbranchloc.Size = New System.Drawing.Size(218, 21)
+        Me.lblbranchloc.Size = New System.Drawing.Size(444, 45)
         Me.lblbranchloc.TabIndex = 18
         Me.lblbranchloc.Text = "PASACAO, CAMARINES SUR"
         '
@@ -500,9 +507,10 @@ Partial Class frmNFA
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label1.Location = New System.Drawing.Point(8, 43)
+        Me.Label1.Location = New System.Drawing.Point(16, 83)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(230, 32)
+        Me.Label1.Size = New System.Drawing.Size(458, 65)
         Me.Label1.TabIndex = 17
         Me.Label1.Text = "JLIM TRUCK SCALE"
         '
@@ -594,9 +602,10 @@ Partial Class frmNFA
         Me.Panel2.BackColor = System.Drawing.Color.DodgerBlue
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel2.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel2.Location = New System.Drawing.Point(0, 121)
+        Me.Panel2.Location = New System.Drawing.Point(0, 233)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(900, 3)
+        Me.Panel2.Size = New System.Drawing.Size(1800, 6)
         Me.Panel2.TabIndex = 23
         '
         'ImageList2
@@ -612,6 +621,7 @@ Partial Class frmNFA
         'lblUserAccount
         '
         Me.lblUserAccount.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Right
+        Me.lblUserAccount.Margin = New System.Windows.Forms.Padding(0, 3, 0, 2)
         Me.lblUserAccount.Name = "lblUserAccount"
         Me.lblUserAccount.Size = New System.Drawing.Size(123, 19)
         Me.lblUserAccount.Text = "ToolStripStatusLabel1"
@@ -739,28 +749,29 @@ Partial Class frmNFA
         '
         Me.StatusStrip3.ImageScalingSize = New System.Drawing.Size(32, 32)
         Me.StatusStrip3.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.lblstatus, Me.lbleditstatus, Me.lblportStatus})
-        Me.StatusStrip3.Location = New System.Drawing.Point(0, 525)
+        Me.StatusStrip3.Location = New System.Drawing.Point(0, 1010)
         Me.StatusStrip3.Name = "StatusStrip3"
-        Me.StatusStrip3.Size = New System.Drawing.Size(900, 22)
+        Me.StatusStrip3.Padding = New System.Windows.Forms.Padding(2, 0, 28, 0)
+        Me.StatusStrip3.Size = New System.Drawing.Size(1800, 42)
         Me.StatusStrip3.TabIndex = 66
         Me.StatusStrip3.Text = "StatusStrip3"
         '
         'lblstatus
         '
         Me.lblstatus.Name = "lblstatus"
-        Me.lblstatus.Size = New System.Drawing.Size(119, 17)
+        Me.lblstatus.Size = New System.Drawing.Size(240, 32)
         Me.lblstatus.Text = "ToolStripStatusLabel2"
         '
         'lbleditstatus
         '
         Me.lbleditstatus.Name = "lbleditstatus"
-        Me.lbleditstatus.Size = New System.Drawing.Size(119, 17)
+        Me.lbleditstatus.Size = New System.Drawing.Size(240, 32)
         Me.lbleditstatus.Text = "ToolStripStatusLabel3"
         '
         'lblportStatus
         '
         Me.lblportStatus.Name = "lblportStatus"
-        Me.lblportStatus.Size = New System.Drawing.Size(119, 17)
+        Me.lblportStatus.Size = New System.Drawing.Size(240, 32)
         Me.lblportStatus.Text = "ToolStripStatusLabel4"
         '
         'Panel8
@@ -773,9 +784,10 @@ Partial Class frmNFA
         Me.Panel8.Controls.Add(Me.Label7)
         Me.Panel8.Controls.Add(Me.Panel9)
         Me.Panel8.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel8.Location = New System.Drawing.Point(440, 124)
+        Me.Panel8.Location = New System.Drawing.Point(882, 239)
+        Me.Panel8.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(460, 401)
+        Me.Panel8.Size = New System.Drawing.Size(918, 771)
         Me.Panel8.TabIndex = 67
         '
         'Panel14
@@ -788,8 +800,9 @@ Partial Class frmNFA
         Me.Panel14.Controls.Add(Me.Label34)
         Me.Panel14.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel14.Location = New System.Drawing.Point(0, 0)
+        Me.Panel14.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(458, 102)
+        Me.Panel14.Size = New System.Drawing.Size(916, 196)
         Me.Panel14.TabIndex = 49
         '
         'Label35
@@ -799,9 +812,10 @@ Partial Class frmNFA
         Me.Label35.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label35.Font = New System.Drawing.Font("Segoe UI", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label35.ForeColor = System.Drawing.Color.Black
-        Me.Label35.Location = New System.Drawing.Point(302, 52)
+        Me.Label35.Location = New System.Drawing.Point(604, 100)
+        Me.Label35.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(145, 32)
+        Me.Label35.Size = New System.Drawing.Size(288, 60)
         Me.Label35.TabIndex = 65
         Me.Label35.Text = "Moorange"
         Me.Label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -813,9 +827,10 @@ Partial Class frmNFA
         Me.Label31.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label31.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label31.ForeColor = System.Drawing.Color.White
-        Me.Label31.Location = New System.Drawing.Point(12, 18)
+        Me.Label31.Location = New System.Drawing.Point(24, 35)
+        Me.Label31.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(145, 32)
+        Me.Label31.Size = New System.Drawing.Size(288, 60)
         Me.Label31.TabIndex = 60
         Me.Label31.Text = "SERIAL NO"
         Me.Label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -827,9 +842,10 @@ Partial Class frmNFA
         Me.Label36.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
         Me.Label36.ForeColor = System.Drawing.Color.White
-        Me.Label36.Location = New System.Drawing.Point(302, 18)
+        Me.Label36.Location = New System.Drawing.Point(604, 35)
+        Me.Label36.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(145, 32)
+        Me.Label36.Size = New System.Drawing.Size(288, 60)
         Me.Label36.TabIndex = 64
         Me.Label36.Text = "BRAND"
         Me.Label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -841,9 +857,10 @@ Partial Class frmNFA
         Me.Label32.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label32.Font = New System.Drawing.Font("Segoe UI", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label32.ForeColor = System.Drawing.Color.Black
-        Me.Label32.Location = New System.Drawing.Point(12, 52)
+        Me.Label32.Location = New System.Drawing.Point(24, 100)
+        Me.Label32.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(145, 32)
+        Me.Label32.Size = New System.Drawing.Size(288, 60)
         Me.Label32.TabIndex = 61
         Me.Label32.Text = "INDK300012S1"
         Me.Label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -855,9 +872,10 @@ Partial Class frmNFA
         Me.Label33.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label33.Font = New System.Drawing.Font("Segoe UI", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label33.ForeColor = System.Drawing.Color.Black
-        Me.Label33.Location = New System.Drawing.Point(157, 52)
+        Me.Label33.Location = New System.Drawing.Point(314, 100)
+        Me.Label33.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(145, 32)
+        Me.Label33.Size = New System.Drawing.Size(288, 60)
         Me.Label33.TabIndex = 63
         Me.Label33.Text = "80,000.00"
         Me.Label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -869,9 +887,10 @@ Partial Class frmNFA
         Me.Label34.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label34.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label34.ForeColor = System.Drawing.Color.White
-        Me.Label34.Location = New System.Drawing.Point(157, 18)
+        Me.Label34.Location = New System.Drawing.Point(314, 35)
+        Me.Label34.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(145, 32)
+        Me.Label34.Size = New System.Drawing.Size(288, 60)
         Me.Label34.TabIndex = 62
         Me.Label34.Text = " CAPACITY"
         Me.Label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -882,10 +901,10 @@ Partial Class frmNFA
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblportError.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblportError.ForeColor = System.Drawing.Color.Red
-        Me.lblportError.Location = New System.Drawing.Point(12, 469)
-        Me.lblportError.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblportError.Location = New System.Drawing.Point(24, 902)
+        Me.lblportError.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblportError.Name = "lblportError"
-        Me.lblportError.Size = New System.Drawing.Size(439, 46)
+        Me.lblportError.Size = New System.Drawing.Size(878, 88)
         Me.lblportError.TabIndex = 48
         '
         'GroupBox1
@@ -904,9 +923,11 @@ Partial Class frmNFA
         Me.GroupBox1.Controls.Add(Me.Label12)
         Me.GroupBox1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.GroupBox1.ForeColor = System.Drawing.Color.DarkBlue
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 269)
+        Me.GroupBox1.Location = New System.Drawing.Point(24, 517)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(436, 191)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.GroupBox1.Size = New System.Drawing.Size(872, 367)
         Me.GroupBox1.TabIndex = 35
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "CONNECTION INFO"
@@ -916,10 +937,10 @@ Partial Class frmNFA
         Me.lblstopbits.AutoSize = True
         Me.lblstopbits.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblstopbits.ForeColor = System.Drawing.Color.DarkBlue
-        Me.lblstopbits.Location = New System.Drawing.Point(102, 157)
-        Me.lblstopbits.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblstopbits.Location = New System.Drawing.Point(204, 302)
+        Me.lblstopbits.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblstopbits.Name = "lblstopbits"
-        Me.lblstopbits.Size = New System.Drawing.Size(12, 15)
+        Me.lblstopbits.Size = New System.Drawing.Size(24, 32)
         Me.lblstopbits.TabIndex = 52
         Me.lblstopbits.Text = "_"
         '
@@ -928,10 +949,10 @@ Partial Class frmNFA
         Me.lbldatabits.AutoSize = True
         Me.lbldatabits.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbldatabits.ForeColor = System.Drawing.Color.DarkBlue
-        Me.lbldatabits.Location = New System.Drawing.Point(102, 127)
-        Me.lbldatabits.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lbldatabits.Location = New System.Drawing.Point(204, 244)
+        Me.lbldatabits.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lbldatabits.Name = "lbldatabits"
-        Me.lbldatabits.Size = New System.Drawing.Size(12, 15)
+        Me.lbldatabits.Size = New System.Drawing.Size(24, 32)
         Me.lbldatabits.TabIndex = 51
         Me.lbldatabits.Text = "_"
         '
@@ -940,10 +961,10 @@ Partial Class frmNFA
         Me.lblbaudrate.AutoSize = True
         Me.lblbaudrate.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblbaudrate.ForeColor = System.Drawing.Color.DarkBlue
-        Me.lblbaudrate.Location = New System.Drawing.Point(102, 97)
-        Me.lblbaudrate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblbaudrate.Location = New System.Drawing.Point(204, 187)
+        Me.lblbaudrate.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblbaudrate.Name = "lblbaudrate"
-        Me.lblbaudrate.Size = New System.Drawing.Size(12, 15)
+        Me.lblbaudrate.Size = New System.Drawing.Size(24, 32)
         Me.lblbaudrate.TabIndex = 50
         Me.lblbaudrate.Text = "_"
         '
@@ -952,10 +973,10 @@ Partial Class frmNFA
         Me.lblreadtimeout.AutoSize = True
         Me.lblreadtimeout.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblreadtimeout.ForeColor = System.Drawing.Color.DarkBlue
-        Me.lblreadtimeout.Location = New System.Drawing.Point(102, 67)
-        Me.lblreadtimeout.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblreadtimeout.Location = New System.Drawing.Point(204, 129)
+        Me.lblreadtimeout.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblreadtimeout.Name = "lblreadtimeout"
-        Me.lblreadtimeout.Size = New System.Drawing.Size(12, 15)
+        Me.lblreadtimeout.Size = New System.Drawing.Size(24, 32)
         Me.lblreadtimeout.TabIndex = 49
         Me.lblreadtimeout.Text = "_"
         '
@@ -964,10 +985,10 @@ Partial Class frmNFA
         Me.lblPort.AutoSize = True
         Me.lblPort.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblPort.ForeColor = System.Drawing.Color.DarkBlue
-        Me.lblPort.Location = New System.Drawing.Point(102, 37)
-        Me.lblPort.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblPort.Location = New System.Drawing.Point(204, 71)
+        Me.lblPort.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblPort.Name = "lblPort"
-        Me.lblPort.Size = New System.Drawing.Size(12, 15)
+        Me.lblPort.Size = New System.Drawing.Size(24, 32)
         Me.lblPort.TabIndex = 48
         Me.lblPort.Text = "_"
         '
@@ -976,10 +997,10 @@ Partial Class frmNFA
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.Black
-        Me.Label8.Location = New System.Drawing.Point(36, 157)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label8.Location = New System.Drawing.Point(72, 302)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(62, 15)
+        Me.Label8.Size = New System.Drawing.Size(128, 32)
         Me.Label8.TabIndex = 47
         Me.Label8.Text = "STOPBITS :"
         '
@@ -988,10 +1009,10 @@ Partial Class frmNFA
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Black
-        Me.Label9.Location = New System.Drawing.Point(37, 127)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label9.Location = New System.Drawing.Point(74, 244)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(63, 15)
+        Me.Label9.Size = New System.Drawing.Size(127, 32)
         Me.Label9.TabIndex = 46
         Me.Label9.Text = "DATABITS :"
         '
@@ -1000,10 +1021,10 @@ Partial Class frmNFA
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.Black
-        Me.Label10.Location = New System.Drawing.Point(29, 97)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label10.Location = New System.Drawing.Point(58, 187)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(70, 15)
+        Me.Label10.Size = New System.Drawing.Size(140, 32)
         Me.Label10.TabIndex = 45
         Me.Label10.Text = "BAUDRATE :"
         '
@@ -1012,10 +1033,10 @@ Partial Class frmNFA
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.Black
-        Me.Label11.Location = New System.Drawing.Point(8, 67)
-        Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label11.Location = New System.Drawing.Point(16, 129)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(90, 15)
+        Me.Label11.Size = New System.Drawing.Size(183, 32)
         Me.Label11.TabIndex = 44
         Me.Label11.Text = "READTIMEOUT :"
         '
@@ -1024,10 +1045,10 @@ Partial Class frmNFA
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.Black
-        Me.Label12.Location = New System.Drawing.Point(58, 37)
-        Me.Label12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label12.Location = New System.Drawing.Point(116, 71)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(41, 15)
+        Me.Label12.Size = New System.Drawing.Size(83, 32)
         Me.Label12.TabIndex = 43
         Me.Label12.Text = "PORT :"
         '
@@ -1036,9 +1057,10 @@ Partial Class frmNFA
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label7.Location = New System.Drawing.Point(9, 105)
+        Me.Label7.Location = New System.Drawing.Point(18, 202)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(159, 15)
+        Me.Label7.Size = New System.Drawing.Size(317, 32)
         Me.Label7.TabIndex = 34
         Me.Label7.Text = "WEIGHING SCALE READING :"
         '
@@ -1050,9 +1072,10 @@ Partial Class frmNFA
         Me.Panel9.Controls.Add(Me.lblreading)
         Me.Panel9.Font = New System.Drawing.Font("Segoe UI", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel9.ForeColor = System.Drawing.Color.Black
-        Me.Panel9.Location = New System.Drawing.Point(12, 125)
+        Me.Panel9.Location = New System.Drawing.Point(24, 240)
+        Me.Panel9.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(437, 127)
+        Me.Panel9.Size = New System.Drawing.Size(874, 244)
         Me.Panel9.TabIndex = 33
         '
         'lblreading
@@ -1062,8 +1085,9 @@ Partial Class frmNFA
         Me.lblreading.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblreading.ForeColor = System.Drawing.Color.Lime
         Me.lblreading.Location = New System.Drawing.Point(0, 0)
+        Me.lblreading.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lblreading.Name = "lblreading"
-        Me.lblreading.Size = New System.Drawing.Size(437, 127)
+        Me.lblreading.Size = New System.Drawing.Size(874, 244)
         Me.lblreading.TabIndex = 36
         Me.lblreading.Text = "00000"
         Me.lblreading.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1074,10 +1098,11 @@ Partial Class frmNFA
         Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TabControl1.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TabControl1.Location = New System.Drawing.Point(0, 124)
+        Me.TabControl1.Location = New System.Drawing.Point(0, 239)
+        Me.TabControl1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(440, 401)
+        Me.TabControl1.Size = New System.Drawing.Size(882, 771)
         Me.TabControl1.TabIndex = 0
         '
         'TabPage1
@@ -1085,10 +1110,11 @@ Partial Class frmNFA
         Me.TabPage1.Controls.Add(Me.Panel4)
         Me.TabPage1.Controls.Add(Me.Panel12)
         Me.TabPage1.Controls.Add(Me.Panel13)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 26)
+        Me.TabPage1.Location = New System.Drawing.Point(8, 50)
+        Me.TabPage1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
-        Me.TabPage1.Size = New System.Drawing.Size(432, 371)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.TabPage1.Size = New System.Drawing.Size(866, 713)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Dashboard"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -1099,9 +1125,10 @@ Partial Class frmNFA
         Me.Panel4.Controls.Add(Me.panel_pendingtransaction)
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel4.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel4.Location = New System.Drawing.Point(3, 46)
+        Me.Panel4.Location = New System.Drawing.Point(6, 89)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(426, 322)
+        Me.Panel4.Size = New System.Drawing.Size(854, 618)
         Me.Panel4.TabIndex = 57
         '
         'panel_completedtransaction
@@ -1111,9 +1138,10 @@ Partial Class frmNFA
         Me.panel_completedtransaction.Controls.Add(Me.StatusStrip1)
         Me.panel_completedtransaction.Controls.Add(Me.Panel19)
         Me.panel_completedtransaction.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.panel_completedtransaction.Location = New System.Drawing.Point(0, 217)
+        Me.panel_completedtransaction.Location = New System.Drawing.Point(0, 417)
+        Me.panel_completedtransaction.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.panel_completedtransaction.Name = "panel_completedtransaction"
-        Me.panel_completedtransaction.Size = New System.Drawing.Size(426, 105)
+        Me.panel_completedtransaction.Size = New System.Drawing.Size(854, 201)
         Me.panel_completedtransaction.TabIndex = 68
         '
         'Panel5
@@ -1128,9 +1156,10 @@ Partial Class frmNFA
         Me.Panel5.Controls.Add(Me.Label3)
         Me.Panel5.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Panel5.Location = New System.Drawing.Point(-130, 29)
+        Me.Panel5.Location = New System.Drawing.Point(-258, 56)
+        Me.Panel5.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(121, 134)
+        Me.Panel5.Size = New System.Drawing.Size(242, 258)
         Me.Panel5.TabIndex = 63
         Me.Panel5.Visible = False
         '
@@ -1144,9 +1173,10 @@ Partial Class frmNFA
         Me.btnCancel.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btnCancel.ImageKey = "Actions-edit-delete-icon.png"
         Me.btnCancel.ImageList = Me.ImageList2
-        Me.btnCancel.Location = New System.Drawing.Point(8, 102)
+        Me.btnCancel.Location = New System.Drawing.Point(16, 196)
+        Me.btnCancel.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(43, 25)
+        Me.btnCancel.Size = New System.Drawing.Size(86, 48)
         Me.btnCancel.TabIndex = 6
         Me.btnCancel.UseVisualStyleBackColor = False
         '
@@ -1160,9 +1190,10 @@ Partial Class frmNFA
         Me.btnApply.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btnApply.ImageKey = "Actions-dialog-ok-apply-icon.png"
         Me.btnApply.ImageList = Me.ImageList2
-        Me.btnApply.Location = New System.Drawing.Point(70, 102)
+        Me.btnApply.Location = New System.Drawing.Point(140, 196)
+        Me.btnApply.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnApply.Name = "btnApply"
-        Me.btnApply.Size = New System.Drawing.Size(43, 25)
+        Me.btnApply.Size = New System.Drawing.Size(86, 48)
         Me.btnApply.TabIndex = 5
         Me.btnApply.UseVisualStyleBackColor = False
         '
@@ -1170,9 +1201,10 @@ Partial Class frmNFA
         '
         Me.dtpto.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtpto.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.dtpto.Location = New System.Drawing.Point(8, 71)
+        Me.dtpto.Location = New System.Drawing.Point(16, 137)
+        Me.dtpto.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.dtpto.Name = "dtpto"
-        Me.dtpto.Size = New System.Drawing.Size(105, 20)
+        Me.dtpto.Size = New System.Drawing.Size(206, 32)
         Me.dtpto.TabIndex = 4
         '
         'Label4
@@ -1180,9 +1212,10 @@ Partial Class frmNFA
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(5, 54)
+        Me.Label4.Location = New System.Drawing.Point(10, 104)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(62, 13)
+        Me.Label4.Size = New System.Drawing.Size(123, 26)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "END DATE"
         '
@@ -1190,9 +1223,10 @@ Partial Class frmNFA
         '
         Me.dtpfrom.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtpfrom.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.dtpfrom.Location = New System.Drawing.Point(8, 26)
+        Me.dtpfrom.Location = New System.Drawing.Point(16, 50)
+        Me.dtpfrom.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.dtpfrom.Name = "dtpfrom"
-        Me.dtpfrom.Size = New System.Drawing.Size(105, 20)
+        Me.dtpfrom.Size = New System.Drawing.Size(206, 32)
         Me.dtpfrom.TabIndex = 2
         '
         'Label3
@@ -1200,9 +1234,10 @@ Partial Class frmNFA
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(5, 9)
+        Me.Label3.Location = New System.Drawing.Point(10, 17)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(75, 13)
+        Me.Label3.Size = New System.Drawing.Size(146, 26)
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "START DATE"
         '
@@ -1211,9 +1246,10 @@ Partial Class frmNFA
         Me.Panel15.Controls.Add(Me.dtgcompletedtransaction)
         Me.Panel15.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel15.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel15.Location = New System.Drawing.Point(0, 35)
+        Me.Panel15.Location = New System.Drawing.Point(0, 64)
+        Me.Panel15.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel15.Name = "Panel15"
-        Me.Panel15.Size = New System.Drawing.Size(426, 48)
+        Me.Panel15.Size = New System.Drawing.Size(854, 95)
         Me.Panel15.TabIndex = 67
         '
         'dtgcompletedtransaction
@@ -1232,12 +1268,13 @@ Partial Class frmNFA
         Me.dtgcompletedtransaction.Dock = System.Windows.Forms.DockStyle.Fill
         Me.dtgcompletedtransaction.GridColor = System.Drawing.SystemColors.ButtonShadow
         Me.dtgcompletedtransaction.Location = New System.Drawing.Point(0, 0)
+        Me.dtgcompletedtransaction.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.dtgcompletedtransaction.MultiSelect = False
         Me.dtgcompletedtransaction.Name = "dtgcompletedtransaction"
         Me.dtgcompletedtransaction.RowHeadersVisible = False
         Me.dtgcompletedtransaction.RowHeadersWidth = 82
         Me.dtgcompletedtransaction.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dtgcompletedtransaction.Size = New System.Drawing.Size(426, 48)
+        Me.dtgcompletedtransaction.Size = New System.Drawing.Size(854, 95)
         Me.dtgcompletedtransaction.TabIndex = 67
         '
         'DataGridViewCheckBoxColumn2
@@ -1396,16 +1433,17 @@ Partial Class frmNFA
         '
         Me.StatusStrip1.ImageScalingSize = New System.Drawing.Size(32, 32)
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.lblcompletedstatus})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 83)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 159)
         Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(426, 22)
+        Me.StatusStrip1.Padding = New System.Windows.Forms.Padding(2, 0, 28, 0)
+        Me.StatusStrip1.Size = New System.Drawing.Size(854, 42)
         Me.StatusStrip1.TabIndex = 64
         Me.StatusStrip1.Text = "StatusStrip1"
         '
         'lblcompletedstatus
         '
         Me.lblcompletedstatus.Name = "lblcompletedstatus"
-        Me.lblcompletedstatus.Size = New System.Drawing.Size(119, 17)
+        Me.lblcompletedstatus.Size = New System.Drawing.Size(240, 32)
         Me.lblcompletedstatus.Text = "ToolStripStatusLabel1"
         '
         'Panel19
@@ -1417,8 +1455,9 @@ Partial Class frmNFA
         Me.Panel19.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel19.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel19.Location = New System.Drawing.Point(0, 0)
+        Me.Panel19.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel19.Name = "Panel19"
-        Me.Panel19.Size = New System.Drawing.Size(426, 35)
+        Me.Panel19.Size = New System.Drawing.Size(854, 64)
         Me.Panel19.TabIndex = 58
         '
         'Panel3
@@ -1431,9 +1470,10 @@ Partial Class frmNFA
         Me.Panel3.Controls.Add(Me.Label41)
         Me.Panel3.Controls.Add(Me.Label40)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel3.Location = New System.Drawing.Point(-251, 0)
+        Me.Panel3.Location = New System.Drawing.Point(-496, 0)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(673, 31)
+        Me.Panel3.Size = New System.Drawing.Size(1346, 60)
         Me.Panel3.TabIndex = 2
         '
         'btncompletedexport
@@ -1444,9 +1484,10 @@ Partial Class frmNFA
         Me.btncompletedexport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btncompletedexport.ImageKey = "Excel-icon.png"
         Me.btncompletedexport.ImageList = Me.ImageList2
-        Me.btncompletedexport.Location = New System.Drawing.Point(546, 4)
+        Me.btncompletedexport.Location = New System.Drawing.Point(1092, 8)
+        Me.btncompletedexport.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btncompletedexport.Name = "btncompletedexport"
-        Me.btncompletedexport.Size = New System.Drawing.Size(121, 22)
+        Me.btncompletedexport.Size = New System.Drawing.Size(242, 42)
         Me.btncompletedexport.TabIndex = 10
         Me.btncompletedexport.Text = "Export to Excel"
         Me.btncompletedexport.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1458,9 +1499,10 @@ Partial Class frmNFA
         Me.btnrefreshcompleted.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnrefreshcompleted.ImageKey = "Actions-view-refresh-icon (1).png"
         Me.btnrefreshcompleted.ImageList = Me.ImageList2
-        Me.btnrefreshcompleted.Location = New System.Drawing.Point(516, 4)
+        Me.btnrefreshcompleted.Location = New System.Drawing.Point(1032, 8)
+        Me.btnrefreshcompleted.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnrefreshcompleted.Name = "btnrefreshcompleted"
-        Me.btnrefreshcompleted.Size = New System.Drawing.Size(30, 22)
+        Me.btnrefreshcompleted.Size = New System.Drawing.Size(60, 42)
         Me.btnrefreshcompleted.TabIndex = 9
         Me.btnrefreshcompleted.UseVisualStyleBackColor = True
         '
@@ -1470,17 +1512,19 @@ Partial Class frmNFA
         Me.btnsearchcompleted.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnsearchcompleted.ImageKey = "search-icon (1).png"
         Me.btnsearchcompleted.ImageList = Me.ImageList2
-        Me.btnsearchcompleted.Location = New System.Drawing.Point(486, 4)
+        Me.btnsearchcompleted.Location = New System.Drawing.Point(972, 8)
+        Me.btnsearchcompleted.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnsearchcompleted.Name = "btnsearchcompleted"
-        Me.btnsearchcompleted.Size = New System.Drawing.Size(30, 22)
+        Me.btnsearchcompleted.Size = New System.Drawing.Size(60, 42)
         Me.btnsearchcompleted.TabIndex = 8
         Me.btnsearchcompleted.UseVisualStyleBackColor = True
         '
         'txtsearchcompleted
         '
-        Me.txtsearchcompleted.Location = New System.Drawing.Point(290, 4)
+        Me.txtsearchcompleted.Location = New System.Drawing.Point(580, 8)
+        Me.txtsearchcompleted.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtsearchcompleted.Name = "txtsearchcompleted"
-        Me.txtsearchcompleted.Size = New System.Drawing.Size(191, 22)
+        Me.txtsearchcompleted.Size = New System.Drawing.Size(378, 36)
         Me.txtsearchcompleted.TabIndex = 7
         '
         'cbodisplayfilter
@@ -1489,9 +1533,10 @@ Partial Class frmNFA
         Me.cbodisplayfilter.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.cbodisplayfilter.FormattingEnabled = True
         Me.cbodisplayfilter.Items.AddRange(New Object() {"All Transaction", "Recent 30 Days", "Custom Date Range"})
-        Me.cbodisplayfilter.Location = New System.Drawing.Point(116, 5)
+        Me.cbodisplayfilter.Location = New System.Drawing.Point(232, 10)
+        Me.cbodisplayfilter.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.cbodisplayfilter.Name = "cbodisplayfilter"
-        Me.cbodisplayfilter.Size = New System.Drawing.Size(128, 21)
+        Me.cbodisplayfilter.Size = New System.Drawing.Size(252, 38)
         Me.cbodisplayfilter.TabIndex = 5
         '
         'Label41
@@ -1499,9 +1544,10 @@ Partial Class frmNFA
         Me.Label41.AutoSize = True
         Me.Label41.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label41.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label41.Location = New System.Drawing.Point(247, 7)
+        Me.Label41.Location = New System.Drawing.Point(494, 13)
+        Me.Label41.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(39, 16)
+        Me.Label41.Size = New System.Drawing.Size(82, 31)
         Me.Label41.TabIndex = 3
         Me.Label41.Text = "FIND:"
         '
@@ -1510,9 +1556,10 @@ Partial Class frmNFA
         Me.Label40.AutoSize = True
         Me.Label40.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label40.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label40.Location = New System.Drawing.Point(4, 7)
+        Me.Label40.Location = New System.Drawing.Point(8, 13)
+        Me.Label40.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(108, 16)
+        Me.Label40.Size = New System.Drawing.Size(222, 31)
         Me.Label40.TabIndex = 2
         Me.Label40.Text = "DISPLAY FILTER :"
         '
@@ -1521,9 +1568,10 @@ Partial Class frmNFA
         Me.Label46.AutoSize = True
         Me.Label46.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label46.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label46.Location = New System.Drawing.Point(8, 7)
+        Me.Label46.Location = New System.Drawing.Point(16, 13)
+        Me.Label46.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(166, 16)
+        Me.Label46.Size = New System.Drawing.Size(336, 31)
         Me.Label46.TabIndex = 1
         Me.Label46.Text = "COMPLETED TRANSACTION"
         '
@@ -1534,8 +1582,9 @@ Partial Class frmNFA
         Me.panel_pendingtransaction.Controls.Add(Me.Panel17)
         Me.panel_pendingtransaction.Dock = System.Windows.Forms.DockStyle.Top
         Me.panel_pendingtransaction.Location = New System.Drawing.Point(0, 0)
+        Me.panel_pendingtransaction.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.panel_pendingtransaction.Name = "panel_pendingtransaction"
-        Me.panel_pendingtransaction.Size = New System.Drawing.Size(426, 217)
+        Me.panel_pendingtransaction.Size = New System.Drawing.Size(854, 417)
         Me.panel_pendingtransaction.TabIndex = 67
         '
         'Panel16
@@ -1543,9 +1592,10 @@ Partial Class frmNFA
         Me.Panel16.Controls.Add(Me.dtgpendingtransaction)
         Me.Panel16.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel16.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel16.Location = New System.Drawing.Point(0, 35)
+        Me.Panel16.Location = New System.Drawing.Point(0, 64)
+        Me.Panel16.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel16.Name = "Panel16"
-        Me.Panel16.Size = New System.Drawing.Size(426, 160)
+        Me.Panel16.Size = New System.Drawing.Size(854, 311)
         Me.Panel16.TabIndex = 68
         '
         'dtgpendingtransaction
@@ -1564,12 +1614,13 @@ Partial Class frmNFA
         Me.dtgpendingtransaction.Dock = System.Windows.Forms.DockStyle.Fill
         Me.dtgpendingtransaction.GridColor = System.Drawing.SystemColors.ButtonShadow
         Me.dtgpendingtransaction.Location = New System.Drawing.Point(0, 0)
+        Me.dtgpendingtransaction.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.dtgpendingtransaction.MultiSelect = False
         Me.dtgpendingtransaction.Name = "dtgpendingtransaction"
         Me.dtgpendingtransaction.RowHeadersVisible = False
         Me.dtgpendingtransaction.RowHeadersWidth = 82
         Me.dtgpendingtransaction.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dtgpendingtransaction.Size = New System.Drawing.Size(426, 160)
+        Me.dtgpendingtransaction.Size = New System.Drawing.Size(854, 311)
         Me.dtgpendingtransaction.TabIndex = 66
         '
         'DataGridViewCheckBoxColumn1
@@ -1688,16 +1739,17 @@ Partial Class frmNFA
         '
         Me.StatusStrip2.ImageScalingSize = New System.Drawing.Size(32, 32)
         Me.StatusStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.lblpendingstatus})
-        Me.StatusStrip2.Location = New System.Drawing.Point(0, 195)
+        Me.StatusStrip2.Location = New System.Drawing.Point(0, 375)
         Me.StatusStrip2.Name = "StatusStrip2"
-        Me.StatusStrip2.Size = New System.Drawing.Size(426, 22)
+        Me.StatusStrip2.Padding = New System.Windows.Forms.Padding(2, 0, 28, 0)
+        Me.StatusStrip2.Size = New System.Drawing.Size(854, 42)
         Me.StatusStrip2.TabIndex = 62
         Me.StatusStrip2.Text = "StatusStrip2"
         '
         'lblpendingstatus
         '
         Me.lblpendingstatus.Name = "lblpendingstatus"
-        Me.lblpendingstatus.Size = New System.Drawing.Size(119, 17)
+        Me.lblpendingstatus.Size = New System.Drawing.Size(240, 32)
         Me.lblpendingstatus.Text = "ToolStripStatusLabel1"
         '
         'Panel17
@@ -1709,8 +1761,9 @@ Partial Class frmNFA
         Me.Panel17.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel17.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel17.Location = New System.Drawing.Point(0, 0)
+        Me.Panel17.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel17.Name = "Panel17"
-        Me.Panel17.Size = New System.Drawing.Size(426, 35)
+        Me.Panel17.Size = New System.Drawing.Size(854, 64)
         Me.Panel17.TabIndex = 57
         '
         'Panel6
@@ -1721,9 +1774,10 @@ Partial Class frmNFA
         Me.Panel6.Controls.Add(Me.txtsearchpending)
         Me.Panel6.Controls.Add(Me.Label42)
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel6.Location = New System.Drawing.Point(-8, 0)
+        Me.Panel6.Location = New System.Drawing.Point(-10, 0)
+        Me.Panel6.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(430, 31)
+        Me.Panel6.Size = New System.Drawing.Size(860, 60)
         Me.Panel6.TabIndex = 3
         '
         'btnpendingexport
@@ -1734,9 +1788,10 @@ Partial Class frmNFA
         Me.btnpendingexport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnpendingexport.ImageKey = "Excel-icon.png"
         Me.btnpendingexport.ImageList = Me.ImageList2
-        Me.btnpendingexport.Location = New System.Drawing.Point(303, 4)
+        Me.btnpendingexport.Location = New System.Drawing.Point(606, 8)
+        Me.btnpendingexport.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnpendingexport.Name = "btnpendingexport"
-        Me.btnpendingexport.Size = New System.Drawing.Size(121, 22)
+        Me.btnpendingexport.Size = New System.Drawing.Size(242, 42)
         Me.btnpendingexport.TabIndex = 10
         Me.btnpendingexport.Text = "Export to Excel"
         Me.btnpendingexport.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1748,9 +1803,10 @@ Partial Class frmNFA
         Me.btnrefreshpending.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnrefreshpending.ImageKey = "Actions-view-refresh-icon (1).png"
         Me.btnrefreshpending.ImageList = Me.ImageList2
-        Me.btnrefreshpending.Location = New System.Drawing.Point(273, 4)
+        Me.btnrefreshpending.Location = New System.Drawing.Point(546, 8)
+        Me.btnrefreshpending.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnrefreshpending.Name = "btnrefreshpending"
-        Me.btnrefreshpending.Size = New System.Drawing.Size(30, 22)
+        Me.btnrefreshpending.Size = New System.Drawing.Size(60, 42)
         Me.btnrefreshpending.TabIndex = 9
         Me.btnrefreshpending.UseVisualStyleBackColor = True
         '
@@ -1760,17 +1816,19 @@ Partial Class frmNFA
         Me.btnsearchpending.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnsearchpending.ImageKey = "search-icon (1).png"
         Me.btnsearchpending.ImageList = Me.ImageList2
-        Me.btnsearchpending.Location = New System.Drawing.Point(243, 4)
+        Me.btnsearchpending.Location = New System.Drawing.Point(486, 8)
+        Me.btnsearchpending.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnsearchpending.Name = "btnsearchpending"
-        Me.btnsearchpending.Size = New System.Drawing.Size(30, 22)
+        Me.btnsearchpending.Size = New System.Drawing.Size(60, 42)
         Me.btnsearchpending.TabIndex = 8
         Me.btnsearchpending.UseVisualStyleBackColor = True
         '
         'txtsearchpending
         '
-        Me.txtsearchpending.Location = New System.Drawing.Point(47, 4)
+        Me.txtsearchpending.Location = New System.Drawing.Point(94, 8)
+        Me.txtsearchpending.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtsearchpending.Name = "txtsearchpending"
-        Me.txtsearchpending.Size = New System.Drawing.Size(191, 22)
+        Me.txtsearchpending.Size = New System.Drawing.Size(378, 36)
         Me.txtsearchpending.TabIndex = 7
         '
         'Label42
@@ -1778,9 +1836,10 @@ Partial Class frmNFA
         Me.Label42.AutoSize = True
         Me.Label42.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label42.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label42.Location = New System.Drawing.Point(4, 7)
+        Me.Label42.Location = New System.Drawing.Point(8, 13)
+        Me.Label42.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(39, 16)
+        Me.Label42.Size = New System.Drawing.Size(82, 31)
         Me.Label42.TabIndex = 3
         Me.Label42.Text = "FIND:"
         '
@@ -1789,9 +1848,10 @@ Partial Class frmNFA
         Me.Label45.AutoSize = True
         Me.Label45.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label45.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label45.Location = New System.Drawing.Point(8, 7)
+        Me.Label45.Location = New System.Drawing.Point(16, 13)
+        Me.Label45.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(146, 16)
+        Me.Label45.Size = New System.Drawing.Size(300, 31)
         Me.Label45.TabIndex = 1
         Me.Label45.Text = "PENDING TRANSACTION"
         '
@@ -1800,9 +1860,10 @@ Partial Class frmNFA
         Me.Panel12.BackColor = System.Drawing.Color.DodgerBlue
         Me.Panel12.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel12.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel12.Location = New System.Drawing.Point(3, 43)
+        Me.Panel12.Location = New System.Drawing.Point(6, 83)
+        Me.Panel12.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(426, 3)
+        Me.Panel12.Size = New System.Drawing.Size(854, 6)
         Me.Panel12.TabIndex = 56
         '
         'Panel13
@@ -1812,17 +1873,19 @@ Partial Class frmNFA
         Me.Panel13.Controls.Add(Me.Label28)
         Me.Panel13.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel13.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel13.Location = New System.Drawing.Point(3, 3)
+        Me.Panel13.Location = New System.Drawing.Point(6, 6)
+        Me.Panel13.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel13.Name = "Panel13"
-        Me.Panel13.Size = New System.Drawing.Size(426, 40)
+        Me.Panel13.Size = New System.Drawing.Size(854, 77)
         Me.Panel13.TabIndex = 55
         '
         'PictureBox3
         '
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(7, 5)
+        Me.PictureBox3.Location = New System.Drawing.Point(14, 10)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(30, 30)
+        Me.PictureBox3.Size = New System.Drawing.Size(60, 58)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox3.TabIndex = 15
         Me.PictureBox3.TabStop = False
@@ -1832,9 +1895,10 @@ Partial Class frmNFA
         Me.Label28.AutoSize = True
         Me.Label28.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label28.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label28.Location = New System.Drawing.Point(43, 10)
+        Me.Label28.Location = New System.Drawing.Point(86, 19)
+        Me.Label28.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(99, 20)
+        Me.Label28.Size = New System.Drawing.Size(191, 41)
         Me.Label28.TabIndex = 0
         Me.Label28.Text = "DASHBOARD"
         '
@@ -1845,10 +1909,11 @@ Partial Class frmNFA
         Me.TabPage2.Controls.Add(Me.Panel18)
         Me.TabPage2.Controls.Add(Me.Panel10)
         Me.TabPage2.Controls.Add(Me.Panel11)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 26)
+        Me.TabPage2.Location = New System.Drawing.Point(8, 50)
+        Me.TabPage2.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
-        Me.TabPage2.Size = New System.Drawing.Size(432, 371)
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.TabPage2.Size = New System.Drawing.Size(864, 713)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Transaction"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -1900,9 +1965,10 @@ Partial Class frmNFA
         Me.panel_transaction.Controls.Add(Me.btnW2)
         Me.panel_transaction.Controls.Add(Me.btnW1)
         Me.panel_transaction.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.panel_transaction.Location = New System.Drawing.Point(3, 84)
+        Me.panel_transaction.Location = New System.Drawing.Point(6, 162)
+        Me.panel_transaction.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.panel_transaction.Name = "panel_transaction"
-        Me.panel_transaction.Size = New System.Drawing.Size(426, 218)
+        Me.panel_transaction.Size = New System.Drawing.Size(852, 418)
         Me.panel_transaction.TabIndex = 89
         '
         'deldriver_name
@@ -1915,9 +1981,10 @@ Partial Class frmNFA
         Me.deldriver_name.ForeColor = System.Drawing.Color.Black
         Me.deldriver_name.ImageKey = "delete.png"
         Me.deldriver_name.ImageList = Me.ImageList1
-        Me.deldriver_name.Location = New System.Drawing.Point(526, 41)
+        Me.deldriver_name.Location = New System.Drawing.Point(1052, 79)
+        Me.deldriver_name.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.deldriver_name.Name = "deldriver_name"
-        Me.deldriver_name.Size = New System.Drawing.Size(27, 27)
+        Me.deldriver_name.Size = New System.Drawing.Size(54, 52)
         Me.deldriver_name.TabIndex = 149
         Me.deldriver_name.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.deldriver_name.UseVisualStyleBackColor = False
@@ -1932,9 +1999,10 @@ Partial Class frmNFA
         Me.delproduct.ForeColor = System.Drawing.Color.Black
         Me.delproduct.ImageKey = "delete.png"
         Me.delproduct.ImageList = Me.ImageList1
-        Me.delproduct.Location = New System.Drawing.Point(526, 139)
+        Me.delproduct.Location = New System.Drawing.Point(1052, 267)
+        Me.delproduct.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.delproduct.Name = "delproduct"
-        Me.delproduct.Size = New System.Drawing.Size(27, 27)
+        Me.delproduct.Size = New System.Drawing.Size(54, 52)
         Me.delproduct.TabIndex = 148
         Me.delproduct.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.delproduct.UseVisualStyleBackColor = False
@@ -1949,9 +2017,10 @@ Partial Class frmNFA
         Me.delmode_of_payment.ForeColor = System.Drawing.Color.Black
         Me.delmode_of_payment.ImageKey = "delete.png"
         Me.delmode_of_payment.ImageList = Me.ImageList1
-        Me.delmode_of_payment.Location = New System.Drawing.Point(314, 173)
+        Me.delmode_of_payment.Location = New System.Drawing.Point(628, 333)
+        Me.delmode_of_payment.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.delmode_of_payment.Name = "delmode_of_payment"
-        Me.delmode_of_payment.Size = New System.Drawing.Size(27, 27)
+        Me.delmode_of_payment.Size = New System.Drawing.Size(54, 52)
         Me.delmode_of_payment.TabIndex = 147
         Me.delmode_of_payment.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.delmode_of_payment.UseVisualStyleBackColor = False
@@ -1966,9 +2035,10 @@ Partial Class frmNFA
         Me.delweigher.ForeColor = System.Drawing.Color.Black
         Me.delweigher.ImageKey = "delete.png"
         Me.delweigher.ImageList = Me.ImageList1
-        Me.delweigher.Location = New System.Drawing.Point(526, 107)
+        Me.delweigher.Location = New System.Drawing.Point(1052, 206)
+        Me.delweigher.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.delweigher.Name = "delweigher"
-        Me.delweigher.Size = New System.Drawing.Size(27, 27)
+        Me.delweigher.Size = New System.Drawing.Size(54, 52)
         Me.delweigher.TabIndex = 146
         Me.delweigher.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.delweigher.UseVisualStyleBackColor = False
@@ -1983,9 +2053,10 @@ Partial Class frmNFA
         Me.delcustomer_name.ForeColor = System.Drawing.Color.Black
         Me.delcustomer_name.ImageKey = "delete.png"
         Me.delcustomer_name.ImageList = Me.ImageList1
-        Me.delcustomer_name.Location = New System.Drawing.Point(526, 74)
+        Me.delcustomer_name.Location = New System.Drawing.Point(1052, 142)
+        Me.delcustomer_name.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.delcustomer_name.Name = "delcustomer_name"
-        Me.delcustomer_name.Size = New System.Drawing.Size(27, 27)
+        Me.delcustomer_name.Size = New System.Drawing.Size(54, 52)
         Me.delcustomer_name.TabIndex = 145
         Me.delcustomer_name.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.delcustomer_name.UseVisualStyleBackColor = False
@@ -1995,9 +2066,10 @@ Partial Class frmNFA
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label17.Location = New System.Drawing.Point(250, 44)
+        Me.Label17.Location = New System.Drawing.Point(500, 85)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(78, 16)
+        Me.Label17.Size = New System.Drawing.Size(158, 31)
         Me.Label17.TabIndex = 144
         Me.Label17.Text = "Driver Name"
         '
@@ -2008,9 +2080,10 @@ Partial Class frmNFA
         Me.cbodriver_name.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbodriver_name.FormattingEnabled = True
         Me.cbodriver_name.Items.AddRange(New Object() {"MILLING", "TRANSFER", "DISPERSAL"})
-        Me.cbodriver_name.Location = New System.Drawing.Point(335, 42)
+        Me.cbodriver_name.Location = New System.Drawing.Point(670, 81)
+        Me.cbodriver_name.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.cbodriver_name.Name = "cbodriver_name"
-        Me.cbodriver_name.Size = New System.Drawing.Size(190, 24)
+        Me.cbodriver_name.Size = New System.Drawing.Size(376, 39)
         Me.cbodriver_name.TabIndex = 143
         '
         'Label16
@@ -2018,20 +2091,22 @@ Partial Class frmNFA
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label16.Location = New System.Drawing.Point(22, 208)
+        Me.Label16.Location = New System.Drawing.Point(44, 400)
+        Me.Label16.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(57, 16)
+        Me.Label16.Size = New System.Drawing.Size(114, 31)
         Me.Label16.TabIndex = 142
         Me.Label16.Text = "Remarks"
         '
         'txtremarks
         '
         Me.txtremarks.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtremarks.Location = New System.Drawing.Point(149, 208)
+        Me.txtremarks.Location = New System.Drawing.Point(298, 400)
+        Me.txtremarks.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtremarks.Multiline = True
         Me.txtremarks.Name = "txtremarks"
         Me.txtremarks.ScrollBars = System.Windows.Forms.ScrollBars.Both
-        Me.txtremarks.Size = New System.Drawing.Size(376, 42)
+        Me.txtremarks.Size = New System.Drawing.Size(748, 77)
         Me.txtremarks.TabIndex = 141
         '
         'cbomode_of_payment
@@ -2040,9 +2115,10 @@ Partial Class frmNFA
         Me.cbomode_of_payment.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
         Me.cbomode_of_payment.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbomode_of_payment.FormattingEnabled = True
-        Me.cbomode_of_payment.Location = New System.Drawing.Point(149, 174)
+        Me.cbomode_of_payment.Location = New System.Drawing.Point(298, 335)
+        Me.cbomode_of_payment.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.cbomode_of_payment.Name = "cbomode_of_payment"
-        Me.cbomode_of_payment.Size = New System.Drawing.Size(164, 24)
+        Me.cbomode_of_payment.Size = New System.Drawing.Size(324, 39)
         Me.cbomode_of_payment.TabIndex = 4
         '
         'Label6
@@ -2050,9 +2126,10 @@ Partial Class frmNFA
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label6.Location = New System.Drawing.Point(22, 176)
+        Me.Label6.Location = New System.Drawing.Point(44, 338)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(114, 16)
+        Me.Label6.Size = New System.Drawing.Size(229, 31)
         Me.Label6.TabIndex = 140
         Me.Label6.Text = "*Mode of Payment"
         '
@@ -2061,18 +2138,20 @@ Partial Class frmNFA
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label2.Location = New System.Drawing.Point(345, 176)
+        Me.Label2.Location = New System.Drawing.Point(690, 338)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(51, 16)
+        Me.Label2.Size = New System.Drawing.Size(105, 31)
         Me.Label2.TabIndex = 138
         Me.Label2.Text = "Amount"
         '
         'txtamount
         '
         Me.txtamount.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtamount.Location = New System.Drawing.Point(404, 174)
+        Me.txtamount.Location = New System.Drawing.Point(808, 335)
+        Me.txtamount.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtamount.Name = "txtamount"
-        Me.txtamount.Size = New System.Drawing.Size(121, 23)
+        Me.txtamount.Size = New System.Drawing.Size(238, 39)
         Me.txtamount.TabIndex = 5
         '
         'Button2
@@ -2081,9 +2160,10 @@ Partial Class frmNFA
         Me.Button2.FlatAppearance.BorderSize = 0
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(755, 333)
+        Me.Button2.Location = New System.Drawing.Point(1510, 640)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(95, 34)
+        Me.Button2.Size = New System.Drawing.Size(190, 65)
         Me.Button2.TabIndex = 136
         Me.Button2.Text = "&Save"
         Me.Button2.UseVisualStyleBackColor = False
@@ -2092,9 +2172,10 @@ Partial Class frmNFA
         'txttransactionid
         '
         Me.txttransactionid.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txttransactionid.Location = New System.Drawing.Point(622, 37)
+        Me.txttransactionid.Location = New System.Drawing.Point(1244, 71)
+        Me.txttransactionid.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txttransactionid.Name = "txttransactionid"
-        Me.txttransactionid.Size = New System.Drawing.Size(71, 23)
+        Me.txttransactionid.Size = New System.Drawing.Size(138, 39)
         Me.txttransactionid.TabIndex = 55
         Me.txttransactionid.Visible = False
         '
@@ -2104,9 +2185,10 @@ Partial Class frmNFA
         Me.Button1.FlatAppearance.BorderSize = 0
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(755, 284)
+        Me.Button1.Location = New System.Drawing.Point(1510, 546)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(95, 34)
+        Me.Button1.Size = New System.Drawing.Size(190, 65)
         Me.Button1.TabIndex = 135
         Me.Button1.Text = "&Save"
         Me.Button1.UseVisualStyleBackColor = False
@@ -2115,9 +2197,10 @@ Partial Class frmNFA
         'PictureBox5
         '
         Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(702, 322)
+        Me.PictureBox5.Location = New System.Drawing.Point(1404, 619)
+        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(23, 17)
+        Me.PictureBox5.Size = New System.Drawing.Size(46, 33)
         Me.PictureBox5.TabIndex = 132
         Me.PictureBox5.TabStop = False
         Me.PictureBox5.Visible = False
@@ -2125,9 +2208,10 @@ Partial Class frmNFA
         'PictureBox4
         '
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(702, 273)
+        Me.PictureBox4.Location = New System.Drawing.Point(1404, 525)
+        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(23, 17)
+        Me.PictureBox4.Size = New System.Drawing.Size(46, 33)
         Me.PictureBox4.TabIndex = 131
         Me.PictureBox4.TabStop = False
         Me.PictureBox4.Visible = False
@@ -2138,9 +2222,10 @@ Partial Class frmNFA
         Me.cboweigher.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
         Me.cboweigher.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboweigher.FormattingEnabled = True
-        Me.cboweigher.Location = New System.Drawing.Point(149, 108)
+        Me.cboweigher.Location = New System.Drawing.Point(298, 208)
+        Me.cboweigher.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.cboweigher.Name = "cboweigher"
-        Me.cboweigher.Size = New System.Drawing.Size(376, 24)
+        Me.cboweigher.Size = New System.Drawing.Size(748, 39)
         Me.cboweigher.TabIndex = 2
         '
         'Label29
@@ -2148,9 +2233,10 @@ Partial Class frmNFA
         Me.Label29.AutoSize = True
         Me.Label29.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label29.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label29.Location = New System.Drawing.Point(22, 110)
+        Me.Label29.Location = New System.Drawing.Point(44, 212)
+        Me.Label29.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(63, 16)
+        Me.Label29.Size = New System.Drawing.Size(123, 31)
         Me.Label29.TabIndex = 127
         Me.Label29.Text = "*Weigher"
         '
@@ -2159,9 +2245,10 @@ Partial Class frmNFA
         Me.lbloutbounddate.AutoSize = True
         Me.lbloutbounddate.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbloutbounddate.ForeColor = System.Drawing.Color.Black
-        Me.lbloutbounddate.Location = New System.Drawing.Point(557, 345)
+        Me.lbloutbounddate.Location = New System.Drawing.Point(1114, 663)
+        Me.lbloutbounddate.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lbloutbounddate.Name = "lbloutbounddate"
-        Me.lbloutbounddate.Size = New System.Drawing.Size(73, 16)
+        Me.lbloutbounddate.Size = New System.Drawing.Size(152, 31)
         Me.lbloutbounddate.TabIndex = 126
         Me.lbloutbounddate.Text = "IN-BOUND :"
         '
@@ -2170,9 +2257,10 @@ Partial Class frmNFA
         Me.lblinbounddate.AutoSize = True
         Me.lblinbounddate.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblinbounddate.ForeColor = System.Drawing.Color.Black
-        Me.lblinbounddate.Location = New System.Drawing.Point(557, 296)
+        Me.lblinbounddate.Location = New System.Drawing.Point(1114, 569)
+        Me.lblinbounddate.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lblinbounddate.Name = "lblinbounddate"
-        Me.lblinbounddate.Size = New System.Drawing.Size(73, 16)
+        Me.lblinbounddate.Size = New System.Drawing.Size(152, 31)
         Me.lblinbounddate.TabIndex = 125
         Me.lblinbounddate.Text = "IN-BOUND :"
         '
@@ -2181,9 +2269,10 @@ Partial Class frmNFA
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label15.Location = New System.Drawing.Point(392, 326)
+        Me.Label15.Location = New System.Drawing.Point(784, 627)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(159, 16)
+        Me.Label15.Size = New System.Drawing.Size(323, 31)
         Me.Label15.TabIndex = 124
         Me.Label15.Text = "Out-bound (2nd Weighing)"
         '
@@ -2191,17 +2280,19 @@ Partial Class frmNFA
         '
         Me.txtreferenceno.Enabled = False
         Me.txtreferenceno.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtreferenceno.Location = New System.Drawing.Point(149, 8)
+        Me.txtreferenceno.Location = New System.Drawing.Point(298, 15)
+        Me.txtreferenceno.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtreferenceno.Name = "txtreferenceno"
-        Me.txtreferenceno.Size = New System.Drawing.Size(145, 23)
+        Me.txtreferenceno.Size = New System.Drawing.Size(286, 39)
         Me.txtreferenceno.TabIndex = 0
         '
         'txtOutBound
         '
         Me.txtOutBound.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtOutBound.Location = New System.Drawing.Point(560, 319)
+        Me.txtOutBound.Location = New System.Drawing.Point(1120, 613)
+        Me.txtOutBound.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtOutBound.Name = "txtOutBound"
-        Me.txtOutBound.Size = New System.Drawing.Size(96, 23)
+        Me.txtOutBound.Size = New System.Drawing.Size(188, 39)
         Me.txtOutBound.TabIndex = 123
         Me.txtOutBound.Text = "0"
         '
@@ -2209,9 +2300,10 @@ Partial Class frmNFA
         '
         Me.txttransactiondate.Enabled = False
         Me.txttransactiondate.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txttransactiondate.Location = New System.Drawing.Point(418, 8)
+        Me.txttransactiondate.Location = New System.Drawing.Point(836, 15)
+        Me.txttransactiondate.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txttransactiondate.Name = "txttransactiondate"
-        Me.txttransactiondate.Size = New System.Drawing.Size(107, 23)
+        Me.txttransactiondate.Size = New System.Drawing.Size(210, 39)
         Me.txttransactiondate.TabIndex = 92
         Me.txttransactiondate.Text = "2021-04-19"
         Me.txttransactiondate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2221,9 +2313,10 @@ Partial Class frmNFA
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label13.Location = New System.Drawing.Point(407, 273)
+        Me.Label13.Location = New System.Drawing.Point(814, 525)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(146, 16)
+        Me.Label13.Size = New System.Drawing.Size(298, 31)
         Me.Label13.TabIndex = 122
         Me.Label13.Text = "In-bound (1st Weighing)"
         '
@@ -2232,18 +2325,20 @@ Partial Class frmNFA
         Me.Label25.AutoSize = True
         Me.Label25.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label25.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label25.Location = New System.Drawing.Point(22, 11)
+        Me.Label25.Location = New System.Drawing.Point(44, 21)
+        Me.Label25.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(99, 16)
+        Me.Label25.Size = New System.Drawing.Size(198, 31)
         Me.Label25.TabIndex = 116
         Me.Label25.Text = "Scale Ticket No."
         '
         'txtInBound
         '
         Me.txtInBound.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtInBound.Location = New System.Drawing.Point(560, 270)
+        Me.txtInBound.Location = New System.Drawing.Point(1120, 519)
+        Me.txtInBound.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtInBound.Name = "txtInBound"
-        Me.txtInBound.Size = New System.Drawing.Size(96, 23)
+        Me.txtInBound.Size = New System.Drawing.Size(188, 39)
         Me.txtInBound.TabIndex = 121
         Me.txtInBound.Text = "0"
         '
@@ -2252,9 +2347,10 @@ Partial Class frmNFA
         Me.Label26.AutoSize = True
         Me.Label26.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label26.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label26.Location = New System.Drawing.Point(300, 11)
+        Me.Label26.Location = New System.Drawing.Point(600, 21)
+        Me.Label26.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(104, 16)
+        Me.Label26.Size = New System.Drawing.Size(212, 31)
         Me.Label26.TabIndex = 115
         Me.Label26.Text = "Transaction Date"
         '
@@ -2263,9 +2359,10 @@ Partial Class frmNFA
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label14.Location = New System.Drawing.Point(22, 77)
+        Me.Label14.Location = New System.Drawing.Point(44, 148)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(107, 16)
+        Me.Label14.Size = New System.Drawing.Size(214, 31)
         Me.Label14.TabIndex = 120
         Me.Label14.Text = "*Customer Name"
         '
@@ -2274,9 +2371,10 @@ Partial Class frmNFA
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label23.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label23.Location = New System.Drawing.Point(22, 142)
+        Me.Label23.Location = New System.Drawing.Point(44, 273)
+        Me.Label23.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(58, 16)
+        Me.Label23.Size = New System.Drawing.Size(115, 31)
         Me.Label23.TabIndex = 107
         Me.Label23.Text = "*Product"
         '
@@ -2286,9 +2384,10 @@ Partial Class frmNFA
         Me.cboproduct.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
         Me.cboproduct.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboproduct.FormattingEnabled = True
-        Me.cboproduct.Location = New System.Drawing.Point(149, 140)
+        Me.cboproduct.Location = New System.Drawing.Point(298, 269)
+        Me.cboproduct.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.cboproduct.Name = "cboproduct"
-        Me.cboproduct.Size = New System.Drawing.Size(376, 24)
+        Me.cboproduct.Size = New System.Drawing.Size(748, 39)
         Me.cboproduct.TabIndex = 3
         '
         'cbocustomer_name
@@ -2298,9 +2397,10 @@ Partial Class frmNFA
         Me.cbocustomer_name.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbocustomer_name.FormattingEnabled = True
         Me.cbocustomer_name.Items.AddRange(New Object() {"MILLING", "TRANSFER", "DISPERSAL"})
-        Me.cbocustomer_name.Location = New System.Drawing.Point(149, 75)
+        Me.cbocustomer_name.Location = New System.Drawing.Point(298, 144)
+        Me.cbocustomer_name.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.cbocustomer_name.Name = "cbocustomer_name"
-        Me.cbocustomer_name.Size = New System.Drawing.Size(376, 24)
+        Me.cbocustomer_name.Size = New System.Drawing.Size(748, 39)
         Me.cbocustomer_name.TabIndex = 1
         '
         'Label22
@@ -2308,9 +2408,10 @@ Partial Class frmNFA
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label22.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label22.Location = New System.Drawing.Point(22, 44)
+        Me.Label22.Location = New System.Drawing.Point(44, 85)
+        Me.Label22.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(66, 16)
+        Me.Label22.Size = New System.Drawing.Size(132, 31)
         Me.Label22.TabIndex = 108
         Me.Label22.Text = "*Plate No."
         '
@@ -2319,9 +2420,10 @@ Partial Class frmNFA
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label21.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label21.Location = New System.Drawing.Point(22, 273)
+        Me.Label21.Location = New System.Drawing.Point(44, 525)
+        Me.Label21.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(83, 16)
+        Me.Label21.Size = New System.Drawing.Size(167, 31)
         Me.Label21.TabIndex = 110
         Me.Label21.Text = "Gross Weight"
         '
@@ -2330,9 +2432,10 @@ Partial Class frmNFA
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label20.Location = New System.Drawing.Point(22, 306)
+        Me.Label20.Location = New System.Drawing.Point(44, 588)
+        Me.Label20.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(78, 16)
+        Me.Label20.Size = New System.Drawing.Size(155, 31)
         Me.Label20.TabIndex = 112
         Me.Label20.Text = "Tare Weight"
         '
@@ -2341,27 +2444,30 @@ Partial Class frmNFA
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label19.Location = New System.Drawing.Point(22, 339)
+        Me.Label19.Location = New System.Drawing.Point(44, 652)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(70, 16)
+        Me.Label19.Size = New System.Drawing.Size(143, 31)
         Me.Label19.TabIndex = 114
         Me.Label19.Text = "Net Weight"
         '
         'txtplateno
         '
         Me.txtplateno.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtplateno.Location = New System.Drawing.Point(149, 42)
+        Me.txtplateno.Location = New System.Drawing.Point(298, 81)
+        Me.txtplateno.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtplateno.Name = "txtplateno"
-        Me.txtplateno.Size = New System.Drawing.Size(97, 23)
+        Me.txtplateno.Size = New System.Drawing.Size(190, 39)
         Me.txtplateno.TabIndex = 0
         '
         'txtnet
         '
         Me.txtnet.Enabled = False
         Me.txtnet.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtnet.Location = New System.Drawing.Point(178, 336)
+        Me.txtnet.Location = New System.Drawing.Point(356, 646)
+        Me.txtnet.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtnet.Name = "txtnet"
-        Me.txtnet.Size = New System.Drawing.Size(144, 23)
+        Me.txtnet.Size = New System.Drawing.Size(284, 39)
         Me.txtnet.TabIndex = 113
         Me.txtnet.Text = "0"
         '
@@ -2369,9 +2475,10 @@ Partial Class frmNFA
         '
         Me.txtgross.Enabled = False
         Me.txtgross.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtgross.Location = New System.Drawing.Point(178, 270)
+        Me.txtgross.Location = New System.Drawing.Point(356, 519)
+        Me.txtgross.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtgross.Name = "txtgross"
-        Me.txtgross.Size = New System.Drawing.Size(144, 23)
+        Me.txtgross.Size = New System.Drawing.Size(284, 39)
         Me.txtgross.TabIndex = 109
         Me.txtgross.Text = "0"
         '
@@ -2379,9 +2486,10 @@ Partial Class frmNFA
         '
         Me.txttare.Enabled = False
         Me.txttare.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txttare.Location = New System.Drawing.Point(178, 303)
+        Me.txttare.Location = New System.Drawing.Point(356, 583)
+        Me.txttare.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txttare.Name = "txttare"
-        Me.txttare.Size = New System.Drawing.Size(144, 23)
+        Me.txttare.Size = New System.Drawing.Size(284, 39)
         Me.txttare.TabIndex = 111
         Me.txttare.Text = "0"
         '
@@ -2394,9 +2502,10 @@ Partial Class frmNFA
         Me.btnW2.ForeColor = System.Drawing.Color.Black
         Me.btnW2.ImageKey = "Downloads-2-icon (1).png"
         Me.btnW2.ImageList = Me.ImageList1
-        Me.btnW2.Location = New System.Drawing.Point(660, 317)
+        Me.btnW2.Location = New System.Drawing.Point(1320, 610)
+        Me.btnW2.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnW2.Name = "btnW2"
-        Me.btnW2.Size = New System.Drawing.Size(27, 27)
+        Me.btnW2.Size = New System.Drawing.Size(54, 52)
         Me.btnW2.TabIndex = 7
         Me.btnW2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btnW2.UseVisualStyleBackColor = False
@@ -2410,9 +2519,10 @@ Partial Class frmNFA
         Me.btnW1.ForeColor = System.Drawing.Color.Black
         Me.btnW1.ImageKey = "Downloads-2-icon (1).png"
         Me.btnW1.ImageList = Me.ImageList1
-        Me.btnW1.Location = New System.Drawing.Point(660, 268)
+        Me.btnW1.Location = New System.Drawing.Point(1320, 515)
+        Me.btnW1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnW1.Name = "btnW1"
-        Me.btnW1.Size = New System.Drawing.Size(27, 27)
+        Me.btnW1.Size = New System.Drawing.Size(54, 52)
         Me.btnW1.TabIndex = 6
         Me.btnW1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btnW1.UseVisualStyleBackColor = False
@@ -2421,10 +2531,10 @@ Partial Class frmNFA
         '
         Me.Panel20.Controls.Add(Me.Label5)
         Me.Panel20.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel20.Location = New System.Drawing.Point(3, 46)
-        Me.Panel20.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel20.Location = New System.Drawing.Point(6, 89)
+        Me.Panel20.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel20.Name = "Panel20"
-        Me.Panel20.Size = New System.Drawing.Size(426, 38)
+        Me.Panel20.Size = New System.Drawing.Size(852, 73)
         Me.Panel20.TabIndex = 88
         '
         'Label5
@@ -2434,8 +2544,9 @@ Partial Class frmNFA
         Me.Label5.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.DimGray
         Me.Label5.Location = New System.Drawing.Point(0, 0)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(426, 38)
+        Me.Label5.Size = New System.Drawing.Size(852, 73)
         Me.Label5.TabIndex = 86
         Me.Label5.Text = "NOTE: Transaction will only be consider as COMPLETE when 2nd Weighing is done. Up" &
     "date is still applicable. *Required Fields"
@@ -2450,10 +2561,10 @@ Partial Class frmNFA
         Me.Panel18.Controls.Add(Me.btnSave)
         Me.Panel18.Controls.Add(Me.btnClearEntry)
         Me.Panel18.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel18.Location = New System.Drawing.Point(3, 302)
-        Me.Panel18.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel18.Location = New System.Drawing.Point(6, 580)
+        Me.Panel18.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel18.Name = "Panel18"
-        Me.Panel18.Size = New System.Drawing.Size(426, 66)
+        Me.Panel18.Size = New System.Drawing.Size(852, 127)
         Me.Panel18.TabIndex = 86
         '
         'btnreprintforGuest
@@ -2462,9 +2573,10 @@ Partial Class frmNFA
         Me.btnreprintforGuest.FlatAppearance.BorderSize = 0
         Me.btnreprintforGuest.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnreprintforGuest.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnreprintforGuest.Location = New System.Drawing.Point(723, 16)
+        Me.btnreprintforGuest.Location = New System.Drawing.Point(1446, 31)
+        Me.btnreprintforGuest.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnreprintforGuest.Name = "btnreprintforGuest"
-        Me.btnreprintforGuest.Size = New System.Drawing.Size(86, 34)
+        Me.btnreprintforGuest.Size = New System.Drawing.Size(172, 65)
         Me.btnreprintforGuest.TabIndex = 10
         Me.btnreprintforGuest.Text = "&Re-print"
         Me.btnreprintforGuest.UseVisualStyleBackColor = False
@@ -2476,9 +2588,10 @@ Partial Class frmNFA
         Me.btnreprint.FlatAppearance.BorderSize = 0
         Me.btnreprint.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnreprint.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnreprint.Location = New System.Drawing.Point(460, 16)
+        Me.btnreprint.Location = New System.Drawing.Point(920, 31)
+        Me.btnreprint.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnreprint.Name = "btnreprint"
-        Me.btnreprint.Size = New System.Drawing.Size(86, 34)
+        Me.btnreprint.Size = New System.Drawing.Size(172, 65)
         Me.btnreprint.TabIndex = 5
         Me.btnreprint.Text = "&Re-print"
         Me.btnreprint.UseVisualStyleBackColor = False
@@ -2490,9 +2603,10 @@ Partial Class frmNFA
         Me.btncanceltransaction.FlatAppearance.BorderSize = 0
         Me.btncanceltransaction.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btncanceltransaction.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btncanceltransaction.Location = New System.Drawing.Point(358, 16)
+        Me.btncanceltransaction.Location = New System.Drawing.Point(716, 31)
+        Me.btncanceltransaction.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btncanceltransaction.Name = "btncanceltransaction"
-        Me.btncanceltransaction.Size = New System.Drawing.Size(95, 34)
+        Me.btncanceltransaction.Size = New System.Drawing.Size(190, 65)
         Me.btncanceltransaction.TabIndex = 9
         Me.btncanceltransaction.Text = "&Cancel"
         Me.btncanceltransaction.UseVisualStyleBackColor = False
@@ -2503,9 +2617,10 @@ Partial Class frmNFA
         Me.btnsaveandprint.FlatAppearance.BorderSize = 0
         Me.btnsaveandprint.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnsaveandprint.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnsaveandprint.Location = New System.Drawing.Point(460, 16)
+        Me.btnsaveandprint.Location = New System.Drawing.Point(920, 31)
+        Me.btnsaveandprint.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnsaveandprint.Name = "btnsaveandprint"
-        Me.btnsaveandprint.Size = New System.Drawing.Size(155, 34)
+        Me.btnsaveandprint.Size = New System.Drawing.Size(310, 65)
         Me.btnsaveandprint.TabIndex = 8
         Me.btnsaveandprint.Text = "Save and &Print"
         Me.btnsaveandprint.UseVisualStyleBackColor = False
@@ -2516,9 +2631,10 @@ Partial Class frmNFA
         Me.btnSave.FlatAppearance.BorderSize = 0
         Me.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnSave.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSave.Location = New System.Drawing.Point(622, 16)
+        Me.btnSave.Location = New System.Drawing.Point(1244, 31)
+        Me.btnSave.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(95, 34)
+        Me.btnSave.Size = New System.Drawing.Size(190, 65)
         Me.btnSave.TabIndex = 6
         Me.btnSave.Text = "&Save"
         Me.btnSave.UseVisualStyleBackColor = False
@@ -2529,9 +2645,10 @@ Partial Class frmNFA
         Me.btnClearEntry.FlatAppearance.BorderSize = 0
         Me.btnClearEntry.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnClearEntry.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClearEntry.Location = New System.Drawing.Point(172, 16)
+        Me.btnClearEntry.Location = New System.Drawing.Point(344, 31)
+        Me.btnClearEntry.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnClearEntry.Name = "btnClearEntry"
-        Me.btnClearEntry.Size = New System.Drawing.Size(95, 34)
+        Me.btnClearEntry.Size = New System.Drawing.Size(190, 65)
         Me.btnClearEntry.TabIndex = 7
         Me.btnClearEntry.Text = "Clear &Entry"
         Me.btnClearEntry.UseVisualStyleBackColor = False
@@ -2541,9 +2658,10 @@ Partial Class frmNFA
         Me.Panel10.BackColor = System.Drawing.Color.DodgerBlue
         Me.Panel10.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel10.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel10.Location = New System.Drawing.Point(3, 43)
+        Me.Panel10.Location = New System.Drawing.Point(6, 83)
+        Me.Panel10.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(426, 3)
+        Me.Panel10.Size = New System.Drawing.Size(852, 6)
         Me.Panel10.TabIndex = 54
         '
         'Panel11
@@ -2553,17 +2671,19 @@ Partial Class frmNFA
         Me.Panel11.Controls.Add(Me.Label27)
         Me.Panel11.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel11.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel11.Location = New System.Drawing.Point(3, 3)
+        Me.Panel11.Location = New System.Drawing.Point(6, 6)
+        Me.Panel11.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel11.Name = "Panel11"
-        Me.Panel11.Size = New System.Drawing.Size(426, 40)
+        Me.Panel11.Size = New System.Drawing.Size(852, 77)
         Me.Panel11.TabIndex = 53
         '
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(7, 5)
+        Me.PictureBox2.Location = New System.Drawing.Point(14, 10)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(30, 30)
+        Me.PictureBox2.Size = New System.Drawing.Size(60, 58)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 15
         Me.PictureBox2.TabStop = False
@@ -2573,17 +2693,18 @@ Partial Class frmNFA
         Me.Label27.AutoSize = True
         Me.Label27.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label27.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label27.Location = New System.Drawing.Point(43, 10)
+        Me.Label27.Location = New System.Drawing.Point(86, 19)
+        Me.Label27.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(177, 20)
+        Me.Label27.Size = New System.Drawing.Size(352, 41)
         Me.Label27.TabIndex = 0
         Me.Label27.Text = "TRANSACTION WINDOW"
         '
         'frmNFA
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(900, 547)
+        Me.ClientSize = New System.Drawing.Size(1800, 1052)
         Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.Panel8)
         Me.Controls.Add(Me.StatusStrip3)
@@ -2591,7 +2712,7 @@ Partial Class frmNFA
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(1, 1, 1, 1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "frmNFA"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Weighing Scale Transaction Pro"

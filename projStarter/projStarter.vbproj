@@ -146,12 +146,6 @@
     <Compile Include="basic form%28s%29\frmLogin.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="basic form%28s%29\frmMain.Designer.vb">
-      <DependentUpon>frmMain.vb</DependentUpon>
-    </Compile>
-    <Compile Include="basic form%28s%29\frmMain.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="basic form%28s%29\frmSplashScreen.Designer.vb">
       <DependentUpon>frmSplashScreen.vb</DependentUpon>
     </Compile>
@@ -248,9 +242,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="basic form%28s%29\frmLogin.resx">
       <DependentUpon>frmLogin.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="basic form%28s%29\frmMain.resx">
-      <DependentUpon>frmMain.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="basic form%28s%29\frmSplashScreen.resx">
       <DependentUpon>frmSplashScreen.vb</DependentUpon>

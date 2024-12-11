@@ -27,6 +27,8 @@ Partial Class frmAccessLevelSettings
         Me.Label1 = New System.Windows.Forms.Label()
         Me.cbopermisionkey = New System.Windows.Forms.ComboBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.CT_Allow = New System.Windows.Forms.CheckBox()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.DT_PRINTCOMPLETED = New System.Windows.Forms.CheckBox()
         Me.DT_PRINTPENDING = New System.Windows.Forms.CheckBox()
         Me.Label8 = New System.Windows.Forms.Label()
@@ -69,7 +71,7 @@ Partial Class frmAccessLevelSettings
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(12, 68)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(82, 15)
+        Me.Label1.Size = New System.Drawing.Size(165, 32)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Access Level : "
         '
@@ -78,11 +80,13 @@ Partial Class frmAccessLevelSettings
         Me.cbopermisionkey.FormattingEnabled = True
         Me.cbopermisionkey.Location = New System.Drawing.Point(98, 64)
         Me.cbopermisionkey.Name = "cbopermisionkey"
-        Me.cbopermisionkey.Size = New System.Drawing.Size(327, 23)
+        Me.cbopermisionkey.Size = New System.Drawing.Size(327, 40)
         Me.cbopermisionkey.TabIndex = 1
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.CT_Allow)
+        Me.GroupBox1.Controls.Add(Me.Label9)
         Me.GroupBox1.Controls.Add(Me.DT_PRINTCOMPLETED)
         Me.GroupBox1.Controls.Add(Me.DT_PRINTPENDING)
         Me.GroupBox1.Controls.Add(Me.Label8)
@@ -111,6 +115,27 @@ Partial Class frmAccessLevelSettings
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Actions Limitations"
         '
+        'CT_Allow
+        '
+        Me.CT_Allow.Checked = True
+        Me.CT_Allow.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.CT_Allow.Location = New System.Drawing.Point(282, 291)
+        Me.CT_Allow.Name = "CT_Allow"
+        Me.CT_Allow.Size = New System.Drawing.Size(223, 22)
+        Me.CT_Allow.TabIndex = 29
+        Me.CT_Allow.Text = "Allow EDIT COMPLETED Transaction"
+        Me.CT_Allow.UseVisualStyleBackColor = True
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(279, 271)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(277, 32)
+        Me.Label9.TabIndex = 28
+        Me.Label9.Text = "Completed Transaction"
+        '
         'DT_PRINTCOMPLETED
         '
         Me.DT_PRINTCOMPLETED.AutoSize = True
@@ -118,7 +143,7 @@ Partial Class frmAccessLevelSettings
         Me.DT_PRINTCOMPLETED.CheckState = System.Windows.Forms.CheckState.Checked
         Me.DT_PRINTCOMPLETED.Location = New System.Drawing.Point(15, 180)
         Me.DT_PRINTCOMPLETED.Name = "DT_PRINTCOMPLETED"
-        Me.DT_PRINTCOMPLETED.Size = New System.Drawing.Size(230, 19)
+        Me.DT_PRINTCOMPLETED.Size = New System.Drawing.Size(456, 36)
         Me.DT_PRINTCOMPLETED.TabIndex = 27
         Me.DT_PRINTCOMPLETED.Text = "Allow to PRINT Completed Transaction"
         Me.DT_PRINTCOMPLETED.UseVisualStyleBackColor = True
@@ -130,7 +155,7 @@ Partial Class frmAccessLevelSettings
         Me.DT_PRINTPENDING.CheckState = System.Windows.Forms.CheckState.Checked
         Me.DT_PRINTPENDING.Location = New System.Drawing.Point(15, 155)
         Me.DT_PRINTPENDING.Name = "DT_PRINTPENDING"
-        Me.DT_PRINTPENDING.Size = New System.Drawing.Size(220, 19)
+        Me.DT_PRINTPENDING.Size = New System.Drawing.Size(435, 36)
         Me.DT_PRINTPENDING.TabIndex = 26
         Me.DT_PRINTPENDING.Text = "Allow to PRINT Pending Transactions"
         Me.DT_PRINTPENDING.UseVisualStyleBackColor = True
@@ -142,7 +167,7 @@ Partial Class frmAccessLevelSettings
         Me.Label8.ForeColor = System.Drawing.Color.Red
         Me.Label8.Location = New System.Drawing.Point(10, 311)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(83, 15)
+        Me.Label8.Size = New System.Drawing.Size(162, 32)
         Me.Label8.TabIndex = 25
         Me.Label8.Text = "System Reset"
         '
@@ -151,7 +176,7 @@ Partial Class frmAccessLevelSettings
         Me.SR_ChangePass.AutoSize = True
         Me.SR_ChangePass.Location = New System.Drawing.Point(15, 335)
         Me.SR_ChangePass.Name = "SR_ChangePass"
-        Me.SR_ChangePass.Size = New System.Drawing.Size(251, 19)
+        Me.SR_ChangePass.Size = New System.Drawing.Size(501, 36)
         Me.SR_ChangePass.TabIndex = 23
         Me.SR_ChangePass.Text = "Allow to change password for system reset"
         Me.SR_ChangePass.UseVisualStyleBackColor = True
@@ -162,7 +187,7 @@ Partial Class frmAccessLevelSettings
         Me.Label7.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(274, 190)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(82, 15)
+        Me.Label7.Size = New System.Drawing.Size(168, 32)
         Me.Label7.TabIndex = 21
         Me.Label7.Text = "Own Account"
         '
@@ -183,7 +208,7 @@ Partial Class frmAccessLevelSettings
         Me.Label5.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(274, 31)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(113, 15)
+        Me.Label5.Size = New System.Drawing.Size(227, 32)
         Me.Label5.TabIndex = 19
         Me.Label5.Text = "Access Level Setup"
         '
@@ -192,7 +217,7 @@ Partial Class frmAccessLevelSettings
         Me.ALS_DeleteRemove.AutoSize = True
         Me.ALS_DeleteRemove.Location = New System.Drawing.Point(282, 105)
         Me.ALS_DeleteRemove.Name = "ALS_DeleteRemove"
-        Me.ALS_DeleteRemove.Size = New System.Drawing.Size(223, 19)
+        Me.ALS_DeleteRemove.Size = New System.Drawing.Size(441, 36)
         Me.ALS_DeleteRemove.TabIndex = 18
         Me.ALS_DeleteRemove.Text = "Allow to DELETE/REMOVE permission"
         Me.ALS_DeleteRemove.UseVisualStyleBackColor = True
@@ -202,7 +227,7 @@ Partial Class frmAccessLevelSettings
         Me.ALS_EditUpdate.AutoSize = True
         Me.ALS_EditUpdate.Location = New System.Drawing.Point(282, 80)
         Me.ALS_EditUpdate.Name = "ALS_EditUpdate"
-        Me.ALS_EditUpdate.Size = New System.Drawing.Size(204, 19)
+        Me.ALS_EditUpdate.Size = New System.Drawing.Size(403, 36)
         Me.ALS_EditUpdate.TabIndex = 17
         Me.ALS_EditUpdate.Text = "Allow to EDIT/UPDATE permission"
         Me.ALS_EditUpdate.UseVisualStyleBackColor = True
@@ -212,7 +237,7 @@ Partial Class frmAccessLevelSettings
         Me.ALS_CreateAdd.AutoSize = True
         Me.ALS_CreateAdd.Location = New System.Drawing.Point(282, 55)
         Me.ALS_CreateAdd.Name = "ALS_CreateAdd"
-        Me.ALS_CreateAdd.Size = New System.Drawing.Size(203, 19)
+        Me.ALS_CreateAdd.Size = New System.Drawing.Size(400, 36)
         Me.ALS_CreateAdd.TabIndex = 16
         Me.ALS_CreateAdd.Text = "Allow to CREATE/ADD permission"
         Me.ALS_CreateAdd.UseVisualStyleBackColor = True
@@ -223,7 +248,7 @@ Partial Class frmAccessLevelSettings
         Me.Label4.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(7, 207)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(87, 15)
+        Me.Label4.Size = New System.Drawing.Size(178, 32)
         Me.Label4.TabIndex = 15
         Me.Label4.Text = "User Accounts"
         '
@@ -232,7 +257,7 @@ Partial Class frmAccessLevelSettings
         Me.UA_DeleteRemove.AutoSize = True
         Me.UA_DeleteRemove.Location = New System.Drawing.Point(15, 281)
         Me.UA_DeleteRemove.Name = "UA_DeleteRemove"
-        Me.UA_DeleteRemove.Size = New System.Drawing.Size(187, 19)
+        Me.UA_DeleteRemove.Size = New System.Drawing.Size(370, 36)
         Me.UA_DeleteRemove.TabIndex = 13
         Me.UA_DeleteRemove.Text = "Allow to DELETE/REMOVE user"
         Me.UA_DeleteRemove.UseVisualStyleBackColor = True
@@ -242,7 +267,7 @@ Partial Class frmAccessLevelSettings
         Me.UA_EditUpdate.AutoSize = True
         Me.UA_EditUpdate.Location = New System.Drawing.Point(15, 256)
         Me.UA_EditUpdate.Name = "UA_EditUpdate"
-        Me.UA_EditUpdate.Size = New System.Drawing.Size(168, 19)
+        Me.UA_EditUpdate.Size = New System.Drawing.Size(332, 36)
         Me.UA_EditUpdate.TabIndex = 12
         Me.UA_EditUpdate.Text = "Allow to EDIT/UPDATE user"
         Me.UA_EditUpdate.UseVisualStyleBackColor = True
@@ -252,7 +277,7 @@ Partial Class frmAccessLevelSettings
         Me.UA_CreateAdd.AutoSize = True
         Me.UA_CreateAdd.Location = New System.Drawing.Point(15, 231)
         Me.UA_CreateAdd.Name = "UA_CreateAdd"
-        Me.UA_CreateAdd.Size = New System.Drawing.Size(167, 19)
+        Me.UA_CreateAdd.Size = New System.Drawing.Size(329, 36)
         Me.UA_CreateAdd.TabIndex = 11
         Me.UA_CreateAdd.Text = "Allow to CREATE/ADD user"
         Me.UA_CreateAdd.UseVisualStyleBackColor = True
@@ -263,7 +288,7 @@ Partial Class frmAccessLevelSettings
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(274, 137)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(110, 15)
+        Me.Label3.Size = New System.Drawing.Size(230, 32)
         Me.Label3.TabIndex = 10
         Me.Label3.Text = "Port Configuration"
         '
@@ -274,7 +299,7 @@ Partial Class frmAccessLevelSettings
         Me.PC_Allow.CheckState = System.Windows.Forms.CheckState.Checked
         Me.PC_Allow.Location = New System.Drawing.Point(282, 161)
         Me.PC_Allow.Name = "PC_Allow"
-        Me.PC_Allow.Size = New System.Drawing.Size(173, 19)
+        Me.PC_Allow.Size = New System.Drawing.Size(339, 36)
         Me.PC_Allow.TabIndex = 6
         Me.PC_Allow.Text = "Allow to full configurations."
         Me.PC_Allow.UseVisualStyleBackColor = True
@@ -285,7 +310,7 @@ Partial Class frmAccessLevelSettings
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(7, 31)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(139, 15)
+        Me.Label2.Size = New System.Drawing.Size(291, 32)
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "Dashboard-Transactions"
         '
@@ -296,7 +321,7 @@ Partial Class frmAccessLevelSettings
         Me.DT_Export.CheckState = System.Windows.Forms.CheckState.Checked
         Me.DT_Export.Location = New System.Drawing.Point(15, 130)
         Me.DT_Export.Name = "DT_Export"
-        Me.DT_Export.Size = New System.Drawing.Size(157, 19)
+        Me.DT_Export.Size = New System.Drawing.Size(310, 36)
         Me.DT_Export.TabIndex = 4
         Me.DT_Export.Text = "Allow to EXPORT reports."
         Me.DT_Export.UseVisualStyleBackColor = True
@@ -308,7 +333,7 @@ Partial Class frmAccessLevelSettings
         Me.DT_DeleteRemove.CheckState = System.Windows.Forms.CheckState.Checked
         Me.DT_DeleteRemove.Location = New System.Drawing.Point(15, 105)
         Me.DT_DeleteRemove.Name = "DT_DeleteRemove"
-        Me.DT_DeleteRemove.Size = New System.Drawing.Size(229, 19)
+        Me.DT_DeleteRemove.Size = New System.Drawing.Size(452, 36)
         Me.DT_DeleteRemove.TabIndex = 3
         Me.DT_DeleteRemove.Text = "Allow to DELETE/REMOVE transactions"
         Me.DT_DeleteRemove.UseVisualStyleBackColor = True
@@ -320,7 +345,7 @@ Partial Class frmAccessLevelSettings
         Me.DT_EditUpdate.CheckState = System.Windows.Forms.CheckState.Checked
         Me.DT_EditUpdate.Location = New System.Drawing.Point(15, 80)
         Me.DT_EditUpdate.Name = "DT_EditUpdate"
-        Me.DT_EditUpdate.Size = New System.Drawing.Size(210, 19)
+        Me.DT_EditUpdate.Size = New System.Drawing.Size(414, 36)
         Me.DT_EditUpdate.TabIndex = 2
         Me.DT_EditUpdate.Text = "Allow to EDIT/UPDATE transactions"
         Me.DT_EditUpdate.UseVisualStyleBackColor = True
@@ -332,7 +357,7 @@ Partial Class frmAccessLevelSettings
         Me.DT_CreateAdd.CheckState = System.Windows.Forms.CheckState.Checked
         Me.DT_CreateAdd.Location = New System.Drawing.Point(15, 55)
         Me.DT_CreateAdd.Name = "DT_CreateAdd"
-        Me.DT_CreateAdd.Size = New System.Drawing.Size(209, 19)
+        Me.DT_CreateAdd.Size = New System.Drawing.Size(411, 36)
         Me.DT_CreateAdd.TabIndex = 0
         Me.DT_CreateAdd.Text = "Allow to CREATE/ADD transactions"
         Me.DT_CreateAdd.UseVisualStyleBackColor = True
@@ -430,7 +455,7 @@ Partial Class frmAccessLevelSettings
         Me.Label6.ForeColor = System.Drawing.Color.DodgerBlue
         Me.Label6.Location = New System.Drawing.Point(40, 14)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(119, 15)
+        Me.Label6.Size = New System.Drawing.Size(238, 32)
         Me.Label6.TabIndex = 0
         Me.Label6.Text = "ACCESS LEVEL SETUP"
         '
@@ -457,7 +482,7 @@ Partial Class frmAccessLevelSettings
         '
         'frmAccessLevelSettings
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(13.0!, 32.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(542, 537)
@@ -520,4 +545,6 @@ Partial Class frmAccessLevelSettings
     Friend WithEvents SR_ChangePass As CheckBox
     Friend WithEvents DT_PRINTCOMPLETED As CheckBox
     Friend WithEvents DT_PRINTPENDING As CheckBox
+    Friend WithEvents CT_Allow As CheckBox
+    Friend WithEvents Label9 As Label
 End Class

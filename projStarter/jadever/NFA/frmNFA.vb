@@ -280,6 +280,8 @@ Public Class frmNFA
         Dim frm As New frmPortConfiguration
         frm.ShowDialog()
         ConnectToWeighScale()
+        menuitem_refreshall_Click(sender, e)
+
     End Sub
     Private Sub btnEditTransaction_Click(sender As Object, e As EventArgs) Handles btnEditTransaction.Click, dtgcompletedtransaction.DoubleClick, menuitem_edittransaction.Click
         Try
@@ -800,7 +802,12 @@ Public Class frmNFA
 
         ' capture button
         btnW1.Enabled = (Not (EditMode) And Val(lblreading.Text) > 0)
-        btnW2.Enabled = ((EditMode) And Val(lblreading.Text) > 0)
+
+        If (activeDtg IsNot Nothing) Then
+            btnW2.Enabled = ((EditMode) And Val(lblreading.Text) > 0) And Not (activeDtg.Name.Contains("complete"))
+        Else
+            btnW2.Enabled = ((EditMode) And Val(lblreading.Text) > 0)
+        End If
         PictureBox5.Visible = btnW2.Enabled
         PictureBox4.Visible = btnW1.Enabled
 
@@ -812,7 +819,8 @@ Public Class frmNFA
         btncompletedexport.Enabled = (dtgcompletedtransaction.RowCount > 0)
 
         btnSave.Enabled = AllRequireFieldsHasInput() 'And (IsAllowed("DT_CreateAdd") Or IsAllowed("DT_EditUpdate")) And (activeDtg.Name = dtgpendingtransaction.Name)
-        btnsaveandprint.Enabled = AllRequireFieldsHasInput() 'And (IsAllowed("DT_CreateAdd") Or IsAllowed("DT_EditUpdate")) And (activeDtg.Name = dtgpendingtransaction.Name)
+
+        btnsaveandprint.Enabled = AllRequireFieldsHasInput() And (Val(txtOutBound.Text) > 0) 'And (IsAllowed("DT_CreateAdd") Or IsAllowed("DT_EditUpdate")) And (activeDtg.Name = dtgpendingtransaction.Name)
 
         Try
             Calc()
@@ -833,14 +841,32 @@ Public Class frmNFA
                 With .DataReader
                     Do While .Read
 
-                        cbodriver_name.Enabled = IsAllowed("DT_EditUpdate")
-                        cbocustomer_name.Enabled = IsAllowed("DT_EditUpdate")
-                        cboweigher.Enabled = IsAllowed("DT_EditUpdate")
-                        cboproduct.Enabled = IsAllowed("DT_EditUpdate")
-                        txtplateno.Enabled = IsAllowed("DT_EditUpdate")
-                        cbomode_of_payment.Enabled = IsAllowed("DT_EditUpdate")
-                        txtamount.Enabled = IsAllowed("DT_EditUpdate")
-                        txtremarks.Enabled = IsAllowed("DT_EditUpdate")
+                        Dim enableDisable As Boolean = False
+
+                        If activeDtg.Name.ToLower().Contains("complete") Then
+                            cbodriver_name.Enabled = IsAllowed("CT_Allow")
+                            cbocustomer_name.Enabled = IsAllowed("CT_Allow")
+                            cboweigher.Enabled = IsAllowed("CT_Allow")
+                            cboproduct.Enabled = IsAllowed("CT_Allow")
+                            txtplateno.Enabled = IsAllowed("CT_Allow")
+                            cbomode_of_payment.Enabled = IsAllowed("CT_Allow")
+                            txtamount.Enabled = IsAllowed("CT_Allow")
+                            txtremarks.Enabled = IsAllowed("CT_Allow")
+
+                            txtgross.Enabled =
+                            txttare.Enabled =
+                            txtnet.Enabled = Not (IsAllowed("CT_Allow"))
+                        Else
+                            cbodriver_name.Enabled = IsAllowed("DT_EditUpdate")
+                            cbocustomer_name.Enabled = IsAllowed("DT_EditUpdate")
+                            cboweigher.Enabled = IsAllowed("DT_EditUpdate")
+                            cboproduct.Enabled = IsAllowed("DT_EditUpdate")
+                            txtplateno.Enabled = IsAllowed("DT_EditUpdate")
+                            cbomode_of_payment.Enabled = IsAllowed("DT_EditUpdate")
+                            txtamount.Enabled = IsAllowed("DT_EditUpdate")
+                            txtremarks.Enabled = IsAllowed("DT_EditUpdate")
+                        End If
+
 
 
                         txttransactionid.Text = .Item("keyid").ToString()
@@ -884,11 +910,24 @@ Public Class frmNFA
                             btnsaveandprint.Visible = (IsAllowed("DT_CreateAdd"))
                             btnSave.Visible = (IsAllowed("DT_CreateAdd"))
                             panel_transaction.Enabled = True
-                            btnSave.Visible = True
+
+                            'btnSave.Visible = True
+                            'txtgross.Enabled = True
+                            'txttare.Enabled = True
+                            'txtnet.Enabled = True
+                            'txtInBound.Enabled = True
+                            'txtOutBound.Enabled = True
                         Else
+                            txtgross.Enabled = False
+                            txttare.Enabled = False
+                            txtnet.Enabled = False
+                            txtInBound.Enabled = False
+                            txtOutBound.Enabled = False
+
                             btnsaveandprint.Enabled = False
+                            btnSave.Visible = (IsAllowed("CT_Allow"))
                             btnreprint.Visible = IsAllowed("DT_PRINTCOMPLETED")
-                            panel_transaction.Enabled = False
+                            panel_transaction.Enabled = IsAllowed("CT_Allow")
                         End If
 
                     Loop
@@ -1001,7 +1040,7 @@ Public Class frmNFA
             FixSpaces(cbomode_of_payment.Text) <> "" And
             Val(txtInBound.Text) > 0)
 
-        If (EditMode) And Not (IsAllowed("DT_EditUpdate")) Then
+        If (EditMode) And (Not (IsAllowed("DT_EditUpdate"))) Then
             AllRequireFieldsHasInput = (Val(txtOutBound.Text) > 0)
         End If
 
@@ -1166,7 +1205,4 @@ Public Class frmNFA
 
     End Sub
 
-    Private Sub dtgcompletedtransaction_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dtgcompletedtransaction.CellContentClick
-
-    End Sub
 End Class
