@@ -22,7 +22,25 @@ Public Class frmNFA
     Dim activeDtg As DataGridView
 
     Public Function getPendingTransactionQuery(Optional ByVal top_cnt As String = "") As String
-        Return "SELECT " & top_cnt & " 
+
+
+        Dim searchText() As String = Split(txtsearchcompleted.Text, " ")
+        Dim searchString As String = ""
+        For i As Integer = 0 To searchText.Count - 1
+            If (searchString <> "") Then
+                searchString &= " AND "
+            End If
+            searchString &= $"(plate_no LIKE '%{searchText(i).ToString}%' OR 
+                                        reference_no LIKE '%{searchText(i).ToString}%' OR 
+                                        customer_name LIKE '%{searchText(i).ToString}%' OR 
+                                        weigher LIKE '%{searchText(i).ToString}%' OR 
+                                        product LIKE '%{searchText(i).ToString}%' OR 
+                                        mode_of_payment LIKE '%{searchText(i).ToString}%' OR 
+                                        remarks LIKE '%{searchText(i).ToString}%' OR 
+                                        driver_name LIKE '%{searchText(i).ToString}%')"
+        Next
+
+        Return $"SELECT {top_cnt}
         format(transaction_date,""yyyy-MM-dd"") AS `Date`,
         reference_no,
         plate_no,
@@ -37,20 +55,33 @@ Public Class frmNFA
         inbound_datetime, 
         keyID 
         FROM tbltransaction
-        WHERE archive=0 AND (
-        reference_no like '%" & FixApostrophe(txtsearchpending.Text) & "%'
-        OR customer_name like '%" & FixApostrophe(txtsearchpending.Text) & "%'
-        OR product like '%" & FixApostrophe(txtsearchpending.Text) & "%'
-        OR plate_no like '%" & FixApostrophe(txtsearchpending.Text) & "%'
-        OR driver_name like '%" & FixApostrophe(txtsearchpending.Text) & "%'
-        OR mode_of_payment like '%" & FixApostrophe(txtsearchpending.Text) & "%'
-        OR weigher like '%" & FixApostrophe(txtsearchpending.Text) & "%'
-        ) 
+        WHERE 
+        archive=0 
+        AND ({searchString}) 
         AND outbound <=0
         ORDER BY transaction_date DESC"
     End Function
 
     Public Function getCompletedTransactionQuery(Optional ByVal top_cnt As String = "") As String
+
+        Dim searchText() As String = Split(txtsearchcompleted.Text, " ")
+        Dim searchString As String = ""
+        For i As Integer = 0 To searchText.Count - 1
+            If (searchString <> "") Then
+                searchString &= " AND "
+            End If
+            searchString &= $"(plate_no LIKE '%{searchText(i).ToString}%' OR 
+                                        reference_no LIKE '%{searchText(i).ToString}%' OR 
+                                        customer_name LIKE '%{searchText(i).ToString}%' OR 
+                                        weigher LIKE '%{searchText(i).ToString}%' OR 
+                                        product LIKE '%{searchText(i).ToString}%' OR 
+                                        mode_of_payment LIKE '%{searchText(i).ToString}%' OR 
+                                        remarks LIKE '%{searchText(i).ToString}%' OR 
+                                        driver_name LIKE '%{searchText(i).ToString}%')"
+        Next
+
+
+
         Dim date_condition As String = ""
 
         Select Case cbodisplayfilter.Text
@@ -62,7 +93,7 @@ Public Class frmNFA
                 date_condition = " AND (transaction_date >= " & Format(dtpfrom.Value, "#MM/dd/yyyy#") & " AND transaction_date <= " & Format(dtpto.Value, "#MM/dd/yyyy#") & ")"
         End Select
 
-        Return "SELECT " & top_cnt & "
+        Return $"SELECT {top_cnt} 
         format(transaction_date,""yyyy-MM-dd"") AS `Date`,
         reference_no,
         plate_no,
@@ -82,16 +113,11 @@ Public Class frmNFA
         outbound_datetime,
         keyID 
         FROM tbltransaction
-        WHERE archive=0 AND (
-        reference_no like '%" & FixApostrophe(txtsearchcompleted.Text) & "%'
-        OR customer_name like '%" & FixApostrophe(txtsearchcompleted.Text) & "%'
-        OR product like '%" & FixApostrophe(txtsearchcompleted.Text) & "%'
-        OR plate_no like '%" & FixApostrophe(txtsearchcompleted.Text) & "%'
-        OR driver_name like '%" & FixApostrophe(txtsearchcompleted.Text) & "%'
-        OR mode_of_payment like '%" & FixApostrophe(txtsearchcompleted.Text) & "%'
-        OR weigher like '%" & FixApostrophe(txtsearchcompleted.Text) & "%'
-        ) 
-        AND (inbound >0 AND outbound >0)" & date_condition & " 
+        WHERE 
+        archive=0 
+        AND ({searchString}) 
+        AND (inbound >0 AND outbound >0) 
+        {date_condition} 
         ORDER BY transaction_date DESC"
 
     End Function
@@ -811,7 +837,6 @@ Public Class frmNFA
         PictureBox5.Visible = btnW2.Enabled
         PictureBox4.Visible = btnW1.Enabled
 
-
         lblpendingstatus.Text = pending_status
         lblcompletedstatus.Text = completed_status
 
@@ -853,9 +878,11 @@ Public Class frmNFA
                             txtamount.Enabled = IsAllowed("CT_Allow")
                             txtremarks.Enabled = IsAllowed("CT_Allow")
 
-                            txtgross.Enabled =
-                            txttare.Enabled =
-                            txtnet.Enabled = Not (IsAllowed("CT_Allow"))
+                            txtgross.Enabled = False
+                            txttare.Enabled = False
+                            txtnet.Enabled = False
+                            txtInBound.Enabled = False
+                            txtOutBound.Enabled = False
                         Else
                             cbodriver_name.Enabled = IsAllowed("DT_EditUpdate")
                             cbocustomer_name.Enabled = IsAllowed("DT_EditUpdate")
@@ -865,6 +892,12 @@ Public Class frmNFA
                             cbomode_of_payment.Enabled = IsAllowed("DT_EditUpdate")
                             txtamount.Enabled = IsAllowed("DT_EditUpdate")
                             txtremarks.Enabled = IsAllowed("DT_EditUpdate")
+
+                            txtInBound.Enabled = (thisUser.UserFunction.ToString.ToLower.Contains("admin"))
+                            txtOutBound.Enabled = (thisUser.UserFunction.ToString.ToLower.Contains("admin"))
+                            txtgross.Enabled = (IsAllowed("CT_Allow"))
+                            txttare.Enabled = (IsAllowed("CT_Allow"))
+                            txtnet.Enabled = (IsAllowed("CT_Allow"))
                         End If
 
 
@@ -921,8 +954,6 @@ Public Class frmNFA
                             txtgross.Enabled = False
                             txttare.Enabled = False
                             txtnet.Enabled = False
-                            txtInBound.Enabled = False
-                            txtOutBound.Enabled = False
 
                             btnsaveandprint.Enabled = False
                             btnSave.Visible = (IsAllowed("CT_Allow"))
