@@ -490,6 +490,9 @@ Public Class frmNFA
         ClearEntry()
     End Sub
     Public Sub ClearEntry()
+        txtInBound.Enabled = (thisUser.UserFunction.ToString.ToLower.Contains("admin"))
+        txtOutBound.Enabled = (thisUser.UserFunction.ToString.ToLower.Contains("admin"))
+
         txtremarks.Text = ""
         txtreferenceno.Text = GetLatestTicketNo()
         cbocustomer_name.Text = ""
