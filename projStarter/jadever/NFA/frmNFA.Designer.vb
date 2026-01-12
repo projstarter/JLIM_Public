@@ -23,65 +23,42 @@ Partial Class frmNFA
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmNFA))
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmNFA))
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel7 = New System.Windows.Forms.Panel()
         Me.Label18 = New System.Windows.Forms.Label()
-        Me.btnEditTransaction = New System.Windows.Forms.Button()
-        Me.btnDelete = New System.Windows.Forms.Button()
-        Me.btnAddTransaction = New System.Windows.Forms.Button()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.menuitem_addtransaction = New System.Windows.Forms.ToolStripMenuItem()
-        Me.menuitem_edittransaction = New System.Windows.Forms.ToolStripMenuItem()
-        Me.menuitem_deletetransaction = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator11 = New System.Windows.Forms.ToolStripSeparator()
-        Me.menuitem_refreshall = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
-        Me.menuitem_exit = New System.Windows.Forms.ToolStripMenuItem()
         Me.SettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.menuitem_portconfiguration = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator15 = New System.Windows.Forms.ToolStripSeparator()
-        Me.menuitem_useraccounts = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PermissionLevelSetupToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator12 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ChangeSystemResetPasswordToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.lblbranchloc = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblCompanyName = New System.Windows.Forms.Label()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AddTransactionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AddNewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EditUpdateToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
-        Me.RefreshToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator5 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ReportsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PortConfigurationToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator()
-        Me.UserAccountsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.ImageList2 = New System.Windows.Forms.ImageList(Me.components)
         Me.lblUserAccount = New System.Windows.Forms.ToolStripStatusLabel()
         Me.weighScale = New System.IO.Ports.SerialPort(Me.components)
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         Me.ToolStripLabel3 = New System.Windows.Forms.ToolStripLabel()
-        Me.btnsearchpendingtransaction = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator6 = New System.Windows.Forms.ToolStripSeparator()
-        Me.btnrefreshpendingtransaction = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator10 = New System.Windows.Forms.ToolStripSeparator()
         Me.btnexportpendingtransactionexport = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripLabel4 = New System.Windows.Forms.ToolStripLabel()
         Me.ToolStripSeparator8 = New System.Windows.Forms.ToolStripSeparator()
         Me.ToolStripLabel1 = New System.Windows.Forms.ToolStripLabel()
-        Me.ToolStripButton3 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator7 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ToolStripButton6 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator9 = New System.Windows.Forms.ToolStripSeparator()
-        Me.btncompletetransactionexport = New System.Windows.Forms.ToolStripButton()
         Me.PrintDialog1 = New System.Windows.Forms.PrintDialog()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
@@ -117,8 +94,6 @@ Partial Class frmNFA
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.panel_completedtransaction = New System.Windows.Forms.Panel()
         Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.btnCancel = New System.Windows.Forms.Button()
-        Me.btnApply = New System.Windows.Forms.Button()
         Me.dtpto = New System.Windows.Forms.DateTimePicker()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.dtpfrom = New System.Windows.Forms.DateTimePicker()
@@ -148,9 +123,6 @@ Partial Class frmNFA
         Me.lblcompletedstatus = New System.Windows.Forms.ToolStripStatusLabel()
         Me.Panel19 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.btncompletedexport = New System.Windows.Forms.Button()
-        Me.btnrefreshcompleted = New System.Windows.Forms.Button()
-        Me.btnsearchcompleted = New System.Windows.Forms.Button()
         Me.txtsearchcompleted = New System.Windows.Forms.TextBox()
         Me.cbodisplayfilter = New System.Windows.Forms.ComboBox()
         Me.Label41 = New System.Windows.Forms.Label()
@@ -177,23 +149,14 @@ Partial Class frmNFA
         Me.lblpendingstatus = New System.Windows.Forms.ToolStripStatusLabel()
         Me.Panel17 = New System.Windows.Forms.Panel()
         Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.btnpendingexport = New System.Windows.Forms.Button()
-        Me.btnrefreshpending = New System.Windows.Forms.Button()
-        Me.btnsearchpending = New System.Windows.Forms.Button()
         Me.txtsearchpending = New System.Windows.Forms.TextBox()
         Me.Label42 = New System.Windows.Forms.Label()
         Me.Label45 = New System.Windows.Forms.Label()
         Me.Panel12 = New System.Windows.Forms.Panel()
         Me.Panel13 = New System.Windows.Forms.Panel()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.panel_transaction = New System.Windows.Forms.Panel()
-        Me.deldriver_name = New System.Windows.Forms.Button()
-        Me.delproduct = New System.Windows.Forms.Button()
-        Me.delmode_of_payment = New System.Windows.Forms.Button()
-        Me.delweigher = New System.Windows.Forms.Button()
-        Me.delcustomer_name = New System.Windows.Forms.Button()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.cbodriver_name = New System.Windows.Forms.ComboBox()
         Me.Label16 = New System.Windows.Forms.Label()
@@ -205,8 +168,6 @@ Partial Class frmNFA
         Me.Button2 = New System.Windows.Forms.Button()
         Me.txttransactionid = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.cboweigher = New System.Windows.Forms.ComboBox()
         Me.Label29 = New System.Windows.Forms.Label()
         Me.lbloutbounddate = New System.Windows.Forms.Label()
@@ -231,8 +192,6 @@ Partial Class frmNFA
         Me.txtnet = New System.Windows.Forms.TextBox()
         Me.txtgross = New System.Windows.Forms.TextBox()
         Me.txttare = New System.Windows.Forms.TextBox()
-        Me.btnW2 = New System.Windows.Forms.Button()
-        Me.btnW1 = New System.Windows.Forms.Button()
         Me.Panel20 = New System.Windows.Forms.Panel()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Panel18 = New System.Windows.Forms.Panel()
@@ -244,9 +203,54 @@ Partial Class frmNFA
         Me.btnClearEntry = New System.Windows.Forms.Button()
         Me.Panel10 = New System.Windows.Forms.Panel()
         Me.Panel11 = New System.Windows.Forms.Panel()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label27 = New System.Windows.Forms.Label()
         Me.PrintDocument1 = New System.Drawing.Printing.PrintDocument()
+        Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.btnCancel = New System.Windows.Forms.Button()
+        Me.btnApply = New System.Windows.Forms.Button()
+        Me.btncompletedexport = New System.Windows.Forms.Button()
+        Me.btnrefreshcompleted = New System.Windows.Forms.Button()
+        Me.btnsearchcompleted = New System.Windows.Forms.Button()
+        Me.btnpendingexport = New System.Windows.Forms.Button()
+        Me.btnrefreshpending = New System.Windows.Forms.Button()
+        Me.btnsearchpending = New System.Windows.Forms.Button()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.deldriver_name = New System.Windows.Forms.Button()
+        Me.delproduct = New System.Windows.Forms.Button()
+        Me.delmode_of_payment = New System.Windows.Forms.Button()
+        Me.delweigher = New System.Windows.Forms.Button()
+        Me.delcustomer_name = New System.Windows.Forms.Button()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.btnW2 = New System.Windows.Forms.Button()
+        Me.btnW1 = New System.Windows.Forms.Button()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.btnEditTransaction = New System.Windows.Forms.Button()
+        Me.btnDelete = New System.Windows.Forms.Button()
+        Me.btnAddTransaction = New System.Windows.Forms.Button()
+        Me.menuitem_addtransaction = New System.Windows.Forms.ToolStripMenuItem()
+        Me.menuitem_edittransaction = New System.Windows.Forms.ToolStripMenuItem()
+        Me.menuitem_deletetransaction = New System.Windows.Forms.ToolStripMenuItem()
+        Me.menuitem_refreshall = New System.Windows.Forms.ToolStripMenuItem()
+        Me.menuitem_exit = New System.Windows.Forms.ToolStripMenuItem()
+        Me.menuitem_portconfiguration = New System.Windows.Forms.ToolStripMenuItem()
+        Me.menuitem_useraccounts = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PermissionLevelSetupToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ChangeSystemResetPasswordToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AddNewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EditUpdateToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RefreshToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PortConfigurationToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UserAccountsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.btnsearchpendingtransaction = New System.Windows.Forms.ToolStripButton()
+        Me.btnrefreshpendingtransaction = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton3 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton6 = New System.Windows.Forms.ToolStripButton()
+        Me.btncompletetransactionexport = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator13 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ApplicationToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel1.SuspendLayout()
         Me.Panel7.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
@@ -272,14 +276,14 @@ Partial Class frmNFA
         Me.Panel17.SuspendLayout()
         Me.Panel6.SuspendLayout()
         Me.Panel13.SuspendLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage2.SuspendLayout()
         Me.panel_transaction.SuspendLayout()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel20.SuspendLayout()
         Me.Panel18.SuspendLayout()
         Me.Panel11.SuspendLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -289,13 +293,13 @@ Partial Class frmNFA
         Me.Panel1.Controls.Add(Me.Panel7)
         Me.Panel1.Controls.Add(Me.MenuStrip1)
         Me.Panel1.Controls.Add(Me.lblbranchloc)
-        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Controls.Add(Me.lblCompanyName)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1350, 186)
+        Me.Panel1.Size = New System.Drawing.Size(1773, 186)
         Me.Panel1.TabIndex = 22
         '
         'Panel7
@@ -305,7 +309,7 @@ Partial Class frmNFA
         Me.Panel7.Controls.Add(Me.btnDelete)
         Me.Panel7.Controls.Add(Me.btnAddTransaction)
         Me.Panel7.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel7.Location = New System.Drawing.Point(710, 33)
+        Me.Panel7.Location = New System.Drawing.Point(1133, 33)
         Me.Panel7.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel7.Name = "Panel7"
         Me.Panel7.Size = New System.Drawing.Size(640, 153)
@@ -323,69 +327,15 @@ Partial Class frmNFA
         Me.Label18.TabIndex = 24
         Me.Label18.Text = "PASACAO, CAMARINES SUR"
         '
-        'btnEditTransaction
-        '
-        Me.btnEditTransaction.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnEditTransaction.FlatAppearance.BorderSize = 0
-        Me.btnEditTransaction.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AliceBlue
-        Me.btnEditTransaction.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnEditTransaction.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnEditTransaction.Image = CType(resources.GetObject("btnEditTransaction.Image"), System.Drawing.Image)
-        Me.btnEditTransaction.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.btnEditTransaction.Location = New System.Drawing.Point(218, 5)
-        Me.btnEditTransaction.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.btnEditTransaction.Name = "btnEditTransaction"
-        Me.btnEditTransaction.Size = New System.Drawing.Size(195, 140)
-        Me.btnEditTransaction.TabIndex = 4
-        Me.btnEditTransaction.Text = "&EDIT TRANSACTION" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(F2)"
-        Me.btnEditTransaction.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.btnEditTransaction.UseVisualStyleBackColor = True
-        '
-        'btnDelete
-        '
-        Me.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnDelete.FlatAppearance.BorderSize = 0
-        Me.btnDelete.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AliceBlue
-        Me.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnDelete.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDelete.Image = CType(resources.GetObject("btnDelete.Image"), System.Drawing.Image)
-        Me.btnDelete.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.btnDelete.Location = New System.Drawing.Point(416, 5)
-        Me.btnDelete.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(195, 140)
-        Me.btnDelete.TabIndex = 3
-        Me.btnDelete.Text = "&DELETE TRANSACTION" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(DEL)"
-        Me.btnDelete.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.btnDelete.UseVisualStyleBackColor = True
-        '
-        'btnAddTransaction
-        '
-        Me.btnAddTransaction.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnAddTransaction.FlatAppearance.BorderSize = 0
-        Me.btnAddTransaction.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AliceBlue
-        Me.btnAddTransaction.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAddTransaction.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAddTransaction.Image = CType(resources.GetObject("btnAddTransaction.Image"), System.Drawing.Image)
-        Me.btnAddTransaction.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.btnAddTransaction.Location = New System.Drawing.Point(20, 5)
-        Me.btnAddTransaction.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.btnAddTransaction.Name = "btnAddTransaction"
-        Me.btnAddTransaction.Size = New System.Drawing.Size(195, 140)
-        Me.btnAddTransaction.TabIndex = 0
-        Me.btnAddTransaction.Text = "&ADD TRANSACTION" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(F3)"
-        Me.btnAddTransaction.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.btnAddTransaction.UseVisualStyleBackColor = True
-        '
         'MenuStrip1
         '
         Me.MenuStrip1.GripMargin = New System.Windows.Forms.Padding(2, 2, 0, 2)
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1, Me.SettingsToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1, Me.SettingsToolStripMenuItem, Me.ToolStripMenuItem2, Me.AboutToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(4, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(1350, 33)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1773, 33)
         Me.MenuStrip1.TabIndex = 21
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -396,99 +346,32 @@ Partial Class frmNFA
         Me.ToolStripMenuItem1.Size = New System.Drawing.Size(54, 29)
         Me.ToolStripMenuItem1.Text = "File"
         '
-        'menuitem_addtransaction
-        '
-        Me.menuitem_addtransaction.Image = CType(resources.GetObject("menuitem_addtransaction.Image"), System.Drawing.Image)
-        Me.menuitem_addtransaction.Name = "menuitem_addtransaction"
-        Me.menuitem_addtransaction.ShortcutKeys = System.Windows.Forms.Keys.F3
-        Me.menuitem_addtransaction.Size = New System.Drawing.Size(295, 34)
-        Me.menuitem_addtransaction.Text = "&Add Transaction"
-        '
-        'menuitem_edittransaction
-        '
-        Me.menuitem_edittransaction.Image = CType(resources.GetObject("menuitem_edittransaction.Image"), System.Drawing.Image)
-        Me.menuitem_edittransaction.Name = "menuitem_edittransaction"
-        Me.menuitem_edittransaction.ShortcutKeys = System.Windows.Forms.Keys.F2
-        Me.menuitem_edittransaction.Size = New System.Drawing.Size(295, 34)
-        Me.menuitem_edittransaction.Text = "&Edit Transaction"
-        '
-        'menuitem_deletetransaction
-        '
-        Me.menuitem_deletetransaction.Image = CType(resources.GetObject("menuitem_deletetransaction.Image"), System.Drawing.Image)
-        Me.menuitem_deletetransaction.Name = "menuitem_deletetransaction"
-        Me.menuitem_deletetransaction.ShortcutKeys = System.Windows.Forms.Keys.Delete
-        Me.menuitem_deletetransaction.Size = New System.Drawing.Size(295, 34)
-        Me.menuitem_deletetransaction.Text = "&Delete Transaction"
-        '
         'ToolStripSeparator11
         '
         Me.ToolStripSeparator11.Name = "ToolStripSeparator11"
         Me.ToolStripSeparator11.Size = New System.Drawing.Size(292, 6)
-        '
-        'menuitem_refreshall
-        '
-        Me.menuitem_refreshall.Image = CType(resources.GetObject("menuitem_refreshall.Image"), System.Drawing.Image)
-        Me.menuitem_refreshall.Name = "menuitem_refreshall"
-        Me.menuitem_refreshall.ShortcutKeys = System.Windows.Forms.Keys.F5
-        Me.menuitem_refreshall.Size = New System.Drawing.Size(295, 34)
-        Me.menuitem_refreshall.Text = "Refresh All"
         '
         'ToolStripSeparator3
         '
         Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
         Me.ToolStripSeparator3.Size = New System.Drawing.Size(292, 6)
         '
-        'menuitem_exit
-        '
-        Me.menuitem_exit.Image = CType(resources.GetObject("menuitem_exit.Image"), System.Drawing.Image)
-        Me.menuitem_exit.Name = "menuitem_exit"
-        Me.menuitem_exit.Size = New System.Drawing.Size(295, 34)
-        Me.menuitem_exit.Text = "E&xit"
-        '
         'SettingsToolStripMenuItem
         '
-        Me.SettingsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.menuitem_portconfiguration, Me.ToolStripSeparator15, Me.menuitem_useraccounts, Me.PermissionLevelSetupToolStripMenuItem, Me.ToolStripSeparator12, Me.ChangeSystemResetPasswordToolStripMenuItem})
+        Me.SettingsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.menuitem_portconfiguration, Me.ToolStripSeparator15, Me.menuitem_useraccounts, Me.PermissionLevelSetupToolStripMenuItem, Me.ToolStripSeparator12, Me.ChangeSystemResetPasswordToolStripMenuItem, Me.ToolStripSeparator13, Me.ApplicationToolStripMenuItem})
         Me.SettingsToolStripMenuItem.Name = "SettingsToolStripMenuItem"
         Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(92, 29)
         Me.SettingsToolStripMenuItem.Text = "Settings"
-        '
-        'menuitem_portconfiguration
-        '
-        Me.menuitem_portconfiguration.Image = CType(resources.GetObject("menuitem_portconfiguration.Image"), System.Drawing.Image)
-        Me.menuitem_portconfiguration.Name = "menuitem_portconfiguration"
-        Me.menuitem_portconfiguration.Size = New System.Drawing.Size(363, 34)
-        Me.menuitem_portconfiguration.Text = "Port Configuration"
         '
         'ToolStripSeparator15
         '
         Me.ToolStripSeparator15.Name = "ToolStripSeparator15"
         Me.ToolStripSeparator15.Size = New System.Drawing.Size(360, 6)
         '
-        'menuitem_useraccounts
-        '
-        Me.menuitem_useraccounts.Image = CType(resources.GetObject("menuitem_useraccounts.Image"), System.Drawing.Image)
-        Me.menuitem_useraccounts.Name = "menuitem_useraccounts"
-        Me.menuitem_useraccounts.Size = New System.Drawing.Size(363, 34)
-        Me.menuitem_useraccounts.Text = "User Accounts"
-        '
-        'PermissionLevelSetupToolStripMenuItem
-        '
-        Me.PermissionLevelSetupToolStripMenuItem.Image = CType(resources.GetObject("PermissionLevelSetupToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.PermissionLevelSetupToolStripMenuItem.Name = "PermissionLevelSetupToolStripMenuItem"
-        Me.PermissionLevelSetupToolStripMenuItem.Size = New System.Drawing.Size(363, 34)
-        Me.PermissionLevelSetupToolStripMenuItem.Text = "Permission Level Setup"
-        '
         'ToolStripSeparator12
         '
         Me.ToolStripSeparator12.Name = "ToolStripSeparator12"
         Me.ToolStripSeparator12.Size = New System.Drawing.Size(360, 6)
-        '
-        'ChangeSystemResetPasswordToolStripMenuItem
-        '
-        Me.ChangeSystemResetPasswordToolStripMenuItem.Image = CType(resources.GetObject("ChangeSystemResetPasswordToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.ChangeSystemResetPasswordToolStripMenuItem.Name = "ChangeSystemResetPasswordToolStripMenuItem"
-        Me.ChangeSystemResetPasswordToolStripMenuItem.Size = New System.Drawing.Size(363, 34)
-        Me.ChangeSystemResetPasswordToolStripMenuItem.Text = "Change System Reset Password"
         '
         'lblbranchloc
         '
@@ -502,17 +385,17 @@ Partial Class frmNFA
         Me.lblbranchloc.TabIndex = 18
         Me.lblbranchloc.Text = "PASACAO, CAMARINES SUR"
         '
-        'Label1
+        'lblCompanyName
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label1.Location = New System.Drawing.Point(12, 66)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(339, 48)
-        Me.Label1.TabIndex = 17
-        Me.Label1.Text = "JLIM TRUCK SCALE"
+        Me.lblCompanyName.AutoSize = True
+        Me.lblCompanyName.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCompanyName.ForeColor = System.Drawing.Color.DarkBlue
+        Me.lblCompanyName.Location = New System.Drawing.Point(12, 66)
+        Me.lblCompanyName.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblCompanyName.Name = "lblCompanyName"
+        Me.lblCompanyName.Size = New System.Drawing.Size(339, 48)
+        Me.lblCompanyName.TabIndex = 17
+        Me.lblCompanyName.Text = "JLIM TRUCK SCALE"
         '
         'FileToolStripMenuItem
         '
@@ -526,22 +409,6 @@ Partial Class frmNFA
         Me.AddTransactionToolStripMenuItem.Size = New System.Drawing.Size(156, 26)
         Me.AddTransactionToolStripMenuItem.Text = "&Transaction"
         '
-        'AddNewToolStripMenuItem
-        '
-        Me.AddNewToolStripMenuItem.Image = CType(resources.GetObject("AddNewToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.AddNewToolStripMenuItem.Name = "AddNewToolStripMenuItem"
-        Me.AddNewToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F3
-        Me.AddNewToolStripMenuItem.Size = New System.Drawing.Size(166, 26)
-        Me.AddNewToolStripMenuItem.Text = "Add / New"
-        '
-        'EditUpdateToolStripMenuItem
-        '
-        Me.EditUpdateToolStripMenuItem.Image = CType(resources.GetObject("EditUpdateToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.EditUpdateToolStripMenuItem.Name = "EditUpdateToolStripMenuItem"
-        Me.EditUpdateToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2
-        Me.EditUpdateToolStripMenuItem.Size = New System.Drawing.Size(166, 26)
-        Me.EditUpdateToolStripMenuItem.Text = "Edit / Update"
-        '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
@@ -552,25 +419,10 @@ Partial Class frmNFA
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
         Me.ToolStripSeparator2.Size = New System.Drawing.Size(153, 6)
         '
-        'RefreshToolStripMenuItem
-        '
-        Me.RefreshToolStripMenuItem.Image = CType(resources.GetObject("RefreshToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.RefreshToolStripMenuItem.Name = "RefreshToolStripMenuItem"
-        Me.RefreshToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F5
-        Me.RefreshToolStripMenuItem.Size = New System.Drawing.Size(156, 26)
-        Me.RefreshToolStripMenuItem.Text = "&Refresh"
-        '
         'ToolStripSeparator5
         '
         Me.ToolStripSeparator5.Name = "ToolStripSeparator5"
         Me.ToolStripSeparator5.Size = New System.Drawing.Size(153, 6)
-        '
-        'ExitToolStripMenuItem
-        '
-        Me.ExitToolStripMenuItem.Image = CType(resources.GetObject("ExitToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(156, 26)
-        Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'ReportsToolStripMenuItem
         '
@@ -578,24 +430,10 @@ Partial Class frmNFA
         Me.ReportsToolStripMenuItem.Size = New System.Drawing.Size(69, 20)
         Me.ReportsToolStripMenuItem.Text = "Setting(s)"
         '
-        'PortConfigurationToolStripMenuItem
-        '
-        Me.PortConfigurationToolStripMenuItem.Image = CType(resources.GetObject("PortConfigurationToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.PortConfigurationToolStripMenuItem.Name = "PortConfigurationToolStripMenuItem"
-        Me.PortConfigurationToolStripMenuItem.Size = New System.Drawing.Size(177, 26)
-        Me.PortConfigurationToolStripMenuItem.Text = "&Port Configuration"
-        '
         'ToolStripSeparator4
         '
         Me.ToolStripSeparator4.Name = "ToolStripSeparator4"
         Me.ToolStripSeparator4.Size = New System.Drawing.Size(174, 6)
-        '
-        'UserAccountsToolStripMenuItem
-        '
-        Me.UserAccountsToolStripMenuItem.Image = CType(resources.GetObject("UserAccountsToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.UserAccountsToolStripMenuItem.Name = "UserAccountsToolStripMenuItem"
-        Me.UserAccountsToolStripMenuItem.Size = New System.Drawing.Size(177, 26)
-        Me.UserAccountsToolStripMenuItem.Text = "&User Account(s)"
         '
         'Panel2
         '
@@ -605,7 +443,7 @@ Partial Class frmNFA
         Me.Panel2.Location = New System.Drawing.Point(0, 186)
         Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1350, 5)
+        Me.Panel2.Size = New System.Drawing.Size(1773, 5)
         Me.Panel2.TabIndex = 23
         '
         'ImageList2
@@ -642,30 +480,10 @@ Partial Class frmNFA
         Me.ToolStripLabel3.Size = New System.Drawing.Size(43, 28)
         Me.ToolStripLabel3.Text = "FIND :"
         '
-        'btnsearchpendingtransaction
-        '
-        Me.btnsearchpendingtransaction.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.btnsearchpendingtransaction.Image = CType(resources.GetObject("btnsearchpendingtransaction.Image"), System.Drawing.Image)
-        Me.btnsearchpendingtransaction.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.btnsearchpendingtransaction.Name = "btnsearchpendingtransaction"
-        Me.btnsearchpendingtransaction.Size = New System.Drawing.Size(23, 28)
-        Me.btnsearchpendingtransaction.Text = "ToolStripButton2"
-        '
         'ToolStripSeparator6
         '
         Me.ToolStripSeparator6.Name = "ToolStripSeparator6"
         Me.ToolStripSeparator6.Size = New System.Drawing.Size(6, 31)
-        '
-        'btnrefreshpendingtransaction
-        '
-        Me.btnrefreshpendingtransaction.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.btnrefreshpendingtransaction.Image = CType(resources.GetObject("btnrefreshpendingtransaction.Image"), System.Drawing.Image)
-        Me.btnrefreshpendingtransaction.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnrefreshpendingtransaction.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.btnrefreshpendingtransaction.Name = "btnrefreshpendingtransaction"
-        Me.btnrefreshpendingtransaction.Size = New System.Drawing.Size(23, 28)
-        Me.btnrefreshpendingtransaction.Text = "Refresh"
-        Me.btnrefreshpendingtransaction.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'ToolStripSeparator10
         '
@@ -694,45 +512,15 @@ Partial Class frmNFA
         Me.ToolStripLabel1.Size = New System.Drawing.Size(43, 28)
         Me.ToolStripLabel1.Text = "FIND :"
         '
-        'ToolStripButton3
-        '
-        Me.ToolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton3.Image = CType(resources.GetObject("ToolStripButton3.Image"), System.Drawing.Image)
-        Me.ToolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton3.Name = "ToolStripButton3"
-        Me.ToolStripButton3.Size = New System.Drawing.Size(23, 28)
-        Me.ToolStripButton3.Text = "ToolStripButton2"
-        '
         'ToolStripSeparator7
         '
         Me.ToolStripSeparator7.Name = "ToolStripSeparator7"
         Me.ToolStripSeparator7.Size = New System.Drawing.Size(6, 31)
         '
-        'ToolStripButton6
-        '
-        Me.ToolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton6.Image = CType(resources.GetObject("ToolStripButton6.Image"), System.Drawing.Image)
-        Me.ToolStripButton6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.ToolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton6.Name = "ToolStripButton6"
-        Me.ToolStripButton6.Size = New System.Drawing.Size(23, 28)
-        Me.ToolStripButton6.Text = "Refresh"
-        Me.ToolStripButton6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
         'ToolStripSeparator9
         '
         Me.ToolStripSeparator9.Name = "ToolStripSeparator9"
         Me.ToolStripSeparator9.Size = New System.Drawing.Size(6, 31)
-        '
-        'btncompletetransactionexport
-        '
-        Me.btncompletetransactionexport.Image = CType(resources.GetObject("btncompletetransactionexport.Image"), System.Drawing.Image)
-        Me.btncompletetransactionexport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btncompletetransactionexport.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.btncompletetransactionexport.Name = "btncompletetransactionexport"
-        Me.btncompletetransactionexport.Size = New System.Drawing.Size(115, 28)
-        Me.btncompletetransactionexport.Text = "Export to Excel"
-        Me.btncompletetransactionexport.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'PrintDialog1
         '
@@ -749,10 +537,10 @@ Partial Class frmNFA
         '
         Me.StatusStrip3.ImageScalingSize = New System.Drawing.Size(32, 32)
         Me.StatusStrip3.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.lblstatus, Me.lbleditstatus, Me.lblportStatus})
-        Me.StatusStrip3.Location = New System.Drawing.Point(0, 810)
+        Me.StatusStrip3.Location = New System.Drawing.Point(0, 1044)
         Me.StatusStrip3.Name = "StatusStrip3"
         Me.StatusStrip3.Padding = New System.Windows.Forms.Padding(2, 0, 21, 0)
-        Me.StatusStrip3.Size = New System.Drawing.Size(1350, 32)
+        Me.StatusStrip3.Size = New System.Drawing.Size(1773, 32)
         Me.StatusStrip3.TabIndex = 66
         Me.StatusStrip3.Text = "StatusStrip3"
         '
@@ -784,10 +572,10 @@ Partial Class frmNFA
         Me.Panel8.Controls.Add(Me.Label7)
         Me.Panel8.Controls.Add(Me.Panel9)
         Me.Panel8.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel8.Location = New System.Drawing.Point(661, 191)
+        Me.Panel8.Location = New System.Drawing.Point(1084, 191)
         Me.Panel8.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(689, 619)
+        Me.Panel8.Size = New System.Drawing.Size(689, 853)
         Me.Panel8.TabIndex = 67
         '
         'Panel14
@@ -1091,7 +879,7 @@ Partial Class frmNFA
         Me.TabControl1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(661, 619)
+        Me.TabControl1.Size = New System.Drawing.Size(1084, 853)
         Me.TabControl1.TabIndex = 0
         '
         'TabPage1
@@ -1103,7 +891,7 @@ Partial Class frmNFA
         Me.TabPage1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.TabPage1.Size = New System.Drawing.Size(653, 578)
+        Me.TabPage1.Size = New System.Drawing.Size(1076, 812)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Dashboard"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -1117,7 +905,7 @@ Partial Class frmNFA
         Me.Panel4.Location = New System.Drawing.Point(4, 72)
         Me.Panel4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(645, 501)
+        Me.Panel4.Size = New System.Drawing.Size(1068, 735)
         Me.Panel4.TabIndex = 57
         '
         'panel_completedtransaction
@@ -1130,7 +918,7 @@ Partial Class frmNFA
         Me.panel_completedtransaction.Location = New System.Drawing.Point(0, 334)
         Me.panel_completedtransaction.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.panel_completedtransaction.Name = "panel_completedtransaction"
-        Me.panel_completedtransaction.Size = New System.Drawing.Size(645, 167)
+        Me.panel_completedtransaction.Size = New System.Drawing.Size(1068, 401)
         Me.panel_completedtransaction.TabIndex = 68
         '
         'Panel5
@@ -1145,46 +933,12 @@ Partial Class frmNFA
         Me.Panel5.Controls.Add(Me.Label3)
         Me.Panel5.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Panel5.Location = New System.Drawing.Point(-189, 45)
+        Me.Panel5.Location = New System.Drawing.Point(234, 45)
         Me.Panel5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(182, 206)
         Me.Panel5.TabIndex = 63
         Me.Panel5.Visible = False
-        '
-        'btnCancel
-        '
-        Me.btnCancel.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.btnCancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.btnCancel.FlatAppearance.BorderSize = 0
-        Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnCancel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCancel.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.btnCancel.ImageKey = "Actions-edit-delete-icon.png"
-        Me.btnCancel.ImageList = Me.ImageList2
-        Me.btnCancel.Location = New System.Drawing.Point(12, 157)
-        Me.btnCancel.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(64, 38)
-        Me.btnCancel.TabIndex = 6
-        Me.btnCancel.UseVisualStyleBackColor = False
-        '
-        'btnApply
-        '
-        Me.btnApply.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.btnApply.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.btnApply.FlatAppearance.BorderSize = 0
-        Me.btnApply.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnApply.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnApply.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.btnApply.ImageKey = "Actions-dialog-ok-apply-icon.png"
-        Me.btnApply.ImageList = Me.ImageList2
-        Me.btnApply.Location = New System.Drawing.Point(105, 157)
-        Me.btnApply.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.btnApply.Name = "btnApply"
-        Me.btnApply.Size = New System.Drawing.Size(64, 38)
-        Me.btnApply.TabIndex = 5
-        Me.btnApply.UseVisualStyleBackColor = False
         '
         'dtpto
         '
@@ -1238,7 +992,7 @@ Partial Class frmNFA
         Me.Panel15.Location = New System.Drawing.Point(0, 52)
         Me.Panel15.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel15.Name = "Panel15"
-        Me.Panel15.Size = New System.Drawing.Size(645, 83)
+        Me.Panel15.Size = New System.Drawing.Size(1068, 317)
         Me.Panel15.TabIndex = 67
         '
         'dtgcompletedtransaction
@@ -1263,7 +1017,7 @@ Partial Class frmNFA
         Me.dtgcompletedtransaction.RowHeadersVisible = False
         Me.dtgcompletedtransaction.RowHeadersWidth = 82
         Me.dtgcompletedtransaction.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dtgcompletedtransaction.Size = New System.Drawing.Size(645, 83)
+        Me.dtgcompletedtransaction.Size = New System.Drawing.Size(1068, 317)
         Me.dtgcompletedtransaction.TabIndex = 67
         '
         'DataGridViewCheckBoxColumn2
@@ -1422,10 +1176,10 @@ Partial Class frmNFA
         '
         Me.StatusStrip1.ImageScalingSize = New System.Drawing.Size(32, 32)
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.lblcompletedstatus})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 135)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 369)
         Me.StatusStrip1.Name = "StatusStrip1"
         Me.StatusStrip1.Padding = New System.Windows.Forms.Padding(2, 0, 21, 0)
-        Me.StatusStrip1.Size = New System.Drawing.Size(645, 32)
+        Me.StatusStrip1.Size = New System.Drawing.Size(1068, 32)
         Me.StatusStrip1.TabIndex = 64
         Me.StatusStrip1.Text = "StatusStrip1"
         '
@@ -1446,7 +1200,7 @@ Partial Class frmNFA
         Me.Panel19.Location = New System.Drawing.Point(0, 0)
         Me.Panel19.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel19.Name = "Panel19"
-        Me.Panel19.Size = New System.Drawing.Size(645, 52)
+        Me.Panel19.Size = New System.Drawing.Size(1068, 52)
         Me.Panel19.TabIndex = 58
         '
         'Panel3
@@ -1459,54 +1213,11 @@ Partial Class frmNFA
         Me.Panel3.Controls.Add(Me.Label41)
         Me.Panel3.Controls.Add(Me.Label40)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel3.Location = New System.Drawing.Point(-369, 0)
+        Me.Panel3.Location = New System.Drawing.Point(54, 0)
         Me.Panel3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(1010, 48)
         Me.Panel3.TabIndex = 2
-        '
-        'btncompletedexport
-        '
-        Me.btncompletedexport.FlatAppearance.BorderSize = 0
-        Me.btncompletedexport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btncompletedexport.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btncompletedexport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btncompletedexport.ImageKey = "Excel-icon.png"
-        Me.btncompletedexport.ImageList = Me.ImageList2
-        Me.btncompletedexport.Location = New System.Drawing.Point(819, 6)
-        Me.btncompletedexport.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.btncompletedexport.Name = "btncompletedexport"
-        Me.btncompletedexport.Size = New System.Drawing.Size(182, 34)
-        Me.btncompletedexport.TabIndex = 10
-        Me.btncompletedexport.Text = "Export to Excel"
-        Me.btncompletedexport.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btncompletedexport.UseVisualStyleBackColor = True
-        '
-        'btnrefreshcompleted
-        '
-        Me.btnrefreshcompleted.FlatAppearance.BorderSize = 0
-        Me.btnrefreshcompleted.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnrefreshcompleted.ImageKey = "Actions-view-refresh-icon (1).png"
-        Me.btnrefreshcompleted.ImageList = Me.ImageList2
-        Me.btnrefreshcompleted.Location = New System.Drawing.Point(774, 6)
-        Me.btnrefreshcompleted.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.btnrefreshcompleted.Name = "btnrefreshcompleted"
-        Me.btnrefreshcompleted.Size = New System.Drawing.Size(45, 34)
-        Me.btnrefreshcompleted.TabIndex = 9
-        Me.btnrefreshcompleted.UseVisualStyleBackColor = True
-        '
-        'btnsearchcompleted
-        '
-        Me.btnsearchcompleted.FlatAppearance.BorderSize = 0
-        Me.btnsearchcompleted.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnsearchcompleted.ImageKey = "search-icon (1).png"
-        Me.btnsearchcompleted.ImageList = Me.ImageList2
-        Me.btnsearchcompleted.Location = New System.Drawing.Point(729, 6)
-        Me.btnsearchcompleted.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.btnsearchcompleted.Name = "btnsearchcompleted"
-        Me.btnsearchcompleted.Size = New System.Drawing.Size(45, 34)
-        Me.btnsearchcompleted.TabIndex = 8
-        Me.btnsearchcompleted.UseVisualStyleBackColor = True
         '
         'txtsearchcompleted
         '
@@ -1573,7 +1284,7 @@ Partial Class frmNFA
         Me.panel_pendingtransaction.Location = New System.Drawing.Point(0, 0)
         Me.panel_pendingtransaction.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.panel_pendingtransaction.Name = "panel_pendingtransaction"
-        Me.panel_pendingtransaction.Size = New System.Drawing.Size(645, 334)
+        Me.panel_pendingtransaction.Size = New System.Drawing.Size(1068, 334)
         Me.panel_pendingtransaction.TabIndex = 67
         '
         'Panel16
@@ -1584,7 +1295,7 @@ Partial Class frmNFA
         Me.Panel16.Location = New System.Drawing.Point(0, 52)
         Me.Panel16.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel16.Name = "Panel16"
-        Me.Panel16.Size = New System.Drawing.Size(645, 250)
+        Me.Panel16.Size = New System.Drawing.Size(1068, 250)
         Me.Panel16.TabIndex = 68
         '
         'dtgpendingtransaction
@@ -1609,7 +1320,7 @@ Partial Class frmNFA
         Me.dtgpendingtransaction.RowHeadersVisible = False
         Me.dtgpendingtransaction.RowHeadersWidth = 82
         Me.dtgpendingtransaction.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dtgpendingtransaction.Size = New System.Drawing.Size(645, 250)
+        Me.dtgpendingtransaction.Size = New System.Drawing.Size(1068, 250)
         Me.dtgpendingtransaction.TabIndex = 66
         '
         'DataGridViewCheckBoxColumn1
@@ -1731,7 +1442,7 @@ Partial Class frmNFA
         Me.StatusStrip2.Location = New System.Drawing.Point(0, 302)
         Me.StatusStrip2.Name = "StatusStrip2"
         Me.StatusStrip2.Padding = New System.Windows.Forms.Padding(2, 0, 21, 0)
-        Me.StatusStrip2.Size = New System.Drawing.Size(645, 32)
+        Me.StatusStrip2.Size = New System.Drawing.Size(1068, 32)
         Me.StatusStrip2.TabIndex = 62
         Me.StatusStrip2.Text = "StatusStrip2"
         '
@@ -1752,7 +1463,7 @@ Partial Class frmNFA
         Me.Panel17.Location = New System.Drawing.Point(0, 0)
         Me.Panel17.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel17.Name = "Panel17"
-        Me.Panel17.Size = New System.Drawing.Size(645, 52)
+        Me.Panel17.Size = New System.Drawing.Size(1068, 52)
         Me.Panel17.TabIndex = 57
         '
         'Panel6
@@ -1763,54 +1474,11 @@ Partial Class frmNFA
         Me.Panel6.Controls.Add(Me.txtsearchpending)
         Me.Panel6.Controls.Add(Me.Label42)
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel6.Location = New System.Drawing.Point(-4, 0)
+        Me.Panel6.Location = New System.Drawing.Point(419, 0)
         Me.Panel6.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(645, 48)
         Me.Panel6.TabIndex = 3
-        '
-        'btnpendingexport
-        '
-        Me.btnpendingexport.FlatAppearance.BorderSize = 0
-        Me.btnpendingexport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnpendingexport.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnpendingexport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnpendingexport.ImageKey = "Excel-icon.png"
-        Me.btnpendingexport.ImageList = Me.ImageList2
-        Me.btnpendingexport.Location = New System.Drawing.Point(454, 6)
-        Me.btnpendingexport.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.btnpendingexport.Name = "btnpendingexport"
-        Me.btnpendingexport.Size = New System.Drawing.Size(182, 34)
-        Me.btnpendingexport.TabIndex = 10
-        Me.btnpendingexport.Text = "Export to Excel"
-        Me.btnpendingexport.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btnpendingexport.UseVisualStyleBackColor = True
-        '
-        'btnrefreshpending
-        '
-        Me.btnrefreshpending.FlatAppearance.BorderSize = 0
-        Me.btnrefreshpending.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnrefreshpending.ImageKey = "Actions-view-refresh-icon (1).png"
-        Me.btnrefreshpending.ImageList = Me.ImageList2
-        Me.btnrefreshpending.Location = New System.Drawing.Point(410, 6)
-        Me.btnrefreshpending.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.btnrefreshpending.Name = "btnrefreshpending"
-        Me.btnrefreshpending.Size = New System.Drawing.Size(45, 34)
-        Me.btnrefreshpending.TabIndex = 9
-        Me.btnrefreshpending.UseVisualStyleBackColor = True
-        '
-        'btnsearchpending
-        '
-        Me.btnsearchpending.FlatAppearance.BorderSize = 0
-        Me.btnsearchpending.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnsearchpending.ImageKey = "search-icon (1).png"
-        Me.btnsearchpending.ImageList = Me.ImageList2
-        Me.btnsearchpending.Location = New System.Drawing.Point(364, 6)
-        Me.btnsearchpending.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.btnsearchpending.Name = "btnsearchpending"
-        Me.btnsearchpending.Size = New System.Drawing.Size(45, 34)
-        Me.btnsearchpending.TabIndex = 8
-        Me.btnsearchpending.UseVisualStyleBackColor = True
         '
         'txtsearchpending
         '
@@ -1852,7 +1520,7 @@ Partial Class frmNFA
         Me.Panel12.Location = New System.Drawing.Point(4, 67)
         Me.Panel12.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(645, 5)
+        Me.Panel12.Size = New System.Drawing.Size(1068, 5)
         Me.Panel12.TabIndex = 56
         '
         'Panel13
@@ -1865,19 +1533,8 @@ Partial Class frmNFA
         Me.Panel13.Location = New System.Drawing.Point(4, 5)
         Me.Panel13.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel13.Name = "Panel13"
-        Me.Panel13.Size = New System.Drawing.Size(645, 62)
+        Me.Panel13.Size = New System.Drawing.Size(1068, 62)
         Me.Panel13.TabIndex = 55
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(10, 8)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(45, 46)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 15
-        Me.PictureBox3.TabStop = False
         '
         'Label28
         '
@@ -1902,7 +1559,7 @@ Partial Class frmNFA
         Me.TabPage2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.TabPage2.Size = New System.Drawing.Size(653, 578)
+        Me.TabPage2.Size = New System.Drawing.Size(1076, 812)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Transaction"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -1957,110 +1614,20 @@ Partial Class frmNFA
         Me.panel_transaction.Location = New System.Drawing.Point(4, 130)
         Me.panel_transaction.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.panel_transaction.Name = "panel_transaction"
-        Me.panel_transaction.Size = New System.Drawing.Size(645, 341)
+        Me.panel_transaction.Size = New System.Drawing.Size(1068, 575)
         Me.panel_transaction.TabIndex = 89
-        '
-        'deldriver_name
-        '
-        Me.deldriver_name.BackColor = System.Drawing.Color.Transparent
-        Me.deldriver_name.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.deldriver_name.FlatAppearance.BorderSize = 0
-        Me.deldriver_name.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.deldriver_name.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.deldriver_name.ForeColor = System.Drawing.Color.Black
-        Me.deldriver_name.ImageKey = "delete.png"
-        Me.deldriver_name.ImageList = Me.ImageList1
-        Me.deldriver_name.Location = New System.Drawing.Point(789, 63)
-        Me.deldriver_name.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.deldriver_name.Name = "deldriver_name"
-        Me.deldriver_name.Size = New System.Drawing.Size(40, 42)
-        Me.deldriver_name.TabIndex = 149
-        Me.deldriver_name.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.deldriver_name.UseVisualStyleBackColor = False
-        '
-        'delproduct
-        '
-        Me.delproduct.BackColor = System.Drawing.Color.Transparent
-        Me.delproduct.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.delproduct.FlatAppearance.BorderSize = 0
-        Me.delproduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.delproduct.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.delproduct.ForeColor = System.Drawing.Color.Black
-        Me.delproduct.ImageKey = "delete.png"
-        Me.delproduct.ImageList = Me.ImageList1
-        Me.delproduct.Location = New System.Drawing.Point(789, 214)
-        Me.delproduct.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.delproduct.Name = "delproduct"
-        Me.delproduct.Size = New System.Drawing.Size(40, 42)
-        Me.delproduct.TabIndex = 148
-        Me.delproduct.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.delproduct.UseVisualStyleBackColor = False
-        '
-        'delmode_of_payment
-        '
-        Me.delmode_of_payment.BackColor = System.Drawing.Color.Transparent
-        Me.delmode_of_payment.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.delmode_of_payment.FlatAppearance.BorderSize = 0
-        Me.delmode_of_payment.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.delmode_of_payment.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.delmode_of_payment.ForeColor = System.Drawing.Color.Black
-        Me.delmode_of_payment.ImageKey = "delete.png"
-        Me.delmode_of_payment.ImageList = Me.ImageList1
-        Me.delmode_of_payment.Location = New System.Drawing.Point(471, 266)
-        Me.delmode_of_payment.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.delmode_of_payment.Name = "delmode_of_payment"
-        Me.delmode_of_payment.Size = New System.Drawing.Size(40, 42)
-        Me.delmode_of_payment.TabIndex = 147
-        Me.delmode_of_payment.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.delmode_of_payment.UseVisualStyleBackColor = False
-        '
-        'delweigher
-        '
-        Me.delweigher.BackColor = System.Drawing.Color.Transparent
-        Me.delweigher.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.delweigher.FlatAppearance.BorderSize = 0
-        Me.delweigher.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.delweigher.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.delweigher.ForeColor = System.Drawing.Color.Black
-        Me.delweigher.ImageKey = "delete.png"
-        Me.delweigher.ImageList = Me.ImageList1
-        Me.delweigher.Location = New System.Drawing.Point(789, 165)
-        Me.delweigher.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.delweigher.Name = "delweigher"
-        Me.delweigher.Size = New System.Drawing.Size(40, 42)
-        Me.delweigher.TabIndex = 146
-        Me.delweigher.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.delweigher.UseVisualStyleBackColor = False
-        '
-        'delcustomer_name
-        '
-        Me.delcustomer_name.BackColor = System.Drawing.Color.Transparent
-        Me.delcustomer_name.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.delcustomer_name.FlatAppearance.BorderSize = 0
-        Me.delcustomer_name.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.delcustomer_name.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.delcustomer_name.ForeColor = System.Drawing.Color.Black
-        Me.delcustomer_name.ImageKey = "delete.png"
-        Me.delcustomer_name.ImageList = Me.ImageList1
-        Me.delcustomer_name.Location = New System.Drawing.Point(789, 114)
-        Me.delcustomer_name.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.delcustomer_name.Name = "delcustomer_name"
-        Me.delcustomer_name.Size = New System.Drawing.Size(40, 42)
-        Me.delcustomer_name.TabIndex = 145
-        Me.delcustomer_name.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.delcustomer_name.UseVisualStyleBackColor = False
         '
         'Label17
         '
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Label17.Location = New System.Drawing.Point(375, 68)
+        Me.Label17.Location = New System.Drawing.Point(432, 68)
         Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(122, 24)
+        Me.Label17.Size = New System.Drawing.Size(64, 24)
         Me.Label17.TabIndex = 144
-        Me.Label17.Text = "Driver Name"
+        Me.Label17.Text = "Driver"
         '
         'cbodriver_name
         '
@@ -2182,28 +1749,6 @@ Partial Class frmNFA
         Me.Button1.Text = "&Save"
         Me.Button1.UseVisualStyleBackColor = False
         Me.Button1.Visible = False
-        '
-        'PictureBox5
-        '
-        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(1053, 495)
-        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(34, 26)
-        Me.PictureBox5.TabIndex = 132
-        Me.PictureBox5.TabStop = False
-        Me.PictureBox5.Visible = False
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(1053, 420)
-        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(34, 26)
-        Me.PictureBox4.TabIndex = 131
-        Me.PictureBox4.TabStop = False
-        Me.PictureBox4.Visible = False
         '
         'cboweigher
         '
@@ -2381,8 +1926,7 @@ Partial Class frmNFA
         '
         'cbocustomer_name
         '
-        Me.cbocustomer_name.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
-        Me.cbocustomer_name.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
+        Me.cbocustomer_name.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest
         Me.cbocustomer_name.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbocustomer_name.FormattingEnabled = True
         Me.cbocustomer_name.Items.AddRange(New Object() {"MILLING", "TRANSFER", "DISPERSAL"})
@@ -2446,7 +1990,7 @@ Partial Class frmNFA
         Me.txtplateno.Location = New System.Drawing.Point(224, 65)
         Me.txtplateno.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtplateno.Name = "txtplateno"
-        Me.txtplateno.Size = New System.Drawing.Size(144, 31)
+        Me.txtplateno.Size = New System.Drawing.Size(200, 31)
         Me.txtplateno.TabIndex = 0
         '
         'txtnet
@@ -2482,47 +2026,13 @@ Partial Class frmNFA
         Me.txttare.TabIndex = 111
         Me.txttare.Text = "0"
         '
-        'btnW2
-        '
-        Me.btnW2.BackColor = System.Drawing.Color.Transparent
-        Me.btnW2.FlatAppearance.BorderSize = 0
-        Me.btnW2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnW2.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnW2.ForeColor = System.Drawing.Color.Black
-        Me.btnW2.ImageKey = "Downloads-2-icon (1).png"
-        Me.btnW2.ImageList = Me.ImageList1
-        Me.btnW2.Location = New System.Drawing.Point(990, 488)
-        Me.btnW2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.btnW2.Name = "btnW2"
-        Me.btnW2.Size = New System.Drawing.Size(40, 42)
-        Me.btnW2.TabIndex = 7
-        Me.btnW2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btnW2.UseVisualStyleBackColor = False
-        '
-        'btnW1
-        '
-        Me.btnW1.BackColor = System.Drawing.Color.Transparent
-        Me.btnW1.FlatAppearance.BorderSize = 0
-        Me.btnW1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnW1.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnW1.ForeColor = System.Drawing.Color.Black
-        Me.btnW1.ImageKey = "Downloads-2-icon (1).png"
-        Me.btnW1.ImageList = Me.ImageList1
-        Me.btnW1.Location = New System.Drawing.Point(990, 412)
-        Me.btnW1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.btnW1.Name = "btnW1"
-        Me.btnW1.Size = New System.Drawing.Size(40, 42)
-        Me.btnW1.TabIndex = 6
-        Me.btnW1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btnW1.UseVisualStyleBackColor = False
-        '
         'Panel20
         '
         Me.Panel20.Controls.Add(Me.Label5)
         Me.Panel20.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel20.Location = New System.Drawing.Point(4, 72)
         Me.Panel20.Name = "Panel20"
-        Me.Panel20.Size = New System.Drawing.Size(645, 58)
+        Me.Panel20.Size = New System.Drawing.Size(1068, 58)
         Me.Panel20.TabIndex = 88
         '
         'Label5
@@ -2534,7 +2044,7 @@ Partial Class frmNFA
         Me.Label5.Location = New System.Drawing.Point(0, 0)
         Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(645, 58)
+        Me.Label5.Size = New System.Drawing.Size(1068, 58)
         Me.Label5.TabIndex = 86
         Me.Label5.Text = "NOTE: Transaction will only be consider as COMPLETE when 2nd Weighing is done. Up" &
     "date is still applicable. *Required Fields"
@@ -2549,9 +2059,9 @@ Partial Class frmNFA
         Me.Panel18.Controls.Add(Me.btnSave)
         Me.Panel18.Controls.Add(Me.btnClearEntry)
         Me.Panel18.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel18.Location = New System.Drawing.Point(4, 471)
+        Me.Panel18.Location = New System.Drawing.Point(4, 705)
         Me.Panel18.Name = "Panel18"
-        Me.Panel18.Size = New System.Drawing.Size(645, 102)
+        Me.Panel18.Size = New System.Drawing.Size(1068, 102)
         Me.Panel18.TabIndex = 86
         '
         'btnreprintforGuest
@@ -2580,7 +2090,7 @@ Partial Class frmNFA
         Me.btnreprint.Name = "btnreprint"
         Me.btnreprint.Size = New System.Drawing.Size(129, 52)
         Me.btnreprint.TabIndex = 5
-        Me.btnreprint.Text = "&Re-print"
+        Me.btnreprint.Text = "&Print"
         Me.btnreprint.UseVisualStyleBackColor = False
         Me.btnreprint.Visible = False
         '
@@ -2648,7 +2158,7 @@ Partial Class frmNFA
         Me.Panel10.Location = New System.Drawing.Point(4, 67)
         Me.Panel10.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(645, 5)
+        Me.Panel10.Size = New System.Drawing.Size(1068, 5)
         Me.Panel10.TabIndex = 54
         '
         'Panel11
@@ -2661,19 +2171,8 @@ Partial Class frmNFA
         Me.Panel11.Location = New System.Drawing.Point(4, 5)
         Me.Panel11.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel11.Name = "Panel11"
-        Me.Panel11.Size = New System.Drawing.Size(645, 62)
+        Me.Panel11.Size = New System.Drawing.Size(1068, 62)
         Me.Panel11.TabIndex = 53
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(10, 8)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(45, 46)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 15
-        Me.PictureBox2.TabStop = False
         '
         'Label27
         '
@@ -2687,11 +2186,538 @@ Partial Class frmNFA
         Me.Label27.TabIndex = 0
         Me.Label27.Text = "TRANSACTION WINDOW"
         '
+        'ToolStripMenuItem2
+        '
+        Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(16, 29)
+        '
+        'AboutToolStripMenuItem
+        '
+        Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(78, 29)
+        Me.AboutToolStripMenuItem.Text = "About"
+        '
+        'btnCancel
+        '
+        Me.btnCancel.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.btnCancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.btnCancel.FlatAppearance.BorderSize = 0
+        Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnCancel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCancel.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.btnCancel.ImageKey = "Actions-edit-delete-icon.png"
+        Me.btnCancel.ImageList = Me.ImageList2
+        Me.btnCancel.Location = New System.Drawing.Point(12, 157)
+        Me.btnCancel.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnCancel.Name = "btnCancel"
+        Me.btnCancel.Size = New System.Drawing.Size(64, 38)
+        Me.btnCancel.TabIndex = 6
+        Me.btnCancel.UseVisualStyleBackColor = False
+        '
+        'btnApply
+        '
+        Me.btnApply.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.btnApply.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.btnApply.FlatAppearance.BorderSize = 0
+        Me.btnApply.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnApply.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnApply.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.btnApply.ImageKey = "Actions-dialog-ok-apply-icon.png"
+        Me.btnApply.ImageList = Me.ImageList2
+        Me.btnApply.Location = New System.Drawing.Point(105, 157)
+        Me.btnApply.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnApply.Name = "btnApply"
+        Me.btnApply.Size = New System.Drawing.Size(64, 38)
+        Me.btnApply.TabIndex = 5
+        Me.btnApply.UseVisualStyleBackColor = False
+        '
+        'btncompletedexport
+        '
+        Me.btncompletedexport.FlatAppearance.BorderSize = 0
+        Me.btncompletedexport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btncompletedexport.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btncompletedexport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btncompletedexport.ImageKey = "Excel-icon.png"
+        Me.btncompletedexport.ImageList = Me.ImageList2
+        Me.btncompletedexport.Location = New System.Drawing.Point(819, 6)
+        Me.btncompletedexport.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btncompletedexport.Name = "btncompletedexport"
+        Me.btncompletedexport.Size = New System.Drawing.Size(182, 34)
+        Me.btncompletedexport.TabIndex = 10
+        Me.btncompletedexport.Text = "Export to Excel"
+        Me.btncompletedexport.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.btncompletedexport.UseVisualStyleBackColor = True
+        '
+        'btnrefreshcompleted
+        '
+        Me.btnrefreshcompleted.FlatAppearance.BorderSize = 0
+        Me.btnrefreshcompleted.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnrefreshcompleted.ImageKey = "Actions-view-refresh-icon (1).png"
+        Me.btnrefreshcompleted.ImageList = Me.ImageList2
+        Me.btnrefreshcompleted.Location = New System.Drawing.Point(774, 6)
+        Me.btnrefreshcompleted.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnrefreshcompleted.Name = "btnrefreshcompleted"
+        Me.btnrefreshcompleted.Size = New System.Drawing.Size(45, 34)
+        Me.btnrefreshcompleted.TabIndex = 9
+        Me.btnrefreshcompleted.UseVisualStyleBackColor = True
+        '
+        'btnsearchcompleted
+        '
+        Me.btnsearchcompleted.FlatAppearance.BorderSize = 0
+        Me.btnsearchcompleted.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnsearchcompleted.ImageKey = "search-icon (1).png"
+        Me.btnsearchcompleted.ImageList = Me.ImageList2
+        Me.btnsearchcompleted.Location = New System.Drawing.Point(729, 6)
+        Me.btnsearchcompleted.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnsearchcompleted.Name = "btnsearchcompleted"
+        Me.btnsearchcompleted.Size = New System.Drawing.Size(45, 34)
+        Me.btnsearchcompleted.TabIndex = 8
+        Me.btnsearchcompleted.UseVisualStyleBackColor = True
+        '
+        'btnpendingexport
+        '
+        Me.btnpendingexport.FlatAppearance.BorderSize = 0
+        Me.btnpendingexport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnpendingexport.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnpendingexport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnpendingexport.ImageKey = "Excel-icon.png"
+        Me.btnpendingexport.ImageList = Me.ImageList2
+        Me.btnpendingexport.Location = New System.Drawing.Point(454, 6)
+        Me.btnpendingexport.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnpendingexport.Name = "btnpendingexport"
+        Me.btnpendingexport.Size = New System.Drawing.Size(182, 34)
+        Me.btnpendingexport.TabIndex = 10
+        Me.btnpendingexport.Text = "Export to Excel"
+        Me.btnpendingexport.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.btnpendingexport.UseVisualStyleBackColor = True
+        '
+        'btnrefreshpending
+        '
+        Me.btnrefreshpending.FlatAppearance.BorderSize = 0
+        Me.btnrefreshpending.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnrefreshpending.ImageKey = "Actions-view-refresh-icon (1).png"
+        Me.btnrefreshpending.ImageList = Me.ImageList2
+        Me.btnrefreshpending.Location = New System.Drawing.Point(410, 6)
+        Me.btnrefreshpending.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnrefreshpending.Name = "btnrefreshpending"
+        Me.btnrefreshpending.Size = New System.Drawing.Size(45, 34)
+        Me.btnrefreshpending.TabIndex = 9
+        Me.btnrefreshpending.UseVisualStyleBackColor = True
+        '
+        'btnsearchpending
+        '
+        Me.btnsearchpending.FlatAppearance.BorderSize = 0
+        Me.btnsearchpending.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnsearchpending.ImageKey = "search-icon (1).png"
+        Me.btnsearchpending.ImageList = Me.ImageList2
+        Me.btnsearchpending.Location = New System.Drawing.Point(364, 6)
+        Me.btnsearchpending.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnsearchpending.Name = "btnsearchpending"
+        Me.btnsearchpending.Size = New System.Drawing.Size(45, 34)
+        Me.btnsearchpending.TabIndex = 8
+        Me.btnsearchpending.UseVisualStyleBackColor = True
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
+        Me.PictureBox3.Location = New System.Drawing.Point(10, 8)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(45, 46)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 15
+        Me.PictureBox3.TabStop = False
+        '
+        'deldriver_name
+        '
+        Me.deldriver_name.BackColor = System.Drawing.Color.Transparent
+        Me.deldriver_name.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.deldriver_name.FlatAppearance.BorderSize = 0
+        Me.deldriver_name.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.deldriver_name.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.deldriver_name.ForeColor = System.Drawing.Color.Black
+        Me.deldriver_name.ImageKey = "delete.png"
+        Me.deldriver_name.ImageList = Me.ImageList1
+        Me.deldriver_name.Location = New System.Drawing.Point(789, 63)
+        Me.deldriver_name.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.deldriver_name.Name = "deldriver_name"
+        Me.deldriver_name.Size = New System.Drawing.Size(40, 42)
+        Me.deldriver_name.TabIndex = 149
+        Me.deldriver_name.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.deldriver_name.UseVisualStyleBackColor = False
+        '
+        'delproduct
+        '
+        Me.delproduct.BackColor = System.Drawing.Color.Transparent
+        Me.delproduct.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.delproduct.FlatAppearance.BorderSize = 0
+        Me.delproduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.delproduct.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.delproduct.ForeColor = System.Drawing.Color.Black
+        Me.delproduct.ImageKey = "delete.png"
+        Me.delproduct.ImageList = Me.ImageList1
+        Me.delproduct.Location = New System.Drawing.Point(789, 214)
+        Me.delproduct.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.delproduct.Name = "delproduct"
+        Me.delproduct.Size = New System.Drawing.Size(40, 42)
+        Me.delproduct.TabIndex = 148
+        Me.delproduct.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.delproduct.UseVisualStyleBackColor = False
+        '
+        'delmode_of_payment
+        '
+        Me.delmode_of_payment.BackColor = System.Drawing.Color.Transparent
+        Me.delmode_of_payment.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.delmode_of_payment.FlatAppearance.BorderSize = 0
+        Me.delmode_of_payment.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.delmode_of_payment.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.delmode_of_payment.ForeColor = System.Drawing.Color.Black
+        Me.delmode_of_payment.ImageKey = "delete.png"
+        Me.delmode_of_payment.ImageList = Me.ImageList1
+        Me.delmode_of_payment.Location = New System.Drawing.Point(471, 266)
+        Me.delmode_of_payment.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.delmode_of_payment.Name = "delmode_of_payment"
+        Me.delmode_of_payment.Size = New System.Drawing.Size(40, 42)
+        Me.delmode_of_payment.TabIndex = 147
+        Me.delmode_of_payment.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.delmode_of_payment.UseVisualStyleBackColor = False
+        '
+        'delweigher
+        '
+        Me.delweigher.BackColor = System.Drawing.Color.Transparent
+        Me.delweigher.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.delweigher.FlatAppearance.BorderSize = 0
+        Me.delweigher.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.delweigher.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.delweigher.ForeColor = System.Drawing.Color.Black
+        Me.delweigher.ImageKey = "delete.png"
+        Me.delweigher.ImageList = Me.ImageList1
+        Me.delweigher.Location = New System.Drawing.Point(789, 165)
+        Me.delweigher.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.delweigher.Name = "delweigher"
+        Me.delweigher.Size = New System.Drawing.Size(40, 42)
+        Me.delweigher.TabIndex = 146
+        Me.delweigher.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.delweigher.UseVisualStyleBackColor = False
+        '
+        'delcustomer_name
+        '
+        Me.delcustomer_name.BackColor = System.Drawing.Color.Transparent
+        Me.delcustomer_name.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.delcustomer_name.FlatAppearance.BorderSize = 0
+        Me.delcustomer_name.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.delcustomer_name.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.delcustomer_name.ForeColor = System.Drawing.Color.Black
+        Me.delcustomer_name.ImageKey = "delete.png"
+        Me.delcustomer_name.ImageList = Me.ImageList1
+        Me.delcustomer_name.Location = New System.Drawing.Point(789, 114)
+        Me.delcustomer_name.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.delcustomer_name.Name = "delcustomer_name"
+        Me.delcustomer_name.Size = New System.Drawing.Size(40, 42)
+        Me.delcustomer_name.TabIndex = 145
+        Me.delcustomer_name.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.delcustomer_name.UseVisualStyleBackColor = False
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
+        Me.PictureBox5.Location = New System.Drawing.Point(1053, 495)
+        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(34, 26)
+        Me.PictureBox5.TabIndex = 132
+        Me.PictureBox5.TabStop = False
+        Me.PictureBox5.Visible = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
+        Me.PictureBox4.Location = New System.Drawing.Point(1053, 420)
+        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(34, 26)
+        Me.PictureBox4.TabIndex = 131
+        Me.PictureBox4.TabStop = False
+        Me.PictureBox4.Visible = False
+        '
+        'btnW2
+        '
+        Me.btnW2.BackColor = System.Drawing.Color.Transparent
+        Me.btnW2.FlatAppearance.BorderSize = 0
+        Me.btnW2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnW2.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnW2.ForeColor = System.Drawing.Color.Black
+        Me.btnW2.ImageKey = "Downloads-2-icon (1).png"
+        Me.btnW2.ImageList = Me.ImageList1
+        Me.btnW2.Location = New System.Drawing.Point(990, 488)
+        Me.btnW2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnW2.Name = "btnW2"
+        Me.btnW2.Size = New System.Drawing.Size(40, 42)
+        Me.btnW2.TabIndex = 7
+        Me.btnW2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.btnW2.UseVisualStyleBackColor = False
+        '
+        'btnW1
+        '
+        Me.btnW1.BackColor = System.Drawing.Color.Transparent
+        Me.btnW1.FlatAppearance.BorderSize = 0
+        Me.btnW1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnW1.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnW1.ForeColor = System.Drawing.Color.Black
+        Me.btnW1.ImageKey = "Downloads-2-icon (1).png"
+        Me.btnW1.ImageList = Me.ImageList1
+        Me.btnW1.Location = New System.Drawing.Point(990, 412)
+        Me.btnW1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnW1.Name = "btnW1"
+        Me.btnW1.Size = New System.Drawing.Size(40, 42)
+        Me.btnW1.TabIndex = 6
+        Me.btnW1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.btnW1.UseVisualStyleBackColor = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(10, 8)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(45, 46)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 15
+        Me.PictureBox2.TabStop = False
+        '
+        'btnEditTransaction
+        '
+        Me.btnEditTransaction.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnEditTransaction.FlatAppearance.BorderSize = 0
+        Me.btnEditTransaction.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AliceBlue
+        Me.btnEditTransaction.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnEditTransaction.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnEditTransaction.Image = CType(resources.GetObject("btnEditTransaction.Image"), System.Drawing.Image)
+        Me.btnEditTransaction.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.btnEditTransaction.Location = New System.Drawing.Point(218, 5)
+        Me.btnEditTransaction.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnEditTransaction.Name = "btnEditTransaction"
+        Me.btnEditTransaction.Size = New System.Drawing.Size(195, 140)
+        Me.btnEditTransaction.TabIndex = 4
+        Me.btnEditTransaction.Text = "&EDIT TRANSACTION" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(F2)"
+        Me.btnEditTransaction.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnEditTransaction.UseVisualStyleBackColor = True
+        '
+        'btnDelete
+        '
+        Me.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnDelete.FlatAppearance.BorderSize = 0
+        Me.btnDelete.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AliceBlue
+        Me.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnDelete.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnDelete.Image = CType(resources.GetObject("btnDelete.Image"), System.Drawing.Image)
+        Me.btnDelete.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.btnDelete.Location = New System.Drawing.Point(416, 5)
+        Me.btnDelete.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnDelete.Name = "btnDelete"
+        Me.btnDelete.Size = New System.Drawing.Size(195, 140)
+        Me.btnDelete.TabIndex = 3
+        Me.btnDelete.Text = "&DELETE TRANSACTION" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(DEL)"
+        Me.btnDelete.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnDelete.UseVisualStyleBackColor = True
+        '
+        'btnAddTransaction
+        '
+        Me.btnAddTransaction.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnAddTransaction.FlatAppearance.BorderSize = 0
+        Me.btnAddTransaction.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AliceBlue
+        Me.btnAddTransaction.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAddTransaction.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAddTransaction.Image = CType(resources.GetObject("btnAddTransaction.Image"), System.Drawing.Image)
+        Me.btnAddTransaction.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.btnAddTransaction.Location = New System.Drawing.Point(20, 5)
+        Me.btnAddTransaction.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnAddTransaction.Name = "btnAddTransaction"
+        Me.btnAddTransaction.Size = New System.Drawing.Size(195, 140)
+        Me.btnAddTransaction.TabIndex = 0
+        Me.btnAddTransaction.Text = "&ADD TRANSACTION" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(F3)"
+        Me.btnAddTransaction.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnAddTransaction.UseVisualStyleBackColor = True
+        '
+        'menuitem_addtransaction
+        '
+        Me.menuitem_addtransaction.Image = CType(resources.GetObject("menuitem_addtransaction.Image"), System.Drawing.Image)
+        Me.menuitem_addtransaction.Name = "menuitem_addtransaction"
+        Me.menuitem_addtransaction.ShortcutKeys = System.Windows.Forms.Keys.F3
+        Me.menuitem_addtransaction.Size = New System.Drawing.Size(295, 34)
+        Me.menuitem_addtransaction.Text = "&Add Transaction"
+        '
+        'menuitem_edittransaction
+        '
+        Me.menuitem_edittransaction.Image = CType(resources.GetObject("menuitem_edittransaction.Image"), System.Drawing.Image)
+        Me.menuitem_edittransaction.Name = "menuitem_edittransaction"
+        Me.menuitem_edittransaction.ShortcutKeys = System.Windows.Forms.Keys.F2
+        Me.menuitem_edittransaction.Size = New System.Drawing.Size(295, 34)
+        Me.menuitem_edittransaction.Text = "&Edit Transaction"
+        '
+        'menuitem_deletetransaction
+        '
+        Me.menuitem_deletetransaction.Image = CType(resources.GetObject("menuitem_deletetransaction.Image"), System.Drawing.Image)
+        Me.menuitem_deletetransaction.Name = "menuitem_deletetransaction"
+        Me.menuitem_deletetransaction.ShortcutKeys = System.Windows.Forms.Keys.Delete
+        Me.menuitem_deletetransaction.Size = New System.Drawing.Size(295, 34)
+        Me.menuitem_deletetransaction.Text = "&Delete Transaction"
+        '
+        'menuitem_refreshall
+        '
+        Me.menuitem_refreshall.Image = CType(resources.GetObject("menuitem_refreshall.Image"), System.Drawing.Image)
+        Me.menuitem_refreshall.Name = "menuitem_refreshall"
+        Me.menuitem_refreshall.ShortcutKeys = System.Windows.Forms.Keys.F5
+        Me.menuitem_refreshall.Size = New System.Drawing.Size(295, 34)
+        Me.menuitem_refreshall.Text = "Refresh All"
+        '
+        'menuitem_exit
+        '
+        Me.menuitem_exit.Image = CType(resources.GetObject("menuitem_exit.Image"), System.Drawing.Image)
+        Me.menuitem_exit.Name = "menuitem_exit"
+        Me.menuitem_exit.Size = New System.Drawing.Size(295, 34)
+        Me.menuitem_exit.Text = "E&xit"
+        '
+        'menuitem_portconfiguration
+        '
+        Me.menuitem_portconfiguration.Image = CType(resources.GetObject("menuitem_portconfiguration.Image"), System.Drawing.Image)
+        Me.menuitem_portconfiguration.Name = "menuitem_portconfiguration"
+        Me.menuitem_portconfiguration.Size = New System.Drawing.Size(363, 34)
+        Me.menuitem_portconfiguration.Text = "Port Configuration"
+        '
+        'menuitem_useraccounts
+        '
+        Me.menuitem_useraccounts.Image = CType(resources.GetObject("menuitem_useraccounts.Image"), System.Drawing.Image)
+        Me.menuitem_useraccounts.Name = "menuitem_useraccounts"
+        Me.menuitem_useraccounts.Size = New System.Drawing.Size(363, 34)
+        Me.menuitem_useraccounts.Text = "User Accounts"
+        '
+        'PermissionLevelSetupToolStripMenuItem
+        '
+        Me.PermissionLevelSetupToolStripMenuItem.Image = CType(resources.GetObject("PermissionLevelSetupToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.PermissionLevelSetupToolStripMenuItem.Name = "PermissionLevelSetupToolStripMenuItem"
+        Me.PermissionLevelSetupToolStripMenuItem.Size = New System.Drawing.Size(363, 34)
+        Me.PermissionLevelSetupToolStripMenuItem.Text = "Permission Level Setup"
+        '
+        'ChangeSystemResetPasswordToolStripMenuItem
+        '
+        Me.ChangeSystemResetPasswordToolStripMenuItem.Image = CType(resources.GetObject("ChangeSystemResetPasswordToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.ChangeSystemResetPasswordToolStripMenuItem.Name = "ChangeSystemResetPasswordToolStripMenuItem"
+        Me.ChangeSystemResetPasswordToolStripMenuItem.Size = New System.Drawing.Size(363, 34)
+        Me.ChangeSystemResetPasswordToolStripMenuItem.Text = "Change System Reset Password"
+        '
+        'AddNewToolStripMenuItem
+        '
+        Me.AddNewToolStripMenuItem.Image = CType(resources.GetObject("AddNewToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.AddNewToolStripMenuItem.Name = "AddNewToolStripMenuItem"
+        Me.AddNewToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F3
+        Me.AddNewToolStripMenuItem.Size = New System.Drawing.Size(166, 26)
+        Me.AddNewToolStripMenuItem.Text = "Add / New"
+        '
+        'EditUpdateToolStripMenuItem
+        '
+        Me.EditUpdateToolStripMenuItem.Image = CType(resources.GetObject("EditUpdateToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.EditUpdateToolStripMenuItem.Name = "EditUpdateToolStripMenuItem"
+        Me.EditUpdateToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2
+        Me.EditUpdateToolStripMenuItem.Size = New System.Drawing.Size(166, 26)
+        Me.EditUpdateToolStripMenuItem.Text = "Edit / Update"
+        '
+        'RefreshToolStripMenuItem
+        '
+        Me.RefreshToolStripMenuItem.Image = CType(resources.GetObject("RefreshToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.RefreshToolStripMenuItem.Name = "RefreshToolStripMenuItem"
+        Me.RefreshToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F5
+        Me.RefreshToolStripMenuItem.Size = New System.Drawing.Size(156, 26)
+        Me.RefreshToolStripMenuItem.Text = "&Refresh"
+        '
+        'ExitToolStripMenuItem
+        '
+        Me.ExitToolStripMenuItem.Image = CType(resources.GetObject("ExitToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(156, 26)
+        Me.ExitToolStripMenuItem.Text = "Exit"
+        '
+        'PortConfigurationToolStripMenuItem
+        '
+        Me.PortConfigurationToolStripMenuItem.Image = CType(resources.GetObject("PortConfigurationToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.PortConfigurationToolStripMenuItem.Name = "PortConfigurationToolStripMenuItem"
+        Me.PortConfigurationToolStripMenuItem.Size = New System.Drawing.Size(177, 26)
+        Me.PortConfigurationToolStripMenuItem.Text = "&Port Configuration"
+        '
+        'UserAccountsToolStripMenuItem
+        '
+        Me.UserAccountsToolStripMenuItem.Image = CType(resources.GetObject("UserAccountsToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.UserAccountsToolStripMenuItem.Name = "UserAccountsToolStripMenuItem"
+        Me.UserAccountsToolStripMenuItem.Size = New System.Drawing.Size(177, 26)
+        Me.UserAccountsToolStripMenuItem.Text = "&User Account(s)"
+        '
+        'btnsearchpendingtransaction
+        '
+        Me.btnsearchpendingtransaction.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.btnsearchpendingtransaction.Image = CType(resources.GetObject("btnsearchpendingtransaction.Image"), System.Drawing.Image)
+        Me.btnsearchpendingtransaction.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnsearchpendingtransaction.Name = "btnsearchpendingtransaction"
+        Me.btnsearchpendingtransaction.Size = New System.Drawing.Size(23, 28)
+        Me.btnsearchpendingtransaction.Text = "ToolStripButton2"
+        '
+        'btnrefreshpendingtransaction
+        '
+        Me.btnrefreshpendingtransaction.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.btnrefreshpendingtransaction.Image = CType(resources.GetObject("btnrefreshpendingtransaction.Image"), System.Drawing.Image)
+        Me.btnrefreshpendingtransaction.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnrefreshpendingtransaction.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnrefreshpendingtransaction.Name = "btnrefreshpendingtransaction"
+        Me.btnrefreshpendingtransaction.Size = New System.Drawing.Size(23, 28)
+        Me.btnrefreshpendingtransaction.Text = "Refresh"
+        Me.btnrefreshpendingtransaction.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'ToolStripButton3
+        '
+        Me.ToolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButton3.Image = CType(resources.GetObject("ToolStripButton3.Image"), System.Drawing.Image)
+        Me.ToolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton3.Name = "ToolStripButton3"
+        Me.ToolStripButton3.Size = New System.Drawing.Size(23, 28)
+        Me.ToolStripButton3.Text = "ToolStripButton2"
+        '
+        'ToolStripButton6
+        '
+        Me.ToolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButton6.Image = CType(resources.GetObject("ToolStripButton6.Image"), System.Drawing.Image)
+        Me.ToolStripButton6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.ToolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton6.Name = "ToolStripButton6"
+        Me.ToolStripButton6.Size = New System.Drawing.Size(23, 28)
+        Me.ToolStripButton6.Text = "Refresh"
+        Me.ToolStripButton6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'btncompletetransactionexport
+        '
+        Me.btncompletetransactionexport.Image = CType(resources.GetObject("btncompletetransactionexport.Image"), System.Drawing.Image)
+        Me.btncompletetransactionexport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btncompletetransactionexport.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btncompletetransactionexport.Name = "btncompletetransactionexport"
+        Me.btncompletetransactionexport.Size = New System.Drawing.Size(115, 28)
+        Me.btncompletetransactionexport.Text = "Export to Excel"
+        Me.btncompletetransactionexport.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'ToolStripSeparator13
+        '
+        Me.ToolStripSeparator13.Name = "ToolStripSeparator13"
+        Me.ToolStripSeparator13.Size = New System.Drawing.Size(360, 6)
+        '
+        'ApplicationToolStripMenuItem
+        '
+        Me.ApplicationToolStripMenuItem.Image = CType(resources.GetObject("ApplicationToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.ApplicationToolStripMenuItem.Name = "ApplicationToolStripMenuItem"
+        Me.ApplicationToolStripMenuItem.Size = New System.Drawing.Size(363, 34)
+        Me.ApplicationToolStripMenuItem.Text = "System Settings"
+        '
         'frmNFA
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1350, 842)
+        Me.ClientSize = New System.Drawing.Size(1773, 1076)
         Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.Panel8)
         Me.Controls.Add(Me.StatusStrip3)
@@ -2745,22 +2771,22 @@ Partial Class frmNFA
         Me.Panel6.PerformLayout()
         Me.Panel13.ResumeLayout(False)
         Me.Panel13.PerformLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage2.ResumeLayout(False)
         Me.panel_transaction.ResumeLayout(False)
         Me.panel_transaction.PerformLayout()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel20.ResumeLayout(False)
         Me.Panel18.ResumeLayout(False)
         Me.Panel11.ResumeLayout(False)
         Me.Panel11.PerformLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Label1 As Label
+    Friend WithEvents lblCompanyName As Label
     Friend WithEvents lblbranchloc As Label
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents FileToolStripMenuItem As ToolStripMenuItem
@@ -2982,4 +3008,8 @@ Partial Class frmNFA
     Friend WithEvents DataGridViewTextBoxColumn9 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn10 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn12 As DataGridViewTextBoxColumn
+    Friend WithEvents ToolStripMenuItem2 As ToolStripMenuItem
+    Friend WithEvents AboutToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ToolStripSeparator13 As ToolStripSeparator
+    Friend WithEvents ApplicationToolStripMenuItem As ToolStripMenuItem
 End Class

@@ -1,0 +1,9 @@
+{
+  "settings": {
+    "application": {
+      "description": { "value": "This feature enables easy updates to interface text without changing the application code, ensuring that information remains accurate, relevant, and aligned with user preferences or branding requirements." },
+      "companyName": { "value": "JLIM TRUCK SCALE" },
+      "addressLine": { "value": "PASACAO, CAMARINES SUR" }
+    }
+  }
+}

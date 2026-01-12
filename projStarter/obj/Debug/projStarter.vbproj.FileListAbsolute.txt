@@ -350,3 +350,37 @@ C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\pr
 C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.exe
 C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.xml
 C:\Users\admin\OneDrive\Desktop\Working Folder\JLIM_20231023\JLIM\projStarter\projStarter\obj\Debug\JLIM.pdb
+D:\dpc\JLIM\projStarter\bin\Debug\JLIM.exe.config
+D:\dpc\JLIM\projStarter\bin\Debug\JLIM.exe.manifest
+D:\dpc\JLIM\projStarter\bin\Debug\JLIM.application
+D:\dpc\JLIM\projStarter\bin\Debug\JLIM.exe
+D:\dpc\JLIM\projStarter\bin\Debug\JLIM.pdb
+D:\dpc\JLIM\projStarter\bin\Debug\JLIM.xml
+D:\dpc\JLIM\projStarter\obj\Debug\projStarter.vbproj.AssemblyReference.cache
+D:\dpc\JLIM\projStarter\obj\Debug\projStarter.vbproj.ResolveComReference.cache
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.frmAccessLevelSettings.resources
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.frmDeveloperTools.resources
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.frmLicenseEntry.resources
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.frmLogin.resources
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.frmSplashScreen.resources
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.frmSystemReset.resources
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.frmUserAccounts.resources
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.frmUserRegistration.resources
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.Form1.resources
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.Form2.resources
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.frmNFA.resources
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.frmPortConfiguration.resources
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.frmTransactionWindow.resources
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.frmWeighingReading.resources
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.Resources.resources
+D:\dpc\JLIM\projStarter\obj\Debug\projStarter.vbproj.GenerateResource.cache
+D:\dpc\JLIM\projStarter\obj\Debug\projStarter.vbproj.CoreCompileInputs.cache
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.TrustInfo.xml
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.exe.manifest
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.application
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.exe
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.xml
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.pdb
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.frmAbout.resources
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.frmSettings.resources
+D:\dpc\JLIM\projStarter\obj\Debug\JLIM.exe.config

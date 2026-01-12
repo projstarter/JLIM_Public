@@ -101,6 +101,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -122,6 +123,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="basic form%28s%29\frmAbout.Designer.vb">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="basic form%28s%29\frmAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="basic form%28s%29\frmAccessLevelSettings.Designer.vb">
       <DependentUpon>frmAccessLevelSettings.vb</DependentUpon>
     </Compile>
@@ -144,6 +151,12 @@
       <DependentUpon>frmLogin.vb</DependentUpon>
     </Compile>
     <Compile Include="basic form%28s%29\frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="basic form%28s%29\frmSettingsvb.Designer.vb">
+      <DependentUpon>frmSettingsvb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="basic form%28s%29\frmSettingsvb.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="basic form%28s%29\frmSplashScreen.Designer.vb">
@@ -213,6 +226,7 @@
     <Compile Include="module\mdlCommonFunctions.vb" />
     <Compile Include="module\mdlDataManipulation.vb" />
     <Compile Include="module\mdlVariables.vb" />
+    <Compile Include="module\SystemCustomSettings.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -231,6 +245,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="basic form%28s%29\frmAbout.resx">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="basic form%28s%29\frmAccessLevelSettings.resx">
       <DependentUpon>frmAccessLevelSettings.vb</DependentUpon>
     </EmbeddedResource>
@@ -242,6 +259,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="basic form%28s%29\frmLogin.resx">
       <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="basic form%28s%29\frmSettingsvb.resx">
+      <DependentUpon>frmSettingsvb.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="basic form%28s%29\frmSplashScreen.resx">
       <DependentUpon>frmSplashScreen.vb</DependentUpon>
@@ -292,6 +312,7 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="System.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="projStarter_TemporaryKey.pfx" />

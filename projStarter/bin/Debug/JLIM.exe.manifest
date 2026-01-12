@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JLIM.exe" size="1037824">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JLIM.exe" size="2880000">
       <assemblyIdentity name="JLIM" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Pr10LbemJW9LFuigDNl7xHzzWz+XpyPducY0umMQ0zM=</dsig:DigestValue>
+        <dsig:DigestValue>4AR1ke8UnPbVl2QPCf+hIsZ8T2FD2NFd0iHoqwRcjbA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -63,13 +63,13 @@
       <dsig:DigestValue>JPLkg6OqEFpVHtPZZA4PC7yUwqf6FLhe5PqbTeJPcLg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="JLIM.exe.config" size="2067">
+  <file name="JLIM.exe.config" size="1680">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>/vZ4gG2hSHck8YdtkFG0tqckncicjZDpT9Dkfzuj3oY=</dsig:DigestValue>
+      <dsig:DigestValue>17GFj19ydiiZqEeGo7c/tpxUbZCD1NNtqlq7N98YEA4=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

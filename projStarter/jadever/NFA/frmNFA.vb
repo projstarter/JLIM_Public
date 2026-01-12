@@ -3,6 +3,7 @@ Imports System.Globalization
 Imports System.IO
 Imports System.IO.Ports
 Imports System.Text.RegularExpressions
+Imports System.Windows.Forms.VisualStyles
 Imports System.Xml
 Imports Excel = Microsoft.Office.Interop.Excel
 
@@ -209,8 +210,11 @@ Public Class frmNFA
         'delweigher.Visible = (thisUser.UserFunction.ToString.ToLower.Contains("admin"))
 
     End Sub
+
     Private Sub PopulateComboBoxes()
-        PopulateCbo1(cbocustomer_name, "SELECT DISTINCT Customer_Name FROM tbltransaction WHERE  FORMAT(transaction_date,""yyyy-MM-dd"") >='" & Format(DateAdd(DateInterval.Day, -30, Now()), "yyyy-MM-dd") & "'")
+        PopulateCbo(customerList, "SELECT DISTINCT Customer_Name FROM tbltransaction")
+        PopulateCbo(cbocustomer_name, "SELECT DISTINCT Customer_Name FROM tbltransaction")
+        'PopulateCbo(customerList, "SELECT DISTINCT Customer_Name FROM tbltransaction WHERE  FORMAT(transaction_date,""yyyy-MM-dd"") >='" & Format(DateAdd(DateInterval.Day, -30, Now()), "yyyy-MM-dd") & "'")
         PopulateCbo1(cboproduct, "SELECT DISTINCT product FROM tbltransaction WHERE  FORMAT(transaction_date,""yyyy-MM-dd"") >='" & Format(DateAdd(DateInterval.Day, -30, Now()), "yyyy-MM-dd") & "'")
         PopulateCbo1(cbodriver_name, "SELECT DISTINCT driver_name FROM tbltransaction WHERE  FORMAT(transaction_date,""yyyy-MM-dd"") >='" & Format(DateAdd(DateInterval.Day, -30, Now()), "yyyy-MM-dd") & "'")
         PopulateCbo1(cboweigher, "SELECT DISTINCT weigher FROM tbltransaction WHERE  FORMAT(transaction_date,""yyyy-MM-dd"") >='" & Format(DateAdd(DateInterval.Day, -30, Now()), "yyyy-MM-dd") & "'")
@@ -229,18 +233,20 @@ Public Class frmNFA
 
     End Sub
 
-
     Private Sub frmNFA_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        CheckForIllegalCrossThreadCalls = False
 
+
+
+
+
+        cbocustomer_name.SelectedIndex = -1
+
+        CheckForIllegalCrossThreadCalls = False
         ' prepare the controls 
         Initialize()
-
         ' populate the lists
         PopulatePendingTransactions()
         PopulateCompletedTransaction()
-
-
     End Sub
 
     Private Sub ConnectToWeighScale()
@@ -319,6 +325,10 @@ Public Class frmNFA
     End Sub
 
     Private Sub btnDelete_Click(sender As Object, e As EventArgs) Handles btnDelete.Click, menuitem_deletetransaction.Click
+
+        If activeDtg Is Nothing Then
+            Return
+        End If
 
         Dim forDelete As String = ""
         For i As Integer = 0 To activeDtg.Rows.Count - 1
@@ -456,6 +466,7 @@ Public Class frmNFA
         End With
     End Function
     Private Sub weighScale_DataReceived(sender As Object, e As Ports.SerialDataReceivedEventArgs) Handles weighScale.DataReceived
+
 
 
         Dim str As String = weighScale.ReadLine()
@@ -815,6 +826,9 @@ Public Class frmNFA
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        lblCompanyName.Text = My.Settings.companyTitle
+        lblbranchloc.Text = My.Settings.companyTitle
+
         lblstatus.Text = String.Format("State: {0}", transactionpro_status)
         lbleditstatus.Text = String.Format("Edit Mode: {0}", EditMode)
         lblportStatus.Text = String.Format("Port: {0} ({1})", My.Settings.portname, IIf((weighScale.IsOpen), "Open", "Closed"))
@@ -1097,7 +1111,7 @@ Public Class frmNFA
     End Sub
 
     Private Sub btnreprint_Click(sender As Object, e As EventArgs) Handles btnreprint.Click, btnreprintforGuest.Click
-        If (MessageBox.Show("Are you sure you want to re-print the selected record?", "Print confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes) Then
+        If (MessageBox.Show("Are you sure you want to print the selected record?", "Print confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes) Then
             Print(txtreferenceno.Text)
         End If
     End Sub
@@ -1238,5 +1252,95 @@ Public Class frmNFA
 
 
     End Sub
+    Dim customerList As ComboBox = New ComboBox
+    Private isFiltering As Boolean = False
+    Private isNavigating As Boolean = False
+    Private firstTypedChar As Char? = Nothing
+    Private isDeleting As Boolean = False
 
+    Private Sub cbocustomer_name_TextChanged(
+    sender As Object, e As EventArgs
+) Handles cbocustomer_name.TextChanged
+
+        If isNavigating Then Return
+
+        Dim text As String = cbocustomer_name.Text
+
+        ' ❗ Only restore first letter if NOT deleting
+        If Not isDeleting AndAlso firstTypedChar.HasValue AndAlso text.Length = 0 Then
+            text = firstTypedChar.Value.ToString()
+            cbocustomer_name.Text = text
+            cbocustomer_name.SelectionStart = text.Length
+        End If
+
+        cbocustomer_name.BeginUpdate()
+        cbocustomer_name.Items.Clear()
+
+        If text = "" Then
+            cbocustomer_name.Items.AddRange(customerList.Items.Cast(Of String)().ToArray())
+        Else
+            For Each item As String In customerList.Items.Cast(Of String)()
+                If item.IndexOf(text, StringComparison.OrdinalIgnoreCase) >= 0 Then
+                    cbocustomer_name.Items.Add(item)
+                End If
+            Next
+        End If
+
+        cbocustomer_name.EndUpdate()
+
+        cbocustomer_name.DroppedDown = True
+        cbocustomer_name.SelectionStart = cbocustomer_name.Text.Length
+        cbocustomer_name.SelectionLength = 0
+        cbocustomer_name.SelectedIndex = -1
+    End Sub
+
+    Private Sub cbocustomer_name_KeyDown(
+    sender As Object, e As KeyEventArgs
+) Handles cbocustomer_name.KeyDown
+
+        Select Case e.KeyCode
+            Case Keys.Down, Keys.Up
+                isNavigating = True
+                isDeleting = False
+
+            Case Keys.Back, Keys.Delete
+                isDeleting = True
+                firstTypedChar = Nothing   ' reset captured char
+
+            Case Else
+                isNavigating = False
+                isDeleting = False
+        End Select
+    End Sub
+    Private Sub cbocustomer_name_SelectionChangeCommitted(
+    sender As Object, e As EventArgs
+) Handles cbocustomer_name.SelectionChangeCommitted
+
+        isNavigating = False
+        isDeleting = False
+        firstTypedChar = Nothing
+        cbocustomer_name.Text = cbocustomer_name.SelectedItem.ToString()
+    End Sub
+
+    Private Sub cbocustomer_name_KeyPress(
+    sender As Object, e As KeyPressEventArgs
+) Handles cbocustomer_name.KeyPress
+
+        ' Capture first typed character only
+        If firstTypedChar Is Nothing AndAlso Char.IsLetterOrDigit(e.KeyChar) Then
+            firstTypedChar = e.KeyChar
+        Else
+
+        End If
+    End Sub
+
+    Private Sub AboutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutToolStripMenuItem.Click
+        frmAbout.ShowDialog()
+    End Sub
+
+    Private Sub ApplicationToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ApplicationToolStripMenuItem.Click
+        frmSettings.ShowDialog()
+    End Sub
 End Class
+
+

@@ -8,10 +8,10 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("projStarter")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("projStarter")>
+<Assembly: AssemblyTitle("WeighPoint")>
+<Assembly: AssemblyDescription("A point-of-sale system integrated with a weighing scale for automatic weight capture, accurate pricing, and reliable transaction recording.")>
+<Assembly: AssemblyCompany("Condes Solutions")>
+<Assembly: AssemblyProduct("WeighPoint")>
 <Assembly: AssemblyCopyright("Copyright ©  2021")>
 <Assembly: AssemblyTrademark("")>
 

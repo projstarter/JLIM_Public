@@ -35,5 +35,14 @@
     <Setting Name="key5" Type="System.String" Scope="User">
       <Value Profile="(Default)">Mkd0C</Value>
     </Setting>
+    <Setting Name="companyTitle" Type="System.String" Scope="User">
+      <Value Profile="(Default)">JLIM TRUCK SCALE</Value>
+    </Setting>
+    <Setting Name="companyAddressLine" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PASACAO, CAMARINES SUR</Value>
+    </Setting>
+    <Setting Name="printTemplate" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
   </Settings>
 </SettingsFile>
